@@ -1,0 +1,161 @@
+[
+  {
+    "name": "ICPC (International Collegiate Programming Contest)",
+    "organizer": "ICPC Foundation / Baylor University",
+    "description": "The world's oldest and most prestigious competitive programming competition for university students. Teams of 3 solve algorithmic problems under time pressure.",
+    "eligibility": "Undergraduate & beginning graduate students (teams of 3, global)",
+    "mode": "Onsite (Regionals) + Onsite (World Finals)",
+    "fee": "Free (registration through university)",
+    "prize": "Trophies, medals, scholarships, and global recognition",
+    "deadline": "2026-10-01",
+    "eventDate": "Regionals: Nov-Dec 2026, World Finals: 2027",
+    "applicationLink": "https://icpc.global",
+    "website": "https://icpc.global",
+    "tags": [
+      "competitive-programming",
+      "global",
+      "team",
+      "prestigious"
+    ],
+    "status": "coming-soon"
+  },
+  {
+    "name": "Google Code Jam / Coding Competitions",
+    "organizer": "Google",
+    "description": "Google's coding competitions including Code Jam, Hash Code (discontinued but referenced), and Kick Start. Tests algorithmic problem-solving skills across multiple rounds.",
+    "eligibility": "Anyone 16+ (global)",
+    "mode": "Online",
+    "fee": "Free",
+    "prize": "$15,000 grand prize + Google recognition",
+    "deadline": "Check Google Competitions page",
+    "eventDate": "Various rounds throughout the year",
+    "applicationLink": "https://codingcompetitions.withgoogle.com",
+    "website": "https://codingcompetitions.withgoogle.com",
+    "tags": [
+      "competitive-programming",
+      "google",
+      "global",
+      "algorithms"
+    ],
+    "status": "open"
+  },
+  {
+    "name": "Unstop Competitions",
+    "organizer": "Unstop (Various organizers)",
+    "description": "Unstop (formerly Dare2Compete) hosts hundreds of competitions, quizzes, case studies, and challenges from top companies and colleges across India.",
+    "eligibility": "Students & professionals (varies per competition)",
+    "mode": "Online / Offline",
+    "fee": "Usually Free",
+    "prize": "Varies — ₹5,000 to ₹50,00,000+",
+    "deadline": "Rolling (check platform)",
+    "eventDate": "Various",
+    "applicationLink": "https://unstop.com/competitions",
+    "website": "https://unstop.com",
+    "tags": [
+      "platform",
+      "multiple-events",
+      "india",
+      "case-study",
+      "quizzes"
+    ],
+    "status": "open"
+  },
+  {
+    "name": "Codeforces Competitive Programming Rounds",
+    "organizer": "Codeforces / Mike Mirzayanov",
+    "description": "Regular competitive programming contests on Codeforces — one of the largest CP platforms. Includes Div 1-4 rounds, educational rounds, and Global Rounds.",
+    "eligibility": "Anyone (global, free registration)",
+    "mode": "Online",
+    "fee": "Free",
+    "prize": "Rating changes + occasional prize money in Global Rounds",
+    "deadline": "Rolling (contests every week)",
+    "eventDate": "Weekly contests",
+    "applicationLink": "https://codeforces.com/contests",
+    "website": "https://codeforces.com",
+    "tags": [
+      "competitive-programming",
+      "global",
+      "weekly",
+      "algorithms"
+    ],
+    "status": "open"
+  },
+  {
+    "name": "Accenture Innovation Challenge",
+    "organizer": "Global Competition Organizers",
+    "description": "Competitive challenge: Accenture Innovation Challenge. 2025 applications closed; 2026 info in Fall ([accenture.com][1])",
+    "eligibility": "Students & Professionals",
+    "mode": "Online & Onsite",
+    "fee": "Free",
+    "prize": "Awards / Cash / Recognition",
+    "deadline": "Check competition portal",
+    "applicationLink": "https://unstop.com",
+    "website": "https://unstop.com",
+    "tags": [
+      "competition",
+      "coding-challenge"
+    ],
+    "status": "open",
+    "source": "github-dipakkr-competitions"
+  },
+  {
+    "name": "Codeforces Round (Div. 2)",
+    "organizer": "Codeforces",
+    "description": "Codeforces Cf contest. Duration: 2h 0m",
+    "eligibility": "Open to all",
+    "mode": "Online",
+    "fee": "Free",
+    "prize": "Rating change + prizes for top performers",
+    "deadline": "2026-08-29",
+    "eventDate": "2026-08-29 14:35 UTC",
+    "applicationLink": "https://codeforces.com/contest/2258",
+    "website": "https://codeforces.com/contest/2258",
+    "tags": [
+      "codeforces",
+      "competitive-programming",
+      "contest"
+    ],
+    "status": "open",
+    "source": "codeforces-api"
+  },
+  {
+    "name": "Biweekly Contest 190",
+    "organizer": "LeetCode",
+    "description": "LeetCode competitive programming contest. Duration: 90 minutes",
+    "eligibility": "Open to all — free LeetCode account",
+    "mode": "Online",
+    "fee": "Free",
+    "prize": "Rating change + badges",
+    "deadline": "2026-08-29",
+    "eventDate": "2026-08-29 14:30 UTC",
+    "applicationLink": "https://leetcode.com/contest/biweekly-contest-190/",
+    "website": "https://leetcode.com/contest/biweekly-contest-190/",
+    "tags": [
+      "leetcode",
+      "competitive-programming",
+      "contest"
+    ],
+    "status": "open",
+    "source": "leetcode-api"
+  },
+  {
+    "name": "Weekly Contest 517",
+    "organizer": "LeetCode",
+    "description": "LeetCode competitive programming contest. Duration: 90 minutes",
+    "eligibility": "Open to all — free LeetCode account",
+    "mode": "Online",
+    "fee": "Free",
+    "prize": "Rating change + badges",
+    "deadline": "2026-08-30",
+    "eventDate": "2026-08-30 02:30 UTC",
+    "applicationLink": "https://leetcode.com/contest/weekly-contest-517/",
+    "website": "https://leetcode.com/contest/weekly-contest-517/",
+    "tags": [
+      "leetcode",
+      "competitive-programming",
+      "contest"
+    ],
+    "status": "open",
+    "source": "leetcode-api"
+  }
+]

@@ -1,0 +1,352 @@
+[
+  {
+    "name": "Smart India Hackathon (SIH) 2026",
+    "organizer": "Government of India / AICTE / MoE",
+    "description": "India's largest open innovation platform where students solve real-world government and industry problem statements across hardware and software tracks.",
+    "eligibility": "Indian college students (all years, all branches)",
+    "mode": "Hybrid (Online Prelims + Onsite Grand Finale)",
+    "fee": "Free",
+    "prize": "₹1,00,000 per problem statement (Software); ₹1,00,000+ (Hardware)",
+    "deadline": "2026-09-30",
+    "eventDate": "2026-12-14",
+    "applicationLink": "https://sih.gov.in",
+    "website": "https://sih.gov.in",
+    "tags": [
+      "government",
+      "social-impact",
+      "all-branches",
+      "national"
+    ],
+    "status": "open"
+  },
+  {
+    "name": "HackWithInfy 2026",
+    "organizer": "Infosys",
+    "description": "A national-level coding and hackathon competition by Infosys for engineering students. Top performers get pre-placement offers (PPOs) and internship opportunities.",
+    "eligibility": "Pre-final and final year B.E./B.Tech/M.E./M.Tech students (India)",
+    "mode": "Online (Rounds 1-2) + Onsite (Grand Finale)",
+    "fee": "Free",
+    "prize": "PPO offers at Infosys + Cash prizes up to ₹2,00,000",
+    "deadline": "2026-06-30",
+    "eventDate": "2026-08-15",
+    "applicationLink": "https://www.infosys.com/careers/hackwithinfy.html",
+    "website": "https://www.infosys.com/careers/hackwithinfy.html",
+    "tags": [
+      "corporate",
+      "coding",
+      "ppo",
+      "engineering"
+    ],
+    "status": "closed"
+  },
+  {
+    "name": "MLH Global Hack Week",
+    "organizer": "Major League Hacking (MLH)",
+    "description": "Week-long hackathon events throughout the year with challenges, workshops, and prizes. Part of the MLH community — the official student hackathon league.",
+    "eligibility": "Students worldwide (18+)",
+    "mode": "Online",
+    "fee": "Free",
+    "prize": "Varies per event — swag, prizes, and MLH points",
+    "deadline": "Rolling (multiple events per year)",
+    "eventDate": "Various dates throughout 2026",
+    "applicationLink": "https://ghw.mlh.io",
+    "website": "https://mlh.io",
+    "tags": [
+      "global",
+      "beginner-friendly",
+      "online",
+      "community"
+    ],
+    "status": "open"
+  },
+  {
+    "name": "Devfolio Hackathons",
+    "organizer": "Devfolio (Various organizers)",
+    "description": "Devfolio hosts hundreds of hackathons annually across India. Browse the platform for upcoming college, community, and corporate hackathons with various themes.",
+    "eligibility": "Varies per hackathon (mostly students)",
+    "mode": "Online / Offline / Hybrid",
+    "fee": "Usually Free",
+    "prize": "Varies — ₹10,000 to ₹10,00,000+",
+    "deadline": "Rolling (check platform)",
+    "eventDate": "Various",
+    "applicationLink": "https://devfolio.co/hackathons",
+    "website": "https://devfolio.co",
+    "tags": [
+      "platform",
+      "multiple-events",
+      "india",
+      "community"
+    ],
+    "status": "open"
+  },
+  {
+    "name": "Call for Code Global Challenge",
+    "organizer": "Global / Student",
+    "description": "Hackathon: Call for Code Global Challenge. Dates: Mar–Oct 2025",
+    "eligibility": "Students & Developers",
+    "mode": "Online/Global",
+    "fee": "Free",
+    "prize": "Prizes / Swag / Grants",
+    "deadline": "Mar–Oct 2025",
+    "applicationLink": "https://callforcode.org/challenge/",
+    "website": "https://callforcode.org/challenge/",
+    "tags": [
+      "hackathon",
+      "global"
+    ],
+    "status": "open",
+    "source": "github-dipakkr-hackathons"
+  },
+  {
+    "name": "Hacktoberfest",
+    "organizer": "Global / Student",
+    "description": "Hackathon: Hacktoberfest. Dates: October 2025",
+    "eligibility": "Students & Developers",
+    "mode": "Online",
+    "fee": "Free",
+    "prize": "Prizes / Swag / Grants",
+    "deadline": "October 2025",
+    "applicationLink": "https://hacktoberfest.com",
+    "website": "https://hacktoberfest.com",
+    "tags": [
+      "hackathon",
+      "global"
+    ],
+    "status": "closed",
+    "source": "github-dipakkr-hackathons"
+  },
+  {
+    "name": "Major League Hacking Events",
+    "organizer": "Global / Student",
+    "description": "Hackathon: Major League Hacking Events. Dates: Various 2025",
+    "eligibility": "Students & Developers",
+    "mode": "USA/Canada/Mexico",
+    "fee": "Free",
+    "prize": "Prizes / Swag / Grants",
+    "deadline": "Various 2025",
+    "applicationLink": "https://mlh.io/seasons/na-2025/events",
+    "website": "https://mlh.io/seasons/na-2025/events",
+    "tags": [
+      "hackathon",
+      "global"
+    ],
+    "status": "open",
+    "source": "github-dipakkr-hackathons"
+  },
+  {
+    "name": "GitLab Virtual Hackathon",
+    "organizer": "Global / Student",
+    "description": "Hackathon: GitLab Virtual Hackathon. Dates: Apr 10–17, 2025",
+    "eligibility": "Students & Developers",
+    "mode": "Online",
+    "fee": "Free",
+    "prize": "Prizes / Swag / Grants",
+    "deadline": "Apr 10–17, 2025",
+    "applicationLink": "https://about.gitlab.com/community/hackathon/",
+    "website": "https://about.gitlab.com/community/hackathon/",
+    "tags": [
+      "hackathon",
+      "global"
+    ],
+    "status": "open",
+    "source": "github-dipakkr-hackathons"
+  },
+  {
+    "name": "OpenHackathons (NVIDIA)",
+    "organizer": "Global / Student",
+    "description": "Hackathon: OpenHackathons (NVIDIA). Dates: Jun 24–Jul 3, 2025",
+    "eligibility": "Students & Developers",
+    "mode": "Online",
+    "fee": "Free",
+    "prize": "Prizes / Swag / Grants",
+    "deadline": "Jun 24–Jul 3, 2025",
+    "applicationLink": "https://www.openhackathons.org/",
+    "website": "https://www.openhackathons.org/",
+    "tags": [
+      "hackathon",
+      "global"
+    ],
+    "status": "open",
+    "source": "github-dipakkr-hackathons"
+  },
+  {
+    "name": "Digital Jam Hackathon",
+    "organizer": "Global / Student",
+    "description": "Hackathon: Digital Jam Hackathon. Dates: Mar 28, 2025 (Deadline)",
+    "eligibility": "Students & Developers",
+    "mode": "Online",
+    "fee": "Free",
+    "prize": "Prizes / Swag / Grants",
+    "deadline": "Mar 28, 2025 (Deadline)",
+    "applicationLink": "https://www.digitaljamaica.com/digital-jam-hackathon-2025/",
+    "website": "https://www.digitaljamaica.com/digital-jam-hackathon-2025/",
+    "tags": [
+      "hackathon",
+      "global"
+    ],
+    "status": "open",
+    "source": "github-dipakkr-hackathons"
+  },
+  {
+    "name": "DeveloperWeek Hackathon",
+    "organizer": "Global / Student",
+    "description": "Hackathon: DeveloperWeek Hackathon. Dates: Jan 27–Feb 13, 2025",
+    "eligibility": "Students & Developers",
+    "mode": "Santa Clara, CA + Online",
+    "fee": "Free",
+    "prize": "Prizes / Swag / Grants",
+    "deadline": "Jan 27–Feb 13, 2025",
+    "applicationLink": "https://www.developerweek.com/hackathon/",
+    "website": "https://www.developerweek.com/hackathon/",
+    "tags": [
+      "hackathon",
+      "global"
+    ],
+    "status": "open",
+    "source": "github-dipakkr-hackathons"
+  },
+  {
+    "name": "MIT Reality Hack",
+    "organizer": "Global / Student",
+    "description": "Hackathon: MIT Reality Hack. Dates: Jan 2025",
+    "eligibility": "Students & Developers",
+    "mode": "Boston, MA",
+    "fee": "Free",
+    "prize": "Prizes / Swag / Grants",
+    "deadline": "Jan 2025",
+    "applicationLink": "https://www.mitrealityhack.com/",
+    "website": "https://www.mitrealityhack.com/",
+    "tags": [
+      "hackathon",
+      "global"
+    ],
+    "status": "closed",
+    "source": "github-dipakkr-hackathons"
+  },
+  {
+    "name": "nwHacks 2025",
+    "organizer": "Global / Student",
+    "description": "Hackathon: nwHacks 2025. Dates: Jan 18–19, 2025",
+    "eligibility": "Students & Developers",
+    "mode": "Vancouver, Canada",
+    "fee": "Free",
+    "prize": "Prizes / Swag / Grants",
+    "deadline": "Jan 18–19, 2025",
+    "applicationLink": "https://nwhacks.io/",
+    "website": "https://nwhacks.io/",
+    "tags": [
+      "hackathon",
+      "global"
+    ],
+    "status": "open",
+    "source": "github-dipakkr-hackathons"
+  },
+  {
+    "name": "Hoya Hacks 2025",
+    "organizer": "Global / Student",
+    "description": "Hackathon: Hoya Hacks 2025. Dates: Jan 24–26, 2025",
+    "eligibility": "Students & Developers",
+    "mode": "Washington, D.C.",
+    "fee": "Free",
+    "prize": "Prizes / Swag / Grants",
+    "deadline": "Jan 24–26, 2025",
+    "applicationLink": "https://www.hoyahacks.com/",
+    "website": "https://www.hoyahacks.com/",
+    "tags": [
+      "hackathon",
+      "global"
+    ],
+    "status": "open",
+    "source": "github-dipakkr-hackathons"
+  },
+  {
+    "name": "QHacks 2025",
+    "organizer": "Global / Student",
+    "description": "Hackathon: QHacks 2025. Dates: Jan 24–26, 2025",
+    "eligibility": "Students & Developers",
+    "mode": "Kingston, Canada",
+    "fee": "Free",
+    "prize": "Prizes / Swag / Grants",
+    "deadline": "Jan 24–26, 2025",
+    "applicationLink": "https://qhacks.io/",
+    "website": "https://qhacks.io/",
+    "tags": [
+      "hackathon",
+      "global"
+    ],
+    "status": "open",
+    "source": "github-dipakkr-hackathons"
+  },
+  {
+    "name": "nf-core Hackathon",
+    "organizer": "Global / Student",
+    "description": "Hackathon: nf-core Hackathon. Dates: Mar 24–26, 2025",
+    "eligibility": "Students & Developers",
+    "mode": "Global (Online + Local)",
+    "fee": "Free",
+    "prize": "Prizes / Swag / Grants",
+    "deadline": "Mar 24–26, 2025",
+    "applicationLink": "https://nf-co.re/events/2025/hackathon-spring",
+    "website": "https://nf-co.re/events/2025/hackathon-spring",
+    "tags": [
+      "hackathon",
+      "global"
+    ],
+    "status": "open",
+    "source": "github-dipakkr-hackathons"
+  },
+  {
+    "name": "WCRP KM-scale Hackathon",
+    "organizer": "Global / Student",
+    "description": "Hackathon: WCRP KM-scale Hackathon. Dates: May 12–16, 2025",
+    "eligibility": "Students & Developers",
+    "mode": "Global",
+    "fee": "Free",
+    "prize": "Prizes / Swag / Grants",
+    "deadline": "May 12–16, 2025",
+    "applicationLink": "https://www.wcrp-climate.org/news/wcrp-news/2203-kmscale-hackathon-2025",
+    "website": "https://www.wcrp-climate.org/news/wcrp-news/2203-kmscale-hackathon-2025",
+    "tags": [
+      "hackathon",
+      "global"
+    ],
+    "status": "open",
+    "source": "github-dipakkr-hackathons"
+  },
+  {
+    "name": "Global AI Hackathon",
+    "organizer": "Global / Student",
+    "description": "Hackathon: Global AI Hackathon. Dates: Oct 2025",
+    "eligibility": "Students & Developers",
+    "mode": "Online",
+    "fee": "Free",
+    "prize": "Prizes / Swag / Grants",
+    "deadline": "Oct 2025",
+    "applicationLink": "https://raise.mit.edu/global-ai-hackathon",
+    "website": "https://raise.mit.edu/global-ai-hackathon",
+    "tags": [
+      "hackathon",
+      "global"
+    ],
+    "status": "closed",
+    "source": "github-dipakkr-hackathons"
+  },
+  {
+    "name": "NASA Space Apps Challenge",
+    "organizer": "Global / Student",
+    "description": "Hackathon: NASA Space Apps Challenge. Dates: Oct 4–5, 2025",
+    "eligibility": "Students & Developers",
+    "mode": "Global",
+    "fee": "Free",
+    "prize": "Prizes / Swag / Grants",
+    "deadline": "Oct 4–5, 2025",
+    "applicationLink": "https://www.spaceappschallenge.org/",
+    "website": "https://www.spaceappschallenge.org/",
+    "tags": [
+      "hackathon",
+      "global"
+    ],
+    "status": "open",
+    "source": "github-dipakkr-hackathons"
+  }
+]

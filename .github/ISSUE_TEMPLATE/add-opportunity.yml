@@ -1,0 +1,122 @@
+name: ➕ Add an Opportunity
+description: Submit a new hackathon, internship, competition, open-source program, or fellowship
+title: "[Add] "
+labels: ["new-opportunity"]
+body:
+  - type: dropdown
+    id: category
+    attributes:
+      label: Category
+      description: What type of opportunity is this?
+      options:
+        - Hackathon
+        - Internship
+        - Competition
+        - Open Source Program
+        - Fellowship
+    validations:
+      required: true
+
+  - type: input
+    id: name
+    attributes:
+      label: Opportunity Name
+      placeholder: "e.g., Smart India Hackathon 2026"
+    validations:
+      required: true
+
+  - type: input
+    id: organizer
+    attributes:
+      label: Organizer
+      placeholder: "e.g., Government of India / AICTE"
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      placeholder: "Brief description of the opportunity"
+    validations:
+      required: true
+
+  - type: input
+    id: eligibility
+    attributes:
+      label: Eligibility
+      placeholder: "e.g., Indian college students (all years)"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: mode
+    attributes:
+      label: Mode
+      options:
+        - Online
+        - Offline / In-Person
+        - Hybrid
+    validations:
+      required: true
+
+  - type: dropdown
+    id: fee
+    attributes:
+      label: Is it Free?
+      options:
+        - Free
+        - Paid
+    validations:
+      required: true
+
+  - type: input
+    id: fee_amount
+    attributes:
+      label: Fee Amount (if paid)
+      placeholder: "e.g., ₹500"
+
+  - type: input
+    id: prize_stipend
+    attributes:
+      label: Prize / Stipend
+      placeholder: "e.g., ₹1,00,000 per team OR ₹25,000/month"
+
+  - type: input
+    id: deadline
+    attributes:
+      label: Application Deadline
+      placeholder: "YYYY-MM-DD or 'Rolling'"
+    validations:
+      required: true
+
+  - type: input
+    id: event_date
+    attributes:
+      label: Event / Program Dates
+      placeholder: "e.g., Dec 14-15, 2026 or May-July 2026"
+
+  - type: input
+    id: application_link
+    attributes:
+      label: Application Link
+      placeholder: "https://..."
+    validations:
+      required: true
+
+  - type: dropdown
+    id: status
+    attributes:
+      label: Current Status
+      options:
+        - Open (accepting applications)
+        - Coming Soon (announced but not yet open)
+        - Closed (deadline passed)
+    validations:
+      required: true
+
+  - type: textarea
+    id: additional
+    attributes:
+      label: Additional Information
+      placeholder: "Any extra details — tags, special requirements, etc."

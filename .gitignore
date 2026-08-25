@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+.venv/
+
+# Environment Variables
+.env
+.env.local
+
+# Scrapling / Playwright downloads
+.playwright/
+downloads/
+
+# Logs and temporary artifacts
+*.log
+automation/last_run_report.txt
+
+# OS
+.DS_Store
+Thumbs.db

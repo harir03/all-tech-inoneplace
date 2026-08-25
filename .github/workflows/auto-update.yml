@@ -1,0 +1,93 @@
+name: 🤖 Auto-Update Opportunities
+
+on:
+  schedule:
+    # Run twice daily:
+    # 8 AM IST (2:30 AM UTC) — catch morning posts
+    # 8 PM IST (2:30 PM UTC) — catch evening posts
+    - cron: '30 2 * * *'
+    - cron: '30 14 * * *'
+  workflow_dispatch:  # Allow manual trigger from GitHub UI
+
+permissions:
+  contents: write
+  issues: write  # To create issues for review-flagged items
+
+env:
+  PYTHON_VERSION: '3.11'
+
+jobs:
+  scrape-and-update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30  # Kill if stuck
+
+    steps:
+      # ─── Setup ───
+      - name: 📥 Checkout repository
+        uses: actions/checkout@v4
+
+      - name: 🐍 Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: ${{ env.PYTHON_VERSION }}
+          cache: 'pip'
+          cache-dependency-path: automation/requirements.txt
+
+      - name: 📦 Install Python dependencies
+        run: |
+          pip install -r automation/requirements.txt
+
+      # Scrapling needs Playwright browsers for JS-rendered sites
+      - name: 🎭 Install Playwright browsers (for Scrapling)
+        run: |
+          pip install playwright
+          playwright install chromium --with-deps || true
+          scrapling install || true
+
+      - name: 📡 Install Agent-Reach (optional — for social monitoring)
+        continue-on-error: true
+        run: |
+          pip install agent-reach 2>/dev/null || echo "⚠️ Agent-Reach not available — Reddit fallback API will be used"
+
+      # ─── Run Pipeline ───
+      - name: 🚀 Run scraping pipeline
+        env:
+          DRY_RUN: 'false'
+          AUTO_COMMIT: 'false'  # Commit handled in dedicated step below
+          # Email config (set these in repo Settings → Secrets)
+          SENDER_EMAIL: ${{ secrets.SENDER_EMAIL }}
+          SENDER_PASSWORD: ${{ secrets.SENDER_PASSWORD }}
+        run: |
+          python -m automation.pipeline
+
+      # ─── Save Report ───
+      - name: 📊 Upload pipeline report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: pipeline-report-${{ github.run_number }}
+          path: automation/last_run_report.txt
+          retention-days: 30
+
+      # ─── Commit Changes ───
+      - name: 📤 Commit and push updated data
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "OpportunityHub Bot"
+          
+          # Stage only data files
+          git add data/
+          
+          # Check if there are actually changes
+          if git diff --staged --quiet; then
+            echo "✅ No new opportunities found — nothing to commit"
+          else
+            # Count changes for commit message
+            ADDED=$(git diff --staged --numstat data/ | awk '{s+=$1} END {print s+0}')
+            REMOVED=$(git diff --staged --numstat data/ | awk '{s+=$1} END {print s+0}')
+            DATE=$(date +'%Y-%m-%d %H:%M')
+            
+            git commit -m "🤖 Auto-update: ${DATE} — scraped from 10+ sources"
+            git push
+            echo "✅ Changes committed and pushed"
+          fi

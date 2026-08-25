@@ -1,0 +1,2119 @@
+[
+  {
+    "name": "Google Summer of Code (GSoC) 2026",
+    "organizer": "Google",
+    "description": "A global, online program focused on bringing new contributors into open source software development. Students work with an open source organization on a 10-22 week programming project during the summer.",
+    "eligibility": "Students & beginners in open source (18+, global)",
+    "stipend": "$1500 - $6600 (based on project size and country)",
+    "duration": "10-22 weeks (Summer)",
+    "mentorship": true,
+    "deadline": "2026-04-08",
+    "programDates": "May - September 2026",
+    "applicationLink": "https://summerofcode.withgoogle.com",
+    "website": "https://summerofcode.withgoogle.com",
+    "tags": [
+      "open-source",
+      "global",
+      "paid",
+      "mentorship",
+      "summer"
+    ],
+    "status": "closed"
+  },
+  {
+    "name": "LFX Mentorship (Linux Foundation)",
+    "organizer": "The Linux Foundation",
+    "description": "Mentorship program by the Linux Foundation supporting open source contributors with stipends, training, and networking. Multiple terms per year (Spring, Summer, Fall).",
+    "eligibility": "Students & early-career developers (global)",
+    "stipend": "$3000 - $6600 per term",
+    "duration": "12 weeks per term",
+    "mentorship": true,
+    "deadline": "Rolling (per term)",
+    "programDates": "Multiple terms year-round",
+    "applicationLink": "https://mentorship.lfx.linuxfoundation.org",
+    "website": "https://lfx.linuxfoundation.org/tools/mentorship/",
+    "tags": [
+      "open-source",
+      "linux",
+      "global",
+      "paid",
+      "mentorship"
+    ],
+    "status": "open"
+  },
+  {
+    "name": "Outreachy",
+    "organizer": "Software Freedom Conservancy",
+    "description": "Provides paid, remote internships in open source to people subject to systemic bias and underrepresentation in tech. Two cohorts per year (May and December).",
+    "eligibility": "People underrepresented in tech (global, eligibility criteria apply)",
+    "stipend": "$7000 for 3 months",
+    "duration": "13 weeks",
+    "mentorship": true,
+    "deadline": "Varies per cohort (typically Feb & Aug)",
+    "programDates": "May-Aug / Dec-Mar cohorts",
+    "applicationLink": "https://www.outreachy.org",
+    "website": "https://www.outreachy.org",
+    "tags": [
+      "open-source",
+      "diversity",
+      "global",
+      "paid",
+      "mentorship"
+    ],
+    "status": "coming-soon"
+  },
+  {
+    "name": "GirlScript Summer of Code (GSSoC)",
+    "organizer": "GirlScript Foundation",
+    "description": "An annual 3-month open source program by GirlScript Foundation to help beginners contribute to open source projects under mentorship.",
+    "eligibility": "Students & beginners (India-focused, open to all)",
+    "stipend": "Certificate + Swag (some projects offer stipends)",
+    "duration": "3 months (Summer)",
+    "mentorship": true,
+    "deadline": "2026-03-15",
+    "programDates": "May - August 2026",
+    "applicationLink": "https://gssoc.girlscript.tech",
+    "website": "https://gssoc.girlscript.tech",
+    "tags": [
+      "open-source",
+      "india",
+      "beginner-friendly",
+      "mentorship"
+    ],
+    "status": "closed"
+  },
+  {
+    "name": "MLH Fellowship",
+    "organizer": "Via Deepanshu-OSPrograms",
+    "description": "Open source program / mentorship: MLH Fellowship",
+    "eligibility": "Open to all",
+    "mode": "Online / Remote",
+    "fee": "Free",
+    "stipend": "Yes",
+    "deadline": "Spring, Summer, Fall batches",
+    "applicationLink": "https://fellowship.mlh.io/",
+    "website": "https://fellowship.mlh.io/",
+    "tags": [
+      "open-source",
+      "open-source-programs"
+    ],
+    "status": "open",
+    "source": "github-Deepanshu-OSPrograms"
+  },
+  {
+    "name": "LFX Mentorship",
+    "organizer": "Via Deepanshu-OSPrograms",
+    "description": "Open source program / mentorship: LFX Mentorship",
+    "eligibility": "Varies by project",
+    "mode": "Online / Remote",
+    "fee": "Free",
+    "stipend": "Yes",
+    "deadline": "Multiple batches",
+    "applicationLink": "https://lfx.linuxfoundation.org/tools/mentorship/",
+    "website": "https://lfx.linuxfoundation.org/tools/mentorship/",
+    "tags": [
+      "open-source",
+      "open-source-programs"
+    ],
+    "status": "open",
+    "source": "github-Deepanshu-OSPrograms"
+  },
+  {
+    "name": "Summer of Bitcoin",
+    "organizer": "Via Deepanshu-OSPrograms",
+    "description": "Open source program / mentorship: Summer of Bitcoin",
+    "eligibility": "University students",
+    "mode": "Online / Remote",
+    "fee": "Free",
+    "stipend": "Yes",
+    "deadline": "Summer months",
+    "applicationLink": "https://www.summerofbitcoin.org/",
+    "website": "https://www.summerofbitcoin.org/",
+    "tags": [
+      "open-source",
+      "open-source-programs"
+    ],
+    "status": "open",
+    "source": "github-Deepanshu-OSPrograms"
+  },
+  {
+    "name": "Hyperledger Mentorship Program",
+    "organizer": "Via Deepanshu-OSPrograms",
+    "description": "Open source program / mentorship: Hyperledger Mentorship Program",
+    "eligibility": "Open to all",
+    "mode": "Online / Remote",
+    "fee": "Free",
+    "stipend": "Yes",
+    "deadline": "Multiple batches",
+    "applicationLink": "https://wiki.hyperledger.org/display/INTERN/Hyperledger+Mentorship+Program",
+    "website": "https://wiki.hyperledger.org/display/INTERN/Hyperledger+Mentorship+Program",
+    "tags": [
+      "open-source",
+      "open-source-programs"
+    ],
+    "status": "open",
+    "source": "github-Deepanshu-OSPrograms"
+  },
+  {
+    "name": "Open Mainframe Project Mentorship Program",
+    "organizer": "Via Deepanshu-OSPrograms",
+    "description": "Open source program / mentorship: Open Mainframe Project Mentorship Program",
+    "eligibility": "University students",
+    "mode": "Online / Remote",
+    "fee": "Free",
+    "stipend": "Yes",
+    "deadline": "Multiple batches",
+    "applicationLink": "https://openmainframeproject.org/community/mentorship-program/",
+    "website": "https://openmainframeproject.org/community/mentorship-program/",
+    "tags": [
+      "open-source",
+      "open-source-programs"
+    ],
+    "status": "open",
+    "source": "github-Deepanshu-OSPrograms"
+  },
+  {
+    "name": "OSS World Challenge",
+    "organizer": "Via Deepanshu-OSPrograms",
+    "description": "Open source program / mentorship: OSS World Challenge",
+    "eligibility": "Open to all",
+    "mode": "Online / Remote",
+    "fee": "Free",
+    "stipend": "Cash prizes",
+    "deadline": "Annual",
+    "applicationLink": "https://www.oss.kr/en_oss_world_challenage",
+    "website": "https://www.oss.kr/en_oss_world_challenage",
+    "tags": [
+      "open-source",
+      "open-source-programs"
+    ],
+    "status": "open",
+    "source": "github-Deepanshu-OSPrograms"
+  },
+  {
+    "name": "Igalia Coding Experience Program",
+    "organizer": "Via Deepanshu-OSPrograms",
+    "description": "Open source program / mentorship: Igalia Coding Experience Program",
+    "eligibility": "Students & early-career developers",
+    "mode": "Online / Remote",
+    "fee": "Free",
+    "stipend": "Yes",
+    "deadline": "Summer",
+    "applicationLink": "https://www.igalia.com/coding-experience/",
+    "website": "https://www.igalia.com/coding-experience/",
+    "tags": [
+      "open-source",
+      "open-source-programs"
+    ],
+    "status": "open",
+    "source": "github-Deepanshu-OSPrograms"
+  },
+  {
+    "name": "Hacktoberfest",
+    "organizer": "Via Deepanshu-OSPrograms",
+    "description": "Open source program / mentorship: Hacktoberfest",
+    "eligibility": "Open to all",
+    "mode": "Online / Remote",
+    "fee": "Free",
+    "stipend": "Swag",
+    "deadline": "October annually",
+    "applicationLink": "https://hacktoberfest.digitalocean.com/",
+    "website": "https://hacktoberfest.digitalocean.com/",
+    "tags": [
+      "open-source",
+      "open-source-programs"
+    ],
+    "status": "open",
+    "source": "github-Deepanshu-OSPrograms"
+  },
+  {
+    "name": "Apertre 2.0",
+    "organizer": "Via Deepanshu-OSPrograms",
+    "description": "Open source program / mentorship: Apertre 2.0",
+    "eligibility": "Open to all",
+    "mode": "Online / Remote",
+    "fee": "Free",
+    "stipend": "PrizePool Worth of 20K (Including Swags)",
+    "deadline": "March 7 to April 5 (2025)",
+    "applicationLink": "https://s2apertre.resourcio.in/",
+    "website": "https://s2apertre.resourcio.in/",
+    "tags": [
+      "open-source",
+      "open-source-programs"
+    ],
+    "status": "open",
+    "source": "github-Deepanshu-OSPrograms"
+  },
+  {
+    "name": "24 Pull Requests",
+    "organizer": "Via Deepanshu-OSPrograms",
+    "description": "Open source program / mentorship: 24 Pull Requests",
+    "eligibility": "Open to all",
+    "mode": "Online / Remote",
+    "fee": "Free",
+    "stipend": "No prizes",
+    "deadline": "December annually",
+    "applicationLink": "https://24pullrequests.com/",
+    "website": "https://24pullrequests.com/",
+    "tags": [
+      "open-source",
+      "open-source-programs"
+    ],
+    "status": "open",
+    "source": "github-Deepanshu-OSPrograms"
+  },
+  {
+    "name": "Advent of Code",
+    "organizer": "Via Deepanshu-OSPrograms",
+    "description": "Open source program / mentorship: Advent of Code",
+    "eligibility": "Open to all",
+    "mode": "Online / Remote",
+    "fee": "Free",
+    "stipend": "Learning",
+    "deadline": "December annually",
+    "applicationLink": "https://adventofcode.com/",
+    "website": "https://adventofcode.com/",
+    "tags": [
+      "open-source",
+      "open-source-programs"
+    ],
+    "status": "open",
+    "source": "github-Deepanshu-OSPrograms"
+  },
+  {
+    "name": "CodeForces",
+    "organizer": "Via Deepanshu-OSPrograms",
+    "description": "Open source program / mentorship: CodeForces",
+    "eligibility": "Open to all",
+    "mode": "Online / Remote",
+    "fee": "Free",
+    "stipend": "Ratings, prizes",
+    "deadline": "Year-round",
+    "applicationLink": "https://codeforces.com/",
+    "website": "https://codeforces.com/",
+    "tags": [
+      "open-source",
+      "open-source-programs"
+    ],
+    "status": "open",
+    "source": "github-Deepanshu-OSPrograms"
+  },
+  {
+    "name": "Facebook Hacker Cup",
+    "organizer": "Via Deepanshu-OSPrograms",
+    "description": "Open source program / mentorship: Facebook Hacker Cup",
+    "eligibility": "Open to all",
+    "mode": "Online / Remote",
+    "fee": "Free",
+    "stipend": "Cash prizes",
+    "deadline": "Annual",
+    "applicationLink": "https://www.facebook.com/codingcompetitions/hacker-cup/",
+    "website": "https://www.facebook.com/codingcompetitions/hacker-cup/",
+    "tags": [
+      "open-source",
+      "open-source-programs"
+    ],
+    "status": "open",
+    "source": "github-Deepanshu-OSPrograms"
+  },
+  {
+    "name": "ACM ICPC",
+    "organizer": "Via Deepanshu-OSPrograms",
+    "description": "Open source program / mentorship: ACM ICPC",
+    "eligibility": "University students",
+    "mode": "Online / Remote",
+    "fee": "Free",
+    "stipend": "Medals, prizes",
+    "deadline": "Annual",
+    "applicationLink": "https://icpc.global/",
+    "website": "https://icpc.global/",
+    "tags": [
+      "open-source",
+      "open-source-programs"
+    ],
+    "status": "open",
+    "source": "github-Deepanshu-OSPrograms"
+  },
+  {
+    "name": "FOSSEE Summer Fellowship",
+    "organizer": "Via Deepanshu-OSPrograms",
+    "description": "Open source program / mentorship: FOSSEE Summer Fellowship",
+    "eligibility": "Open to all",
+    "mode": "Online / Remote",
+    "fee": "Free",
+    "stipend": "Stipend",
+    "deadline": "Summer months",
+    "applicationLink": "https://fossee.in/",
+    "website": "https://fossee.in/",
+    "tags": [
+      "open-source",
+      "open-source-programs"
+    ],
+    "status": "open",
+    "source": "github-Deepanshu-OSPrograms"
+  },
+  {
+    "name": "JGEC Winter of Code",
+    "organizer": "Via Deepanshu-OSPrograms",
+    "description": "Open source program / mentorship: JGEC Winter of Code",
+    "eligibility": "Open to all",
+    "mode": "Online / Remote",
+    "fee": "Free",
+    "stipend": "Certificates, swag",
+    "deadline": "Winter months",
+    "applicationLink": "https://jgec-winter-of-code.github.io/",
+    "website": "https://jgec-winter-of-code.github.io/",
+    "tags": [
+      "open-source",
+      "open-source-programs"
+    ],
+    "status": "open",
+    "source": "github-Deepanshu-OSPrograms"
+  },
+  {
+    "name": "NJACK Winter of Code",
+    "organizer": "Via Deepanshu-OSPrograms",
+    "description": "Open source program / mentorship: NJACK Winter of Code",
+    "eligibility": "Open to all",
+    "mode": "Online / Remote",
+    "fee": "Free",
+    "stipend": "Swag",
+    "deadline": "Winter months",
+    "applicationLink": "https://njackwinterofcode.github.io/",
+    "website": "https://njackwinterofcode.github.io/",
+    "tags": [
+      "open-source",
+      "open-source-programs"
+    ],
+    "status": "open",
+    "source": "github-Deepanshu-OSPrograms"
+  },
+  {
+    "name": "Kharagpur Winter of Code",
+    "organizer": "Via Deepanshu-OSPrograms",
+    "description": "Open source program / mentorship: Kharagpur Winter of Code",
+    "eligibility": "Open to all",
+    "mode": "Online / Remote",
+    "fee": "Free",
+    "stipend": "Certificates",
+    "deadline": "Nov-Jan annually",
+    "applicationLink": "https://kwoc.kossiitkgp.org/",
+    "website": "https://kwoc.kossiitkgp.org/",
+    "tags": [
+      "open-source",
+      "open-source-programs"
+    ],
+    "status": "open",
+    "source": "github-Deepanshu-OSPrograms"
+  },
+  {
+    "name": "DevScript Winter of Code",
+    "organizer": "Via Deepanshu-OSPrograms",
+    "description": "Open source program / mentorship: DevScript Winter of Code",
+    "eligibility": "Open to all",
+    "mode": "Online / Remote",
+    "fee": "Free",
+    "stipend": "Certificates, swag",
+    "deadline": "Winter months",
+    "applicationLink": "https://devscript.tech/woc/",
+    "website": "https://devscript.tech/woc/",
+    "tags": [
+      "open-source",
+      "open-source-programs"
+    ],
+    "status": "open",
+    "source": "github-Deepanshu-OSPrograms"
+  },
+  {
+    "name": "Delta Winter of Code",
+    "organizer": "Via Deepanshu-OSPrograms",
+    "description": "Open source program / mentorship: Delta Winter of Code",
+    "eligibility": "Open to all",
+    "mode": "Online / Remote",
+    "fee": "Free",
+    "stipend": "Certificates, swag",
+    "deadline": "Winter months",
+    "applicationLink": "https://dwoc.io/",
+    "website": "https://dwoc.io/",
+    "tags": [
+      "open-source",
+      "open-source-programs"
+    ],
+    "status": "open",
+    "source": "github-Deepanshu-OSPrograms"
+  },
+  {
+    "name": "IIIT-Kalyani Winter of Code",
+    "organizer": "Via Deepanshu-OSPrograms",
+    "description": "Open source program / mentorship: IIIT-Kalyani Winter of Code",
+    "eligibility": "Open to all",
+    "mode": "Online / Remote",
+    "fee": "Free",
+    "stipend": "Certificates, swag",
+    "deadline": "Winter months",
+    "applicationLink": "https://gdsc-woc.tech/",
+    "website": "https://gdsc-woc.tech/",
+    "tags": [
+      "open-source",
+      "open-source-programs"
+    ],
+    "status": "open",
+    "source": "github-Deepanshu-OSPrograms"
+  },
+  {
+    "name": "SIH (Smart India Hackathon)",
+    "organizer": "Via Deepanshu-OSPrograms",
+    "description": "Open source program / mentorship: SIH (Smart India Hackathon)",
+    "eligibility": "Open to all",
+    "mode": "Online / Remote",
+    "fee": "Free",
+    "stipend": "Cash prizes",
+    "deadline": "Annual",
+    "applicationLink": "https://www.sih.gov.in/",
+    "website": "https://www.sih.gov.in/",
+    "tags": [
+      "open-source",
+      "open-source-programs"
+    ],
+    "status": "open",
+    "source": "github-Deepanshu-OSPrograms"
+  },
+  {
+    "name": "MIT Battle of Codes",
+    "organizer": "Via Deepanshu-OSPrograms",
+    "description": "Open source program / mentorship: MIT Battle of Codes",
+    "eligibility": "Open to all",
+    "mode": "Online / Remote",
+    "fee": "Free",
+    "stipend": "Prizes",
+    "deadline": "Annual",
+    "applicationLink": "https://battleofcodes.mit.edu/",
+    "website": "https://battleofcodes.mit.edu/",
+    "tags": [
+      "open-source",
+      "open-source-programs"
+    ],
+    "status": "open",
+    "source": "github-Deepanshu-OSPrograms"
+  },
+  {
+    "name": "IIT Bombay Summer Internship",
+    "organizer": "Via Deepanshu-OSPrograms",
+    "description": "Open source program / mentorship: IIT Bombay Summer Internship",
+    "eligibility": "Open to all",
+    "mode": "Online / Remote",
+    "fee": "Free",
+    "stipend": "Stipend",
+    "deadline": "Summer months",
+    "applicationLink": "https://www.it.iitb.ac.in/summerinternship2020/",
+    "website": "https://www.it.iitb.ac.in/summerinternship2020/",
+    "tags": [
+      "open-source",
+      "open-source-programs"
+    ],
+    "status": "open",
+    "source": "github-Deepanshu-OSPrograms"
+  },
+  {
+    "name": "FOSS Overflow, IIT Bhilai",
+    "organizer": "Via Deepanshu-OSPrograms",
+    "description": "Open source program / mentorship: FOSS Overflow, IIT Bhilai",
+    "eligibility": "Open to all",
+    "mode": "Online / Remote",
+    "fee": "Free",
+    "stipend": "Stipend",
+    "deadline": "Winter months",
+    "applicationLink": "https://fossoverflow.dev/",
+    "website": "https://fossoverflow.dev/",
+    "tags": [
+      "open-source",
+      "open-source-programs"
+    ],
+    "status": "open",
+    "source": "github-Deepanshu-OSPrograms"
+  },
+  {
+    "name": "Microsoft Reinforcement Learning Open Source Fest",
+    "organizer": "Via Deepanshu-OSPrograms",
+    "description": "Open source program / mentorship: Microsoft Reinforcement Learning Open Source Fest",
+    "eligibility": "University students",
+    "mode": "Online / Remote",
+    "fee": "Free",
+    "stipend": "Yes",
+    "deadline": "Summer months",
+    "applicationLink": "https://www.microsoft.com/en-us/research/academic-program/rl-open-source-fest/",
+    "website": "https://www.microsoft.com/en-us/research/academic-program/rl-open-source-fest/",
+    "tags": [
+      "open-source",
+      "open-source-programs"
+    ],
+    "status": "open",
+    "source": "github-Deepanshu-OSPrograms"
+  },
+  {
+    "name": "Free Software Foundation Internship",
+    "organizer": "Via Deepanshu-OSPrograms",
+    "description": "Open source program / mentorship: Free Software Foundation Internship",
+    "eligibility": "Open to all",
+    "mode": "Online / Remote",
+    "fee": "Free",
+    "stipend": "No",
+    "deadline": "Multiple batches",
+    "applicationLink": "https://www.fsf.org/volunteer/internships",
+    "website": "https://www.fsf.org/volunteer/internships",
+    "tags": [
+      "open-source",
+      "open-source-programs"
+    ],
+    "status": "open",
+    "source": "github-Deepanshu-OSPrograms"
+  },
+  {
+    "name": "Python Software Foundation Fellowship Program",
+    "organizer": "Via Deepanshu-OSPrograms",
+    "description": "Open source program / mentorship: Python Software Foundation Fellowship Program",
+    "eligibility": "Open to all",
+    "mode": "Online / Remote",
+    "fee": "Free",
+    "stipend": "Grants",
+    "deadline": "Rolling",
+    "applicationLink": "https://www.python.org/psf/grants/",
+    "website": "https://www.python.org/psf/grants/",
+    "tags": [
+      "open-source",
+      "open-source-programs"
+    ],
+    "status": "open",
+    "source": "github-Deepanshu-OSPrograms"
+  },
+  {
+    "name": "The Processing Foundation Fellowships",
+    "organizer": "Via Deepanshu-OSPrograms",
+    "description": "Open source program / mentorship: The Processing Foundation Fellowships",
+    "eligibility": "Open to all",
+    "mode": "Online / Remote",
+    "fee": "Free",
+    "stipend": "Stipend",
+    "deadline": "Annual",
+    "applicationLink": "https://processingfoundation.org/fellowships",
+    "website": "https://processingfoundation.org/fellowships",
+    "tags": [
+      "open-source",
+      "open-source-programs"
+    ],
+    "status": "open",
+    "source": "github-Deepanshu-OSPrograms"
+  },
+  {
+    "name": "30 Days Coding",
+    "organizer": "Via Deepanshu-OSPrograms",
+    "description": "Open source program / mentorship: 30 Days Coding",
+    "eligibility": "Open to all",
+    "mode": "Online",
+    "fee": "Free",
+    "stipend": "Check program page",
+    "deadline": "Annual / Check page",
+    "applicationLink": "https://30dayscoding.com",
+    "website": "https://30dayscoding.com",
+    "tags": [
+      "open-source",
+      "open-source-programs"
+    ],
+    "status": "open",
+    "source": "github-Deepanshu-OSPrograms"
+  },
+  {
+    "name": "Lambda School",
+    "organizer": "Via Deepanshu-OSPrograms",
+    "description": "Open source program / mentorship: Lambda School",
+    "eligibility": "Open to all",
+    "mode": "Online",
+    "fee": "Free",
+    "stipend": "Check program page",
+    "deadline": "Annual / Check page",
+    "applicationLink": "https://lambdaschool.com/",
+    "website": "https://lambdaschool.com/",
+    "tags": [
+      "open-source",
+      "open-source-programs"
+    ],
+    "status": "open",
+    "source": "github-Deepanshu-OSPrograms"
+  },
+  {
+    "name": "Hack Reactor",
+    "organizer": "Via Deepanshu-OSPrograms",
+    "description": "Open source program / mentorship: Hack Reactor",
+    "eligibility": "Open to all",
+    "mode": "Online/In-person",
+    "fee": "Free",
+    "stipend": "Check program page",
+    "deadline": "Annual / Check page",
+    "applicationLink": "https://www.hackreactor.com/",
+    "website": "https://www.hackreactor.com/",
+    "tags": [
+      "open-source",
+      "open-source-programs"
+    ],
+    "status": "open",
+    "source": "github-Deepanshu-OSPrograms"
+  },
+  {
+    "name": "App Academy",
+    "organizer": "Via Deepanshu-OSPrograms",
+    "description": "Open source program / mentorship: App Academy",
+    "eligibility": "Open to all",
+    "mode": "Online/In-person",
+    "fee": "Free",
+    "stipend": "Check program page",
+    "deadline": "Annual / Check page",
+    "applicationLink": "https://www.appacademy.io/",
+    "website": "https://www.appacademy.io/",
+    "tags": [
+      "open-source",
+      "open-source-programs"
+    ],
+    "status": "open",
+    "source": "github-Deepanshu-OSPrograms"
+  },
+  {
+    "name": "Flatiron School",
+    "organizer": "Via Deepanshu-OSPrograms",
+    "description": "Open source program / mentorship: Flatiron School",
+    "eligibility": "Open to all",
+    "mode": "Online/In-person",
+    "fee": "Free",
+    "stipend": "Check program page",
+    "deadline": "Annual / Check page",
+    "applicationLink": "https://flatironschool.com/",
+    "website": "https://flatironschool.com/",
+    "tags": [
+      "open-source",
+      "open-source-programs"
+    ],
+    "status": "open",
+    "source": "github-Deepanshu-OSPrograms"
+  },
+  {
+    "name": "General Assembly",
+    "organizer": "Via Deepanshu-OSPrograms",
+    "description": "Open source program / mentorship: General Assembly",
+    "eligibility": "Open to all",
+    "mode": "Online/In-person",
+    "fee": "Free",
+    "stipend": "Check program page",
+    "deadline": "Annual / Check page",
+    "applicationLink": "https://generalassemb.ly/",
+    "website": "https://generalassemb.ly/",
+    "tags": [
+      "open-source",
+      "open-source-programs"
+    ],
+    "status": "open",
+    "source": "github-Deepanshu-OSPrograms"
+  },
+  {
+    "name": "Codecademy Pro Intensive",
+    "organizer": "Via Deepanshu-OSPrograms",
+    "description": "Open source program / mentorship: Codecademy Pro Intensive",
+    "eligibility": "Open to all",
+    "mode": "Online",
+    "fee": "Free",
+    "stipend": "Check program page",
+    "deadline": "Annual / Check page",
+    "applicationLink": "https://www.codecademy.com/pro/intensive",
+    "website": "https://www.codecademy.com/pro/intensive",
+    "tags": [
+      "open-source",
+      "open-source-programs"
+    ],
+    "status": "open",
+    "source": "github-Deepanshu-OSPrograms"
+  },
+  {
+    "name": "Springboard",
+    "organizer": "Via Deepanshu-OSPrograms",
+    "description": "Open source program / mentorship: Springboard",
+    "eligibility": "Open to all",
+    "mode": "Online",
+    "fee": "Free",
+    "stipend": "Check program page",
+    "deadline": "Annual / Check page",
+    "applicationLink": "https://www.springboard.com/",
+    "website": "https://www.springboard.com/",
+    "tags": [
+      "open-source",
+      "open-source-programs"
+    ],
+    "status": "open",
+    "source": "github-Deepanshu-OSPrograms"
+  },
+  {
+    "name": "Fullstack Academy",
+    "organizer": "Via Deepanshu-OSPrograms",
+    "description": "Open source program / mentorship: Fullstack Academy",
+    "eligibility": "Open to all",
+    "mode": "Online/In-person",
+    "fee": "Free",
+    "stipend": "Check program page",
+    "deadline": "Annual / Check page",
+    "applicationLink": "https://www.fullstackacademy.com/",
+    "website": "https://www.fullstackacademy.com/",
+    "tags": [
+      "open-source",
+      "open-source-programs"
+    ],
+    "status": "open",
+    "source": "github-Deepanshu-OSPrograms"
+  },
+  {
+    "name": "Thinkful",
+    "organizer": "Via Deepanshu-OSPrograms",
+    "description": "Open source program / mentorship: Thinkful",
+    "eligibility": "Open to all",
+    "mode": "Online",
+    "fee": "Free",
+    "stipend": "Check program page",
+    "deadline": "Annual / Check page",
+    "applicationLink": "https://www.thinkful.com/",
+    "website": "https://www.thinkful.com/",
+    "tags": [
+      "open-source",
+      "open-source-programs"
+    ],
+    "status": "open",
+    "source": "github-Deepanshu-OSPrograms"
+  },
+  {
+    "name": "Codeworks",
+    "organizer": "Via Deepanshu-OSPrograms",
+    "description": "Open source program / mentorship: Codeworks",
+    "eligibility": "Open to all",
+    "mode": "Online/In-person",
+    "fee": "Free",
+    "stipend": "Check program page",
+    "deadline": "Annual / Check page",
+    "applicationLink": "https://codeworks.me",
+    "website": "https://codeworks.me",
+    "tags": [
+      "open-source",
+      "open-source-programs"
+    ],
+    "status": "open",
+    "source": "github-Deepanshu-OSPrograms"
+  },
+  {
+    "name": "Masteringbackend",
+    "organizer": "Via Deepanshu-OSPrograms",
+    "description": "Open source program / mentorship: Masteringbackend",
+    "eligibility": "Open to all",
+    "mode": "Online/In-person",
+    "fee": "Free",
+    "stipend": "Check program page",
+    "deadline": "Annual / Check page",
+    "applicationLink": "https://masteringbackend.com?ref=30daysofcoding",
+    "website": "https://masteringbackend.com?ref=30daysofcoding",
+    "tags": [
+      "open-source",
+      "open-source-programs"
+    ],
+    "status": "open",
+    "source": "github-Deepanshu-OSPrograms"
+  },
+  {
+    "name": "Linux Kernel Mentorship Program",
+    "organizer": "Via Ayush-EveryOSS",
+    "description": "Open source program / mentorship: Linux Kernel Mentorship Program",
+    "eligibility": "Mentorship Program",
+    "mode": "Online / Remote",
+    "fee": "Free",
+    "stipend": "Yes",
+    "deadline": "Mar - May",
+    "applicationLink": "https://wiki.linuxfoundation.org/lkmp",
+    "website": "https://wiki.linuxfoundation.org/lkmp",
+    "tags": [
+      "open-source",
+      "open-source-programs"
+    ],
+    "status": "open",
+    "source": "github-Ayush-EveryOSS"
+  },
+  {
+    "name": "LFX Mentorship Program",
+    "organizer": "Via Ayush-EveryOSS",
+    "description": "Open source program / mentorship: LFX Mentorship Program",
+    "eligibility": "Mentorship Program",
+    "mode": "Online / Remote",
+    "fee": "Free",
+    "stipend": "Yes",
+    "deadline": "Spring Mar - May",
+    "applicationLink": "https://mentorship.lfx.linuxfoundation.org/#projects_all",
+    "website": "https://mentorship.lfx.linuxfoundation.org/#projects_all",
+    "tags": [
+      "open-source",
+      "open-source-programs"
+    ],
+    "status": "open",
+    "source": "github-Ayush-EveryOSS"
+  },
+  {
+    "name": "Google Summer of Documentation-(Docs)",
+    "organizer": "Via Ayush-EveryOSS",
+    "description": "Open source program / mentorship: Google Summer of Documentation-(Docs)",
+    "eligibility": "OS-Program",
+    "mode": "Online / Remote",
+    "fee": "Free",
+    "stipend": "Yes",
+    "deadline": "Apr - Nov",
+    "applicationLink": "https://developers.google.com/season-of-docs",
+    "website": "https://developers.google.com/season-of-docs",
+    "tags": [
+      "open-source",
+      "open-source-programs"
+    ],
+    "status": "open",
+    "source": "github-Ayush-EveryOSS"
+  },
+  {
+    "name": "DataONE Summer Internship Programme",
+    "organizer": "Via Ayush-EveryOSS",
+    "description": "Open source program / mentorship: DataONE Summer Internship Programme",
+    "eligibility": "Internship",
+    "mode": "Online / Remote",
+    "fee": "Free",
+    "stipend": "Yes",
+    "deadline": "May - Jul",
+    "applicationLink": "https://old.dataone.org/internships",
+    "website": "https://old.dataone.org/internships",
+    "tags": [
+      "open-source",
+      "open-source-programs"
+    ],
+    "status": "open",
+    "source": "github-Ayush-EveryOSS"
+  },
+  {
+    "name": "Reinforcement Learning Open Source Fest",
+    "organizer": "Via Ayush-EveryOSS",
+    "description": "Open source program / mentorship: Reinforcement Learning Open Source Fest",
+    "eligibility": "Open Source Fest",
+    "mode": "Online / Remote",
+    "fee": "Free",
+    "stipend": "Yes",
+    "deadline": "May - Aug or Sep - Dec",
+    "applicationLink": "https://www.microsoft.com/en-us/research/academic-program/rl-open-source-fest/apply/",
+    "website": "https://www.microsoft.com/en-us/research/academic-program/rl-open-source-fest/apply/",
+    "tags": [
+      "open-source",
+      "open-source-programs"
+    ],
+    "status": "open",
+    "source": "github-Ayush-EveryOSS"
+  },
+  {
+    "name": "Google Summer of Earth Engine-(SoEE)",
+    "organizer": "Via Ayush-EveryOSS",
+    "description": "Open source program / mentorship: Google Summer of Earth Engine-(SoEE)",
+    "eligibility": "OS-Program",
+    "mode": "Online / Remote",
+    "fee": "Free",
+    "stipend": "Yes",
+    "deadline": "May - July",
+    "applicationLink": "https://sites.google.com/view/summerofearthengine/home?authuser=0",
+    "website": "https://sites.google.com/view/summerofearthengine/home?authuser=0",
+    "tags": [
+      "open-source",
+      "open-source-programs"
+    ],
+    "status": "open",
+    "source": "github-Ayush-EveryOSS"
+  },
+  {
+    "name": "RAILS GIRLS SUMMER OF CODE-(RGSOC)",
+    "organizer": "Via Ayush-EveryOSS",
+    "description": "Open source program / mentorship: RAILS GIRLS SUMMER OF CODE-(RGSOC)",
+    "eligibility": "OS-Program",
+    "mode": "Online / Remote",
+    "fee": "Free",
+    "stipend": "Yes",
+    "deadline": "Jun - Sep",
+    "applicationLink": "https://railsgirlssummerofcode.org/",
+    "website": "https://railsgirlssummerofcode.org/",
+    "tags": [
+      "open-source",
+      "open-source-programs"
+    ],
+    "status": "open",
+    "source": "github-Ayush-EveryOSS"
+  },
+  {
+    "name": "TOR Summer of Privacy",
+    "organizer": "Via Ayush-EveryOSS",
+    "description": "Open source program / mentorship: TOR Summer of Privacy",
+    "eligibility": "OS-Program",
+    "mode": "Online / Remote",
+    "fee": "Free",
+    "stipend": "Yes",
+    "deadline": "late Mar",
+    "applicationLink": "https://blog.torproject.org/tor-summer-privacy-apply-now/",
+    "website": "https://blog.torproject.org/tor-summer-privacy-apply-now/",
+    "tags": [
+      "open-source",
+      "open-source-programs"
+    ],
+    "status": "open",
+    "source": "github-Ayush-EveryOSS"
+  },
+  {
+    "name": "X org Foundation-(EVOC)",
+    "organizer": "Via Ayush-EveryOSS",
+    "description": "Open source program / mentorship: X org Foundation-(EVOC)",
+    "eligibility": "OS-Program",
+    "mode": "Online / Remote",
+    "fee": "Free",
+    "stipend": "Certificate",
+    "deadline": "13 Apr",
+    "applicationLink": "https://www.x.org/wiki/XorgEVoC/",
+    "website": "https://www.x.org/wiki/XorgEVoC/",
+    "tags": [
+      "open-source",
+      "open-source-programs"
+    ],
+    "status": "closed",
+    "source": "github-Ayush-EveryOSS"
+  },
+  {
+    "name": "(LFN)-Linux Foundation Mentorship Program",
+    "organizer": "Via Ayush-EveryOSS",
+    "description": "Open source program / mentorship: (LFN)-Linux Foundation Mentorship Program",
+    "eligibility": "Mentorship Program",
+    "mode": "Online / Remote",
+    "fee": "Free",
+    "stipend": "Yes",
+    "deadline": "Jun - Aug(full-time) & Jun - Nov(part-time)",
+    "applicationLink": "https://wiki.lfnetworking.org/display/LN/LFN+Mentorship+Program",
+    "website": "https://wiki.lfnetworking.org/display/LN/LFN+Mentorship+Program",
+    "tags": [
+      "open-source",
+      "open-source-programs"
+    ],
+    "status": "open",
+    "source": "github-Ayush-EveryOSS"
+  },
+  {
+    "name": "ERPNext Summer of Code",
+    "organizer": "Via Ayush-EveryOSS",
+    "description": "Open source program / mentorship: ERPNext Summer of Code",
+    "eligibility": "OS-Program",
+    "mode": "Online / Remote",
+    "fee": "Free",
+    "stipend": "Yes",
+    "deadline": "May - Aug",
+    "applicationLink": "https://erpnext.org/esoc",
+    "website": "https://erpnext.org/esoc",
+    "tags": [
+      "open-source",
+      "open-source-programs"
+    ],
+    "status": "open",
+    "source": "github-Ayush-EveryOSS"
+  },
+  {
+    "name": "AI4Bharat Summer of Code",
+    "organizer": "Via Ayush-EveryOSS",
+    "description": "Open source program / mentorship: AI4Bharat Summer of Code",
+    "eligibility": "IIT Madras OS Program",
+    "mode": "Online / Remote",
+    "fee": "Free",
+    "stipend": "Yes",
+    "deadline": "May 1 - Jul 31",
+    "applicationLink": "https://mobile.twitter.com/ai4bharat",
+    "website": "https://mobile.twitter.com/ai4bharat",
+    "tags": [
+      "open-source",
+      "open-source-programs"
+    ],
+    "status": "open",
+    "source": "github-Ayush-EveryOSS"
+  },
+  {
+    "name": "Cross Research Experience Program",
+    "organizer": "Via Ayush-EveryOSS",
+    "description": "Open source program / mentorship: Cross Research Experience Program",
+    "eligibility": "OS-Program",
+    "mode": "Online / Remote",
+    "fee": "Free",
+    "stipend": "Certificate",
+    "deadline": "before May 10",
+    "applicationLink": "https://cross.ucsc.edu/programs/osre2021.html",
+    "website": "https://cross.ucsc.edu/programs/osre2021.html",
+    "tags": [
+      "open-source",
+      "open-source-programs"
+    ],
+    "status": "open",
+    "source": "github-Ayush-EveryOSS"
+  },
+  {
+    "name": "Open Mainframe Project -Linux Foundation",
+    "organizer": "Via Ayush-EveryOSS",
+    "description": "Open source program / mentorship: Open Mainframe Project -Linux Foundation",
+    "eligibility": "OS-Program",
+    "mode": "Online / Remote",
+    "fee": "Free",
+    "stipend": "Yes",
+    "deadline": "mid May",
+    "applicationLink": "https://www.openmainframeproject.org/projects/mentorship-program",
+    "website": "https://www.openmainframeproject.org/projects/mentorship-program",
+    "tags": [
+      "open-source",
+      "open-source-programs"
+    ],
+    "status": "open",
+    "source": "github-Ayush-EveryOSS"
+  },
+  {
+    "name": "Alibaba Summer of code",
+    "organizer": "Via Ayush-EveryOSS",
+    "description": "Open source program / mentorship: Alibaba Summer of code",
+    "eligibility": "OS-Program",
+    "mode": "Online / Remote",
+    "fee": "Free",
+    "stipend": "Yes",
+    "deadline": "Aug",
+    "applicationLink": "https://www.alibabacloud.com/blog/alibaba-summer-of-code-2020-leading-the-new-open-source-trend_596241",
+    "website": "https://www.alibabacloud.com/blog/alibaba-summer-of-code-2020-leading-the-new-open-source-trend_596241",
+    "tags": [
+      "open-source",
+      "open-source-programs"
+    ],
+    "status": "open",
+    "source": "github-Ayush-EveryOSS"
+  },
+  {
+    "name": "Tencent Rhino-bird Open-source Training Program",
+    "organizer": "Via Ayush-EveryOSS",
+    "description": "Open source program / mentorship: Tencent Rhino-bird Open-source Training Program",
+    "eligibility": "OS-Program",
+    "mode": "Online / Remote",
+    "fee": "Free",
+    "stipend": "Yes",
+    "deadline": "before Jun",
+    "applicationLink": "https://opensource.tencent.com/summer-of-code#flow",
+    "website": "https://opensource.tencent.com/summer-of-code#flow",
+    "tags": [
+      "open-source",
+      "open-source-programs"
+    ],
+    "status": "open",
+    "source": "github-Ayush-EveryOSS"
+  },
+  {
+    "name": "Summer of Open Souce Promotion Plan",
+    "organizer": "Via Ayush-EveryOSS",
+    "description": "Open source program / mentorship: Summer of Open Souce Promotion Plan",
+    "eligibility": "OS-Program",
+    "mode": "Online / Remote",
+    "fee": "Free",
+    "stipend": "Yes",
+    "deadline": "Jul - Nov",
+    "applicationLink": "https://summer.iscas.ac.cn/help/en/",
+    "website": "https://summer.iscas.ac.cn/help/en/",
+    "tags": [
+      "open-source",
+      "open-source-programs"
+    ],
+    "status": "open",
+    "source": "github-Ayush-EveryOSS"
+  },
+  {
+    "name": "LetsGrowMore's Summer Of Code",
+    "organizer": "Via Ayush-EveryOSS",
+    "description": "Open source program / mentorship: LetsGrowMore's Summer Of Code",
+    "eligibility": "Community OS Program",
+    "mode": "Online / Remote",
+    "fee": "Free",
+    "stipend": "Certificates",
+    "deadline": "May - Jul",
+    "applicationLink": "https://letsgrowmore.in/soc/",
+    "website": "https://letsgrowmore.in/soc/",
+    "tags": [
+      "open-source",
+      "open-source-programs"
+    ],
+    "status": "open",
+    "source": "github-Ayush-EveryOSS"
+  },
+  {
+    "name": "OSS Summer of Innovation",
+    "organizer": "Via Ayush-EveryOSS",
+    "description": "Open source program / mentorship: OSS Summer of Innovation",
+    "eligibility": "University OS Program",
+    "mode": "Online / Remote",
+    "fee": "Free",
+    "stipend": "Swags & Prizes For Winners",
+    "deadline": "May - Jul",
+    "applicationLink": "https://oss2019.github.io/SoI.html",
+    "website": "https://oss2019.github.io/SoI.html",
+    "tags": [
+      "open-source",
+      "open-source-programs"
+    ],
+    "status": "open",
+    "source": "github-Ayush-EveryOSS"
+  },
+  {
+    "name": "Hack Club SRM Summer of Code (HCSSoC)",
+    "organizer": "Via Ayush-EveryOSS",
+    "description": "Open source program / mentorship: Hack Club SRM Summer of Code (HCSSoC)",
+    "eligibility": "University OS Program",
+    "mode": "Online / Remote",
+    "fee": "Free",
+    "stipend": "Certificates & swag rewards",
+    "deadline": "Jun - Jul",
+    "applicationLink": "https://github.com/Hack-Club-SRM/HCSSoC",
+    "website": "https://github.com/Hack-Club-SRM/HCSSoC",
+    "tags": [
+      "open-source",
+      "open-source-programs"
+    ],
+    "status": "open",
+    "source": "github-Ayush-EveryOSS"
+  },
+  {
+    "name": "Bountiful Open Source Summer-BOSS",
+    "organizer": "Via Ayush-EveryOSS",
+    "description": "Open source program / mentorship: Bountiful Open Source Summer-BOSS",
+    "eligibility": "Competitions",
+    "mode": "Online / Remote",
+    "fee": "Free",
+    "stipend": "Prizes For Winners & top performers",
+    "deadline": "May - Aug",
+    "applicationLink": "https://lab.codingblocks.com/boss",
+    "website": "https://lab.codingblocks.com/boss",
+    "tags": [
+      "open-source",
+      "open-source-programs"
+    ],
+    "status": "open",
+    "source": "github-Ayush-EveryOSS"
+  },
+  {
+    "name": "Open Summer of Code-(OSoC)",
+    "organizer": "Via Ayush-EveryOSS",
+    "description": "Open source program / mentorship: Open Summer of Code-(OSoC)",
+    "eligibility": "OS-Program",
+    "mode": "Online / Remote",
+    "fee": "Free",
+    "stipend": "Yes",
+    "deadline": "Jul",
+    "applicationLink": "https://osoc.be/",
+    "website": "https://osoc.be/",
+    "tags": [
+      "open-source",
+      "open-source-programs"
+    ],
+    "status": "closed",
+    "source": "github-Ayush-EveryOSS"
+  },
+  {
+    "name": "ACM MM Open Source Software Competition",
+    "organizer": "Via Ayush-EveryOSS",
+    "description": "Open source program / mentorship: ACM MM Open Source Software Competition",
+    "eligibility": "Competitions",
+    "mode": "Online / Remote",
+    "fee": "Free",
+    "stipend": "Prizes For Winners",
+    "deadline": "25 Jun",
+    "applicationLink": "http://sigmm.org/Resources/software/ossc",
+    "website": "http://sigmm.org/Resources/software/ossc",
+    "tags": [
+      "open-source",
+      "open-source-programs"
+    ],
+    "status": "closed",
+    "source": "github-Ayush-EveryOSS"
+  },
+  {
+    "name": "PClub Summer Of Code",
+    "organizer": "Via Ayush-EveryOSS",
+    "description": "Open source program / mentorship: PClub Summer Of Code",
+    "eligibility": "OS-Program",
+    "mode": "Online / Remote",
+    "fee": "Free",
+    "stipend": "Check program page",
+    "deadline": "late Jun",
+    "applicationLink": "https://www.pclubuiet.com/",
+    "website": "https://www.pclubuiet.com/",
+    "tags": [
+      "open-source",
+      "open-source-programs"
+    ],
+    "status": "open",
+    "source": "github-Ayush-EveryOSS"
+  },
+  {
+    "name": "Script Fellowship Program",
+    "organizer": "Via Ayush-EveryOSS",
+    "description": "Open source program / mentorship: Script Fellowship Program",
+    "eligibility": "Fellowship",
+    "mode": "Online / Remote",
+    "fee": "Free",
+    "stipend": "Certificate",
+    "deadline": "Aug - Nov",
+    "applicationLink": "https://sfp.scriptindia.org/",
+    "website": "https://sfp.scriptindia.org/",
+    "tags": [
+      "open-source",
+      "open-source-programs"
+    ],
+    "status": "open",
+    "source": "github-Ayush-EveryOSS"
+  },
+  {
+    "name": "Witnet Summer of Code Program-(WSoC)",
+    "organizer": "Via Ayush-EveryOSS",
+    "description": "Open source program / mentorship: Witnet Summer of Code Program-(WSoC)",
+    "eligibility": "OS-Program",
+    "mode": "Online / Remote",
+    "fee": "Free",
+    "stipend": "Certificate",
+    "deadline": "before 15 Jul",
+    "applicationLink": "https://medium.com/witnet/introducing-the-witnet-summer-of-code-program-wsoc-bbe0b086052f",
+    "website": "https://medium.com/witnet/introducing-the-witnet-summer-of-code-program-wsoc-bbe0b086052f",
+    "tags": [
+      "open-source",
+      "open-source-programs"
+    ],
+    "status": "open",
+    "source": "github-Ayush-EveryOSS"
+  },
+  {
+    "name": "Mozilla Winter of Security",
+    "organizer": "Via Ayush-EveryOSS",
+    "description": "Open source program / mentorship: Mozilla Winter of Security",
+    "eligibility": "OS-Program",
+    "mode": "Online / Remote",
+    "fee": "Free",
+    "stipend": "Certificate",
+    "deadline": "15 Sep",
+    "applicationLink": "https://wiki.mozilla.org/Security/Automation/Winter_Of_Security_2016#:~:text=the%20application%20form-,Timeline,announcing%20results%20on%20September%2030th.",
+    "website": "https://wiki.mozilla.org/Security/Automation/Winter_Of_Security_2016#:~:text=the%20application%20form-,Timeline,announcing%20results%20on%20September%2030th.",
+    "tags": [
+      "open-source",
+      "open-source-programs"
+    ],
+    "status": "open",
+    "source": "github-Ayush-EveryOSS"
+  },
+  {
+    "name": "Girlscript winter of code (docs)",
+    "organizer": "Via Ayush-EveryOSS",
+    "description": "Open source program / mentorship: Girlscript winter of code (docs)",
+    "eligibility": "OS - Program",
+    "mode": "Online / Remote",
+    "fee": "Free",
+    "stipend": "Swag rewards for top performer, Certificate",
+    "deadline": "Sep - Nov",
+    "applicationLink": "https://gwoc.girlscript.tech/",
+    "website": "https://gwoc.girlscript.tech/",
+    "tags": [
+      "open-source",
+      "open-source-programs"
+    ],
+    "status": "open",
+    "source": "github-Ayush-EveryOSS"
+  },
+  {
+    "name": "GNOME Internship Program",
+    "organizer": "Via Ayush-EveryOSS",
+    "description": "Open source program / mentorship: GNOME Internship Program",
+    "eligibility": "Internship",
+    "mode": "Online / Remote",
+    "fee": "Free",
+    "stipend": "Yes",
+    "deadline": "Dec - Mar",
+    "applicationLink": "https://foundation.gnome.org/2018/05/08/announcing-the-gnome-internship-program/",
+    "website": "https://foundation.gnome.org/2018/05/08/announcing-the-gnome-internship-program/",
+    "tags": [
+      "open-source",
+      "open-source-programs"
+    ],
+    "status": "open",
+    "source": "github-Ayush-EveryOSS"
+  },
+  {
+    "name": "Script Winter of code-(SWoC)",
+    "organizer": "Via Ayush-EveryOSS",
+    "description": "Open source program / mentorship: Script Winter of code-(SWoC)",
+    "eligibility": "OS - Program",
+    "mode": "Online / Remote",
+    "fee": "Free",
+    "stipend": "Prizes, swag rewards, Certificate",
+    "deadline": "Nov - Mar",
+    "applicationLink": "https://swoc.scriptindia.org/#/",
+    "website": "https://swoc.scriptindia.org/#/",
+    "tags": [
+      "open-source",
+      "open-source-programs"
+    ],
+    "status": "open",
+    "source": "github-Ayush-EveryOSS"
+  },
+  {
+    "name": "Semester Long Projects (SLoP by DA-IICT)",
+    "organizer": "Via Ayush-EveryOSS",
+    "description": "Open source program / mentorship: Semester Long Projects (SLoP by DA-IICT)",
+    "eligibility": "University OS Program",
+    "mode": "Online / Remote",
+    "fee": "Free",
+    "stipend": "Certificates & swag rewards",
+    "deadline": "Sep - Nov",
+    "applicationLink": "https://slop.dscdaiict.in/",
+    "website": "https://slop.dscdaiict.in/",
+    "tags": [
+      "open-source",
+      "open-source-programs"
+    ],
+    "status": "open",
+    "source": "github-Ayush-EveryOSS"
+  },
+  {
+    "name": "GitHub Externship",
+    "organizer": "Via Ayush-EveryOSS",
+    "description": "Open source program / mentorship: GitHub Externship",
+    "eligibility": "Externship",
+    "mode": "Online / Remote",
+    "fee": "Free",
+    "stipend": "Yes",
+    "deadline": "Jan",
+    "applicationLink": "https://externship.github.in/about",
+    "website": "https://externship.github.in/about",
+    "tags": [
+      "open-source",
+      "open-source-programs"
+    ],
+    "status": "closed",
+    "source": "github-Ayush-EveryOSS"
+  },
+  {
+    "name": "Foss Asia Codeheat",
+    "organizer": "Via Ayush-EveryOSS",
+    "description": "Open source program / mentorship: Foss Asia Codeheat",
+    "eligibility": "Competition",
+    "mode": "Online / Remote",
+    "fee": "Free",
+    "stipend": "Cash Prizes For Winners",
+    "deadline": "Nov - Jan",
+    "applicationLink": "https://codeheat.org/",
+    "website": "https://codeheat.org/",
+    "tags": [
+      "open-source",
+      "open-source-programs"
+    ],
+    "status": "open",
+    "source": "github-Ayush-EveryOSS"
+  },
+  {
+    "name": "Winter of code by NSEC",
+    "organizer": "Via Ayush-EveryOSS",
+    "description": "Open source program / mentorship: Winter of code by NSEC",
+    "eligibility": "University OS Program",
+    "mode": "Online / Remote",
+    "fee": "Free",
+    "stipend": "Certificates & swag rewards",
+    "deadline": "Dec - Jan",
+    "applicationLink": "https://winterofcode.com/",
+    "website": "https://winterofcode.com/",
+    "tags": [
+      "open-source",
+      "open-source-programs"
+    ],
+    "status": "open",
+    "source": "github-Ayush-EveryOSS"
+  },
+  {
+    "name": "Season of KDE",
+    "organizer": "Via Ayush-EveryOSS",
+    "description": "Open source program / mentorship: Season of KDE",
+    "eligibility": "OS - Program",
+    "mode": "Online / Remote",
+    "fee": "Free",
+    "stipend": "Check program page",
+    "deadline": "Jan - Mar",
+    "applicationLink": "https://season.kde.org/",
+    "website": "https://season.kde.org/",
+    "tags": [
+      "open-source",
+      "open-source-programs"
+    ],
+    "status": "open",
+    "source": "github-Ayush-EveryOSS"
+  },
+  {
+    "name": "Redox Summer of code",
+    "organizer": "Via Ayush-EveryOSS",
+    "description": "Open source program / mentorship: Redox Summer of code",
+    "eligibility": "Open to all",
+    "mode": "Online / Remote",
+    "fee": "Free",
+    "stipend": "Yes",
+    "deadline": "Annual / Check page",
+    "applicationLink": "https://www.redox-os.org/rsoc/",
+    "website": "https://www.redox-os.org/rsoc/",
+    "tags": [
+      "open-source",
+      "open-source-programs"
+    ],
+    "status": "open",
+    "source": "github-Ayush-EveryOSS"
+  },
+  {
+    "name": "Julia Season of Contribution-(JSOC)",
+    "organizer": "Via Ayush-EveryOSS",
+    "description": "Open source program / mentorship: Julia Season of Contribution-(JSOC)",
+    "eligibility": "OS - Program",
+    "mode": "Online / Remote",
+    "fee": "Free",
+    "stipend": "Yes",
+    "deadline": "Annual / Check page",
+    "applicationLink": "https://julialang.org/jsoc/#:~:text=The%20Julia%20Seasons%20of%20Contributions,to%20the%20open%20source%20ecosystem.",
+    "website": "https://julialang.org/jsoc/#:~:text=The%20Julia%20Seasons%20of%20Contributions,to%20the%20open%20source%20ecosystem.",
+    "tags": [
+      "open-source",
+      "open-source-programs"
+    ],
+    "status": "open",
+    "source": "github-Ayush-EveryOSS"
+  },
+  {
+    "name": "Foss Asia Intership Program",
+    "organizer": "Via Ayush-EveryOSS",
+    "description": "Open source program / mentorship: Foss Asia Intership Program",
+    "eligibility": "OS - Program",
+    "mode": "Online / Remote",
+    "fee": "Free",
+    "stipend": "Yes",
+    "deadline": "Annual / Check page",
+    "applicationLink": "https://fossasia.org/",
+    "website": "https://fossasia.org/",
+    "tags": [
+      "open-source",
+      "open-source-programs"
+    ],
+    "status": "open",
+    "source": "github-Ayush-EveryOSS"
+  },
+  {
+    "name": "John Hunter Matplotlib Summer Fellowship",
+    "organizer": "Via Ayush-EveryOSS",
+    "description": "Open source program / mentorship: John Hunter Matplotlib Summer Fellowship",
+    "eligibility": "Fellowship",
+    "mode": "Online / Remote",
+    "fee": "Free",
+    "stipend": "Yes",
+    "deadline": "Annual / Check page",
+    "applicationLink": "https://numfocus.org/programs/john-hunter-technology-fellowship",
+    "website": "https://numfocus.org/programs/john-hunter-technology-fellowship",
+    "tags": [
+      "open-source",
+      "open-source-programs"
+    ],
+    "status": "open",
+    "source": "github-Ayush-EveryOSS"
+  },
+  {
+    "name": "Radare Summer of Code",
+    "organizer": "Via Ayush-EveryOSS",
+    "description": "Open source program / mentorship: Radare Summer of Code",
+    "eligibility": "Open to all",
+    "mode": "Online / Remote",
+    "fee": "Free",
+    "stipend": "Yes",
+    "deadline": "Annual / Check page",
+    "applicationLink": "https://www.radare.org/gsoc/2020/",
+    "website": "https://www.radare.org/gsoc/2020/",
+    "tags": [
+      "open-source",
+      "open-source-programs"
+    ],
+    "status": "open",
+    "source": "github-Ayush-EveryOSS"
+  },
+  {
+    "name": "Summer of Haskell",
+    "organizer": "Via Ayush-EveryOSS",
+    "description": "Open source program / mentorship: Summer of Haskell",
+    "eligibility": "Open to all",
+    "mode": "Online / Remote",
+    "fee": "Free",
+    "stipend": "Yes",
+    "deadline": "Annual / Check page",
+    "applicationLink": "https://summer.haskell.org/",
+    "website": "https://summer.haskell.org/",
+    "tags": [
+      "open-source",
+      "open-source-programs"
+    ],
+    "status": "open",
+    "source": "github-Ayush-EveryOSS"
+  },
+  {
+    "name": "RARE Technologies Student Incubator Programme",
+    "organizer": "Via Ayush-EveryOSS",
+    "description": "Open source program / mentorship: RARE Technologies Student Incubator Programme",
+    "eligibility": "Open to all",
+    "mode": "Online / Remote",
+    "fee": "Free",
+    "stipend": "Yes",
+    "deadline": "Annual / Check page",
+    "applicationLink": "https://rare-technologies.com/incubator/",
+    "website": "https://rare-technologies.com/incubator/",
+    "tags": [
+      "open-source",
+      "open-source-programs"
+    ],
+    "status": "open",
+    "source": "github-Ayush-EveryOSS"
+  },
+  {
+    "name": "Vectorised IO",
+    "organizer": "Via Ayush-EveryOSS",
+    "description": "Open source program / mentorship: Vectorised IO",
+    "eligibility": "Open to all",
+    "mode": "Online / Remote",
+    "fee": "Free",
+    "stipend": "Yes",
+    "deadline": "Annual / Check page",
+    "applicationLink": "https://vectorized.io/",
+    "website": "https://vectorized.io/",
+    "tags": [
+      "open-source",
+      "open-source-programs"
+    ],
+    "status": "open",
+    "source": "github-Ayush-EveryOSS"
+  },
+  {
+    "name": "Snowplow",
+    "organizer": "Via Ayush-EveryOSS",
+    "description": "Open source program / mentorship: Snowplow",
+    "eligibility": "Open to all",
+    "mode": "Online / Remote",
+    "fee": "Free",
+    "stipend": "Yes",
+    "deadline": "Annual / Check page",
+    "applicationLink": "https://snowplowanalytics.com/snowplow-open-source/",
+    "website": "https://snowplowanalytics.com/snowplow-open-source/",
+    "tags": [
+      "open-source",
+      "open-source-programs"
+    ],
+    "status": "open",
+    "source": "github-Ayush-EveryOSS"
+  },
+  {
+    "name": "RubyMe Mentorship Program",
+    "organizer": "Via Ayush-EveryOSS",
+    "description": "Open source program / mentorship: RubyMe Mentorship Program",
+    "eligibility": "Mentorship",
+    "mode": "Online / Remote",
+    "fee": "Free",
+    "stipend": "Yes",
+    "deadline": "Annual / Check page",
+    "applicationLink": "https://rubyme.org/",
+    "website": "https://rubyme.org/",
+    "tags": [
+      "open-source",
+      "open-source-programs"
+    ],
+    "status": "open",
+    "source": "github-Ayush-EveryOSS"
+  },
+  {
+    "name": "Kubernetes Shadows Program",
+    "organizer": "Via Ayush-EveryOSS",
+    "description": "Open source program / mentorship: Kubernetes Shadows Program",
+    "eligibility": "Open to all",
+    "mode": "Online / Remote",
+    "fee": "Free",
+    "stipend": "Check program page",
+    "deadline": "Annual / Check page",
+    "applicationLink": "https://github.com/kubernetes/sig-release/blob/master/release-team/shadows.md",
+    "website": "https://github.com/kubernetes/sig-release/blob/master/release-team/shadows.md",
+    "tags": [
+      "open-source",
+      "open-source-programs"
+    ],
+    "status": "open",
+    "source": "github-Ayush-EveryOSS"
+  },
+  {
+    "name": "Millennium Fellowship",
+    "organizer": "Via Ayush-EveryOSS",
+    "description": "Open source program / mentorship: Millennium Fellowship",
+    "eligibility": "Fellowship",
+    "mode": "Online / Remote",
+    "fee": "Free",
+    "stipend": "Check program page",
+    "deadline": "Annual / Check page",
+    "applicationLink": "https://www.millenniumfellows.org/",
+    "website": "https://www.millenniumfellows.org/",
+    "tags": [
+      "open-source",
+      "open-source-programs"
+    ],
+    "status": "open",
+    "source": "github-Ayush-EveryOSS"
+  },
+  {
+    "name": "Microsoft Learn Student Ambassador Program",
+    "organizer": "Via Ayush-EveryOSS",
+    "description": "Open source program / mentorship: Microsoft Learn Student Ambassador Program",
+    "eligibility": "Open to all",
+    "mode": "Online / Remote",
+    "fee": "Free",
+    "stipend": "Check program page",
+    "deadline": "Annual / Check page",
+    "applicationLink": "https://studentambassadors.microsoft.com/",
+    "website": "https://studentambassadors.microsoft.com/",
+    "tags": [
+      "open-source",
+      "open-source-programs"
+    ],
+    "status": "open",
+    "source": "github-Ayush-EveryOSS"
+  },
+  {
+    "name": "OpenCode IIITA",
+    "organizer": "Via Ayush-EveryOSS",
+    "description": "Open source program / mentorship: OpenCode IIITA",
+    "eligibility": "University OS Program",
+    "mode": "Online / Remote",
+    "fee": "Free",
+    "stipend": "Certificates & swag rewards",
+    "deadline": "Annual / Check page",
+    "applicationLink": "https://opencodeiiita.github.io/",
+    "website": "https://opencodeiiita.github.io/",
+    "tags": [
+      "open-source",
+      "open-source-programs"
+    ],
+    "status": "open",
+    "source": "github-Ayush-EveryOSS"
+  },
+  {
+    "name": "Tweag I/O Summer Internship",
+    "organizer": "Via Ayush-EveryOSS",
+    "description": "Open source program / mentorship: Tweag I/O Summer Internship",
+    "eligibility": "Internship",
+    "mode": "Online / Remote",
+    "fee": "Free",
+    "stipend": "Check program page",
+    "deadline": "Annual / Check page",
+    "applicationLink": "https://www.tweag.io/blog/2019-03-11-internships/",
+    "website": "https://www.tweag.io/blog/2019-03-11-internships/",
+    "tags": [
+      "open-source",
+      "open-source-programs"
+    ],
+    "status": "open",
+    "source": "github-Ayush-EveryOSS"
+  },
+  {
+    "name": "Segment Open Fellowship",
+    "organizer": "Via Ayush-EveryOSS",
+    "description": "Open source program / mentorship: Segment Open Fellowship",
+    "eligibility": "Fellowship",
+    "mode": "Online / Remote",
+    "fee": "Free",
+    "stipend": "Check program page",
+    "deadline": "Annual / Check page",
+    "applicationLink": "https://segment.com/opensource/",
+    "website": "https://segment.com/opensource/",
+    "tags": [
+      "open-source",
+      "open-source-programs"
+    ],
+    "status": "open",
+    "source": "github-Ayush-EveryOSS"
+  },
+  {
+    "name": "Sanscript Autumn of Open Source",
+    "organizer": "Via Ayush-EveryOSS",
+    "description": "Open source program / mentorship: Sanscript Autumn of Open Source",
+    "eligibility": "Certificates & swag rewards",
+    "mode": "Online / Remote",
+    "fee": "Free",
+    "stipend": "Check program page",
+    "deadline": "University OS Program",
+    "applicationLink": "https://www.commudle.com/communities/sanscript-india/events/autumn-of-open-source",
+    "website": "https://www.commudle.com/communities/sanscript-india/events/autumn-of-open-source",
+    "tags": [
+      "open-source",
+      "open-source-programs"
+    ],
+    "status": "open",
+    "source": "github-Ayush-EveryOSS"
+  },
+  {
+    "name": "Quantopian Open",
+    "organizer": "Via Ayush-EveryOSS",
+    "description": "Open source program / mentorship: Quantopian Open",
+    "eligibility": "Competitions",
+    "mode": "Online / Remote",
+    "fee": "Free",
+    "stipend": "Cash prizes for winners",
+    "deadline": "Annual / Check page",
+    "applicationLink": "https://www.quantopian.com/open",
+    "website": "https://www.quantopian.com/open",
+    "tags": [
+      "open-source",
+      "open-source-programs"
+    ],
+    "status": "open",
+    "source": "github-Ayush-EveryOSS"
+  },
+  {
+    "name": "OWASP SOC",
+    "organizer": "Via Ayush-EveryOSS",
+    "description": "Open source program / mentorship: OWASP SOC",
+    "eligibility": "Open to all",
+    "mode": "Online / Remote",
+    "fee": "Free",
+    "stipend": "Check program page",
+    "deadline": "Annual / Check page",
+    "applicationLink": "https://owasp.org/",
+    "website": "https://owasp.org/",
+    "tags": [
+      "open-source",
+      "open-source-programs"
+    ],
+    "status": "open",
+    "source": "github-Ayush-EveryOSS"
+  },
+  {
+    "name": "MDG Winter of Code",
+    "organizer": "Via Ayush-EveryOSS",
+    "description": "Open source program / mentorship: MDG Winter of Code",
+    "eligibility": "Open to all",
+    "mode": "Online / Remote",
+    "fee": "Free",
+    "stipend": "Check program page",
+    "deadline": "Annual / Check page",
+    "applicationLink": "https://woc.sdslabs.co/?fbclid=IwAR2YNnFKh3fWQKEdc1ugVYSIClK1uSclU7qTzSDQen827eGIpTBfxfA6VCk",
+    "website": "https://woc.sdslabs.co/?fbclid=IwAR2YNnFKh3fWQKEdc1ugVYSIClK1uSclU7qTzSDQen827eGIpTBfxfA6VCk",
+    "tags": [
+      "open-source",
+      "open-source-programs"
+    ],
+    "status": "open",
+    "source": "github-Ayush-EveryOSS"
+  },
+  {
+    "name": "ICFOSS Fellowship Programme",
+    "organizer": "Via Ayush-EveryOSS",
+    "description": "Open source program / mentorship: ICFOSS Fellowship Programme",
+    "eligibility": "Fellowship",
+    "mode": "Online / Remote",
+    "fee": "Free",
+    "stipend": "Check program page",
+    "deadline": "Annual / Check page",
+    "applicationLink": "https://icfoss.in/capacity-building/7",
+    "website": "https://icfoss.in/capacity-building/7",
+    "tags": [
+      "open-source",
+      "open-source-programs"
+    ],
+    "status": "open",
+    "source": "github-Ayush-EveryOSS"
+  },
+  {
+    "name": "Halite AI Bot Challenge",
+    "organizer": "Via Ayush-EveryOSS",
+    "description": "Open source program / mentorship: Halite AI Bot Challenge",
+    "eligibility": "Competitions",
+    "mode": "Online / Remote",
+    "fee": "Free",
+    "stipend": "Swag rewards for winners",
+    "deadline": "Annual / Check page",
+    "applicationLink": "https://halite.io/",
+    "website": "https://halite.io/",
+    "tags": [
+      "open-source",
+      "open-source-programs"
+    ],
+    "status": "open",
+    "source": "github-Ayush-EveryOSS"
+  },
+  {
+    "name": "HackinCodes Contributor Hack",
+    "organizer": "Via Ayush-EveryOSS",
+    "description": "Open source program / mentorship: HackinCodes Contributor Hack",
+    "eligibility": "Competitions",
+    "mode": "Online / Remote",
+    "fee": "Free",
+    "stipend": "Prizes, swag rewards, Certificate",
+    "deadline": "Annual / Check page",
+    "applicationLink": "https://hakincodes.live/",
+    "website": "https://hakincodes.live/",
+    "tags": [
+      "open-source",
+      "open-source-programs"
+    ],
+    "status": "open",
+    "source": "github-Ayush-EveryOSS"
+  },
+  {
+    "name": "Data Driven Competition",
+    "organizer": "Via Ayush-EveryOSS",
+    "description": "Open source program / mentorship: Data Driven Competition",
+    "eligibility": "Competitions",
+    "mode": "Online / Remote",
+    "fee": "Free",
+    "stipend": "Cash Prizes For Winners",
+    "deadline": "Annual / Check page",
+    "applicationLink": "https://www.drivendata.org/competitions/",
+    "website": "https://www.drivendata.org/competitions/",
+    "tags": [
+      "open-source",
+      "open-source-programs"
+    ],
+    "status": "open",
+    "source": "github-Ayush-EveryOSS"
+  },
+  {
+    "name": "(DAWOC)-DA-IICT Winter of Code",
+    "organizer": "Via Ayush-EveryOSS",
+    "description": "Open source program / mentorship: (DAWOC)-DA-IICT Winter of Code",
+    "eligibility": "Open to all",
+    "mode": "Online / Remote",
+    "fee": "Free",
+    "stipend": "Check program page",
+    "deadline": "Annual / Check page",
+    "applicationLink": "https://dawoc.herokuapp.com/",
+    "website": "https://dawoc.herokuapp.com/",
+    "tags": [
+      "open-source",
+      "open-source-programs"
+    ],
+    "status": "open",
+    "source": "github-Ayush-EveryOSS"
+  },
+  {
+    "name": "Cats winter of code",
+    "organizer": "Via Ayush-EveryOSS",
+    "description": "Open source program / mentorship: Cats winter of code",
+    "eligibility": "Open to all",
+    "mode": "Online / Remote",
+    "fee": "Free",
+    "stipend": "Check program page",
+    "deadline": "Annual / Check page",
+    "applicationLink": "https://github.com/TheCWoC",
+    "website": "https://github.com/TheCWoC",
+    "tags": [
+      "open-source",
+      "open-source-programs"
+    ],
+    "status": "open",
+    "source": "github-Ayush-EveryOSS"
+  },
+  {
+    "name": "Educational Externship Track",
+    "organizer": "Via Ayush-EveryOSS",
+    "description": "Open source program / mentorship: Educational Externship Track",
+    "eligibility": "Externship",
+    "mode": "Online / Remote",
+    "fee": "Free",
+    "stipend": "Check program page",
+    "deadline": "Annual / Check page",
+    "applicationLink": "https://github.com",
+    "website": "https://github.com",
+    "tags": [
+      "open-source",
+      "open-source-programs"
+    ],
+    "status": "open",
+    "source": "github-Ayush-EveryOSS"
+  },
+  {
+    "name": "Apertre-A 15-day-long Open Source Event by Resourcio Community & GDSC AOT",
+    "organizer": "Via Ayush-EveryOSS",
+    "description": "Open source program / mentorship: Apertre-A 15-day-long Open Source Event by Resourcio Community & GDSC AOT",
+    "eligibility": "College & Community OS Program",
+    "mode": "Online / Remote",
+    "fee": "Free",
+    "stipend": "Internship Opportunity (Leaderboard Toppers)",
+    "deadline": "3rd JAN,2024 to 17th JAN,2024",
+    "applicationLink": "https://os.apertre.tech/",
+    "website": "https://os.apertre.tech/",
+    "tags": [
+      "open-source",
+      "open-source-programs"
+    ],
+    "status": "open",
+    "source": "github-Ayush-EveryOSS"
+  },
+  {
+    "name": "Cross Winter of code",
+    "organizer": "Via Ayush-EveryOSS",
+    "description": "Open source program / mentorship: Cross Winter of code",
+    "eligibility": "University OS Program",
+    "mode": "Online / Remote",
+    "fee": "Free",
+    "stipend": "Certificates & swags",
+    "deadline": "Feb - Mar",
+    "applicationLink": "https://crosswoc.ieeedtu.in/",
+    "website": "https://crosswoc.ieeedtu.in/",
+    "tags": [
+      "open-source",
+      "open-source-programs"
+    ],
+    "status": "open",
+    "source": "github-Ayush-EveryOSS"
+  },
+  {
+    "name": "GitHub Accelerator",
+    "organizer": "Student / Research Organization",
+    "description": "Our first class of fellows will participate in a 10-week accelerator program where they will receive an initial sponsorship as well as mentorship from open source leaders and enterprise partners on how to grow their projects and build durable streams of funding.",
+    "eligibility": "Students / Graduates (check program details)",
+    "mode": "Check listing",
+    "fee": "Free",
+    "stipend": "Stipend / Mentorship provided",
+    "deadline": "Annual / Check portal",
+    "applicationLink": "https://accelerator.github.com/",
+    "website": "https://accelerator.github.com/",
+    "tags": [
+      "fellowship",
+      "student"
+    ],
+    "status": "open",
+    "source": "github-OpenSauced-OSS"
+  },
+  {
+    "name": "Community Contributor Group",
+    "organizer": "Student / Research Organization",
+    "description": "Self governed contributor group focusing on enabling and sustaining open source projects and communities.",
+    "eligibility": "Students / Graduates (check program details)",
+    "mode": "Check listing",
+    "fee": "Free",
+    "stipend": "Stipend / Mentorship provided",
+    "deadline": "Annual / Check portal",
+    "applicationLink": "https://opencollective.com/community-contributor-group",
+    "website": "https://opencollective.com/community-contributor-group",
+    "tags": [
+      "fellowship",
+      "student"
+    ],
+    "status": "open",
+    "source": "github-OpenSauced-OSS"
+  },
+  {
+    "name": "Eddiehub",
+    "organizer": "Student / Research Organization",
+    "description": "Open Source community aimed at encouraging and promoting communication, best practices and technical expertise in an inclusive and welcoming environment.",
+    "eligibility": "Students / Graduates (check program details)",
+    "mode": "Check listing",
+    "fee": "Free",
+    "stipend": "Stipend / Mentorship provided",
+    "deadline": "Annual / Check portal",
+    "applicationLink": "https://www.eddiehub.org/",
+    "website": "https://www.eddiehub.org/",
+    "tags": [
+      "fellowship",
+      "student"
+    ],
+    "status": "open",
+    "source": "github-OpenSauced-OSS"
+  },
+  {
+    "name": "Mozilla Builders Incubator",
+    "organizer": "Student / Research Organization",
+    "description": "Mozilla Builders was an experimental incubator program run throughout 2020. We invested in 80+ people, projects, and technologies reshaping the internet.",
+    "eligibility": "Students / Graduates (check program details)",
+    "mode": "Check listing",
+    "fee": "Free",
+    "stipend": "Stipend / Mentorship provided",
+    "deadline": "Annual / Check portal",
+    "applicationLink": "https://builders.mozilla.community/",
+    "website": "https://builders.mozilla.community/",
+    "tags": [
+      "fellowship",
+      "student"
+    ],
+    "status": "open",
+    "source": "github-OpenSauced-OSS"
+  },
+  {
+    "name": "Primary NYC Founders Fellowship: Open Source",
+    "organizer": "Student / Research Organization",
+    "description": "The NYC Founders Fellowship is designed to coach you on all of these skills to become an exceptional founder, making room for lots of analysis, experimentation, and peer support. If this is of interest to you, you have come to the right place. This program is completely tailored to match the interests of aspiring founders.",
+    "eligibility": "Students / Graduates (check program details)",
+    "mode": "Check listing",
+    "fee": "Free",
+    "stipend": "Stipend / Mentorship provided",
+    "deadline": "Annual / Check portal",
+    "applicationLink": "https://www.primary.vc/firstedition/posts/cohort-four-primary-nyc-founders-fellowship-open-source",
+    "website": "https://www.primary.vc/firstedition/posts/cohort-four-primary-nyc-founders-fellowship-open-source",
+    "tags": [
+      "fellowship",
+      "student"
+    ],
+    "status": "open",
+    "source": "github-OpenSauced-OSS"
+  },
+  {
+    "name": "Hyperlegder Mentorship Program",
+    "organizer": "Student / Research Organization",
+    "description": "Aimed at providing a structured and guided learning opportunity for new developers, including college and university students, interested in becoming open source contributors to the Hyperledger community.",
+    "eligibility": "Students / Graduates (check program details)",
+    "mode": "Check listing",
+    "fee": "Free",
+    "stipend": "Stipend / Mentorship provided",
+    "deadline": "Annual / Check portal",
+    "applicationLink": "https://wiki.hyperledger.org/display/INTERN/How+to+Apply",
+    "website": "https://wiki.hyperledger.org/display/INTERN/How+to+Apply",
+    "tags": [
+      "fellowship",
+      "student"
+    ],
+    "status": "open",
+    "source": "github-OpenSauced-OSS"
+  },
+  {
+    "name": "Octernships",
+    "organizer": "Student / Research Organization",
+    "description": "The GitHub Octernships program connects students with industry partners in paid professional experiences and mentorship on open source and software development projects.",
+    "eligibility": "Students / Graduates (check program details)",
+    "mode": "Check listing",
+    "fee": "Free",
+    "stipend": "Stipend / Mentorship provided",
+    "deadline": "Annual / Check portal",
+    "applicationLink": "https://education.github.com/students/octernships",
+    "website": "https://education.github.com/students/octernships",
+    "tags": [
+      "fellowship",
+      "student"
+    ],
+    "status": "open",
+    "source": "github-OpenSauced-OSS"
+  },
+  {
+    "name": "Rare Technologies Incubator",
+    "organizer": "Student / Research Organization",
+    "description": "Collaborate with industry experts in data science and machine learning who are ready to share their insights, review your code and invest in your professional development.",
+    "eligibility": "Students / Graduates (check program details)",
+    "mode": "Check listing",
+    "fee": "Free",
+    "stipend": "Stipend / Mentorship provided",
+    "deadline": "Annual / Check portal",
+    "applicationLink": "https://rare-technologies.com/incubator/#details",
+    "website": "https://rare-technologies.com/incubator/#details",
+    "tags": [
+      "fellowship",
+      "student"
+    ],
+    "status": "open",
+    "source": "github-OpenSauced-OSS"
+  }
+]

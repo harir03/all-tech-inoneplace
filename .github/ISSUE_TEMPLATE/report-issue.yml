@@ -1,0 +1,53 @@
+name: 🐛 Report an Issue
+description: Report a dead link, incorrect information, or an opportunity that should be marked as closed
+title: "[Fix] "
+labels: ["fix-needed"]
+body:
+  - type: dropdown
+    id: issue_type
+    attributes:
+      label: Issue Type
+      options:
+        - Dead / broken link
+        - Incorrect information (wrong deadline, eligibility, etc.)
+        - Opportunity should be marked as closed
+        - Duplicate entry
+        - Other
+    validations:
+      required: true
+
+  - type: input
+    id: opportunity_name
+    attributes:
+      label: Which opportunity has the issue?
+      placeholder: "e.g., Smart India Hackathon 2026"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: category
+    attributes:
+      label: Category
+      options:
+        - Hackathon
+        - Internship
+        - Competition
+        - Open Source Program
+        - Fellowship
+        - Not sure
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Describe the issue
+      placeholder: "What's wrong? Include the correct information if you have it."
+    validations:
+      required: true
+
+  - type: input
+    id: correct_link
+    attributes:
+      label: Correct link (if reporting a dead link)
+      placeholder: "https://..."

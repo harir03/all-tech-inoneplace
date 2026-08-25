@@ -1,0 +1,4 @@
+scrapling[fetchers]
+pywhatkit
+requests
+python-dateutil

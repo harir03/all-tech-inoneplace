@@ -1,0 +1,155 @@
+[
+  {
+    "name": "MLH Fellowship",
+    "organizer": "Major League Hacking (MLH)",
+    "description": "A 12-week internship alternative for aspiring software engineers. Fellows contribute to real open source projects, build portfolio projects, or explore career paths — all remotely with stipend support.",
+    "eligibility": "Students & recent grads (18+, global)",
+    "stipend": "$5000 for 12 weeks",
+    "duration": "12 weeks (3 batches per year)",
+    "mentorship": true,
+    "deadline": "Rolling (per batch)",
+    "programDates": "Spring / Summer / Fall batches",
+    "applicationLink": "https://fellowship.mlh.io",
+    "website": "https://fellowship.mlh.io",
+    "tags": [
+      "fellowship",
+      "open-source",
+      "global",
+      "paid",
+      "remote"
+    ],
+    "status": "open"
+  },
+  {
+    "name": "GitHub Externship (India)",
+    "organizer": "GitHub",
+    "description": "GitHub's externship program for Indian students to work on impactful open source projects with mentorship from GitHub engineers.",
+    "eligibility": "Indian university students (B.E./B.Tech, pre-final year preferred)",
+    "stipend": "Stipend provided",
+    "duration": "8-12 weeks",
+    "mentorship": true,
+    "deadline": "Check GitHub India careers page",
+    "programDates": "Summer (typically May-July)",
+    "applicationLink": "https://externships.github.com",
+    "website": "https://github.com",
+    "tags": [
+      "fellowship",
+      "open-source",
+      "india",
+      "paid",
+      "mentorship"
+    ],
+    "status": "coming-soon"
+  },
+  {
+    "name": "FOSSEE Summer Fellowship (IIT Bombay)",
+    "organizer": "IIT Bombay / FOSSEE Project",
+    "description": "A summer fellowship by IIT Bombay's FOSSEE (Free/Libre and Open Source Software for Education) project. Fellows work on open source tools used in Indian education — Python, Scilab, OpenFOAM, etc.",
+    "eligibility": "Indian students (B.E./B.Tech/M.Sc/MCA, any year)",
+    "stipend": "₹5,000 - ₹10,000/month + Certificate from IIT Bombay",
+    "duration": "6-8 weeks (Summer)",
+    "mentorship": true,
+    "deadline": "2026-04-15",
+    "programDates": "May - July 2026",
+    "applicationLink": "https://fossee.in/fellowship",
+    "website": "https://fossee.in",
+    "tags": [
+      "fellowship",
+      "open-source",
+      "india",
+      "iit",
+      "education"
+    ],
+    "status": "closed"
+  },
+  {
+    "name": "University Innovation Fellowship - Stanford University",
+    "organizer": "Student / Research Organization",
+    "description": "University Innovation Fellowship - Stanford University fellowship / student program",
+    "eligibility": "Students / Graduates (check program details)",
+    "mode": "Check listing",
+    "fee": "Free",
+    "stipend": "Stipend / Mentorship provided",
+    "deadline": "Annual / Check portal",
+    "applicationLink": "http://universityinnovationfellows.org/",
+    "website": "http://universityinnovationfellows.org/",
+    "tags": [
+      "fellowship",
+      "student"
+    ],
+    "status": "open",
+    "source": "github-dipakkr-fellowships"
+  },
+  {
+    "name": "Teach for India Fellowship",
+    "organizer": "Student / Research Organization",
+    "description": "Teach for India Fellowship fellowship / student program",
+    "eligibility": "Students / Graduates (check program details)",
+    "mode": "Check listing",
+    "fee": "Free",
+    "stipend": "Stipend / Mentorship provided",
+    "deadline": "Annual / Check portal",
+    "applicationLink": "https://apply.teachforindia.org/",
+    "website": "https://apply.teachforindia.org/",
+    "tags": [
+      "fellowship",
+      "student"
+    ],
+    "status": "open",
+    "source": "github-dipakkr-fellowships"
+  },
+  {
+    "name": "Young India Fellowship",
+    "organizer": "Student / Research Organization",
+    "description": "Young India Fellowship fellowship / student program",
+    "eligibility": "Students / Graduates (check program details)",
+    "mode": "Check listing",
+    "fee": "Free",
+    "stipend": "Stipend / Mentorship provided",
+    "deadline": "Annual / Check portal",
+    "applicationLink": "https://github.com",
+    "website": "https://github.com",
+    "tags": [
+      "fellowship",
+      "student"
+    ],
+    "status": "open",
+    "source": "github-dipakkr-fellowships"
+  },
+  {
+    "name": "Urban Leaders Fellowship",
+    "organizer": "Student / Research Organization",
+    "description": "Urban Leaders Fellowship fellowship / student program",
+    "eligibility": "Students / Graduates (check program details)",
+    "mode": "Check listing",
+    "fee": "Free",
+    "stipend": "Stipend / Mentorship provided",
+    "deadline": "Annual / Check portal",
+    "applicationLink": "http://www.urbanleadersfellowship.org/",
+    "website": "http://www.urbanleadersfellowship.org/",
+    "tags": [
+      "fellowship",
+      "student"
+    ],
+    "status": "open",
+    "source": "github-dipakkr-fellowships"
+  },
+  {
+    "name": "Legislative Assistants to Members of Parliament (LAMP) Fellowship",
+    "organizer": "Student / Research Organization",
+    "description": "Legislative Assistants to Members of Parliament (LAMP) Fellowship fellowship / student program",
+    "eligibility": "Students / Graduates (check program details)",
+    "mode": "Check listing",
+    "fee": "Free",
+    "stipend": "Stipend / Mentorship provided",
+    "deadline": "Annual / Check portal",
+    "applicationLink": "http://lamp.prsindia.org/thefellowship",
+    "website": "http://lamp.prsindia.org/thefellowship",
+    "tags": [
+      "fellowship",
+      "student"
+    ],
+    "status": "open",
+    "source": "github-dipakkr-fellowships"
+  }
+]
