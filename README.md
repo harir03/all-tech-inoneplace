@@ -4,8 +4,8 @@
 
 ### The Automated, Curated Hub for Hackathons, Internships, Competitions, Open Source & Fellowships
 
-[![Opportunities](https://img.shields.io/badge/Opportunities-2669+%20Active-6c5ce7.svg?style=for-the-badge)](data/)
-[![Last Updated](https://img.shields.io/badge/Last%20Updated-2026--08--25%2011:31%20UTC-00cec9.svg?style=for-the-badge)](https://github.com/harir03/all-tech-inoneplace/commits/main)
+[![Opportunities](https://img.shields.io/badge/Opportunities-2686+%20Active-6c5ce7.svg?style=for-the-badge)](data/)
+[![Last Updated](https://img.shields.io/badge/Last%20Updated-2026--08--25%2018:08%20UTC-00cec9.svg?style=for-the-badge)](https://github.com/harir03/all-tech-inoneplace/commits/main)
 [![Auto-Updated](https://img.shields.io/badge/Automated-Hourly%20via%20GitHub%20Actions-0984e3.svg?style=for-the-badge)](.github/workflows/auto-update.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-ffd32a.svg?style=for-the-badge)](LICENSE)
 
@@ -99,10 +99,10 @@
 
 ## 📋 Full Directory by Category
 
-- [🏆 Live Hackathons (109)](#-live-hackathons)
-- [💼 Tech Internships (1492)](#-tech-internships)
-- [🏢 Full-Time Jobs & New Grad (935)](#-full-time-jobs--new-grad)
-- [⚔️ Competitions & Contests (8)](#️-competitions--contests)
+- [🏆 Live Hackathons (114)](#-live-hackathons)
+- [💼 Tech Internships (1499)](#-tech-internships)
+- [🏢 Full-Time Jobs & New Grad (939)](#-full-time-jobs--new-grad)
+- [⚔️ Competitions & Contests (9)](#️-competitions--contests)
 - [🌍 Open Source Programs (117)](#-open-source-programs)
 - [🎓 Fellowships & Grants (8)](#-fellowships--grants)
 
@@ -110,7 +110,7 @@
 
 ## 🏆 Live Hackathons
 
-> Showing featured active & upcoming hackathons. Browse all **109 hackathons** on the [🌐 Interactive Web App](https://harir03.github.io/all-tech-inoneplace/).
+> Showing featured active & upcoming hackathons. Browse all **114 hackathons** on the [🌐 Interactive Web App](https://harir03.github.io/all-tech-inoneplace/).
 
 | Name | Organizer | Location / Mode | Prize / Fee | Timeline / Deadline | Status | Apply |
 |:-----|:----------|:----------------|:------------|:--------------------|:------:|:-----:|
@@ -131,7 +131,7 @@
 
 ## 💼 Tech Internships
 
-> Showing featured openings. Filter all **1,492 internships** by domain (AI/ML, SWE, Cloud, Security) on the [🌐 Interactive Web App](https://harir03.github.io/all-tech-inoneplace/).
+> Showing featured openings. Filter all **1,499 internships** by domain (AI/ML, SWE, Cloud, Security) on the [🌐 Interactive Web App](https://harir03.github.io/all-tech-inoneplace/).
 
 | Company & Role | Location | Level / Type | Compensation | Deadline | Status | Apply |
 |:---------------|:---------|:-------------|:-------------|:---------|:------:|:-----:|
@@ -152,7 +152,7 @@
 
 ## 🏢 Full-Time Jobs & New Grad
 
-> Showing entry-level & new grad engineering positions. Filter all **935 full-time jobs** on the [🌐 Interactive Web App](https://harir03.github.io/all-tech-inoneplace/).
+> Showing entry-level & new grad engineering positions. Filter all **939 full-time jobs** on the [🌐 Interactive Web App](https://harir03.github.io/all-tech-inoneplace/).
 
 | Company & Role | Location | Level / Type | Compensation | Deadline | Status | Apply |
 |:---------------|:---------|:-------------|:-------------|:---------|:------:|:-----:|
@@ -183,6 +183,7 @@
 | **Codeforces Round (Div. 2)** | Codeforces | Online | Rating change + prizes for top performers | 2026-08-29 14:35 UTC | 🟢 Open | [Register →](https://codeforces.com/contest/2258) |
 | **Biweekly Contest 190** | LeetCode | Online | Rating change + badges | 2026-08-29 14:30 UTC | 🟢 Open | [Register →](https://leetcode.com/contest/biweekly-contest-190/) |
 | **Weekly Contest 517** | LeetCode | Online | Rating change + badges | 2026-08-30 02:30 UTC | 🟢 Open | [Register →](https://leetcode.com/contest/weekly-contest-517/) |
+| **Codeforces Round (Div. 3)** | Codeforces | Online | Rating change + prizes for top performers | 2026-09-05 14:35 UTC | 🟢 Open | [Register →](https://codeforces.com/contest/2259) |
 
 ---
 

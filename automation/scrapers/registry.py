@@ -56,6 +56,12 @@ def get_all_scrapers():
     except Exception as e:
         logger.warning(f"[Registry] Skipping GSoCScraper: {e}")
 
+    try:
+        from .company_hackathons_scraper import CompanyHackathonsScraper
+        scrapers.append(CompanyHackathonsScraper())
+    except Exception as e:
+        logger.warning(f"[Registry] Skipping CompanyHackathonsScraper: {e}")
+
     # ═══════════════════════════════════════════════════════════════
     # TIER 3: Website scrapers (need Scrapling — may break if site changes)
     # These are bonus sources. If Scrapling isn't installed, they're skipped.

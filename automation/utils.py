@@ -88,8 +88,16 @@ def is_date_in_past(date_str, today=None):
     if any(k in s for k in ["ended", "closed", "past", "concluded"]):
         return True
 
-    # Split range like 'Jan 27–Feb 13, 2025' or 'AUG 28 - 30'
-    parts = re.split(r'[-–—]', date_str)
+    # If it's a standard YYYY-MM-DD format, parse directly without splitting
+    if re.match(r'^\d{4}-\d{2}-\d{2}$', date_str.strip()):
+        try:
+            dt = parse_date(date_str.strip()).date()
+            return dt < today
+        except Exception:
+            return False
+
+    # Split ranges: ' - ', '–', '—', ' to ' (do NOT split single hyphens inside dates)
+    parts = re.split(r'\s+[-–—]\s+|\s+to\s+|[–—]', date_str)
     end_part = parts[-1].strip()
 
     try:

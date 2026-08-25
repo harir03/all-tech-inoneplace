@@ -157,5 +157,25 @@
     ],
     "status": "open",
     "source": "leetcode-api"
+  },
+  {
+    "name": "Codeforces Round (Div. 3)",
+    "organizer": "Codeforces",
+    "description": "Codeforces Icpc contest. Duration: 2h 15m",
+    "eligibility": "Open to all",
+    "mode": "Online",
+    "fee": "Free",
+    "prize": "Rating change + prizes for top performers",
+    "deadline": "2026-09-05",
+    "eventDate": "2026-09-05 14:35 UTC",
+    "applicationLink": "https://codeforces.com/contest/2259",
+    "website": "https://codeforces.com/contest/2259",
+    "tags": [
+      "codeforces",
+      "competitive-programming",
+      "contest"
+    ],
+    "status": "open",
+    "source": "codeforces-api"
   }
 ]
