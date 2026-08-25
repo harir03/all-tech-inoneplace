@@ -1,101 +1,111 @@
 """
-OpportunityHub — MLH Scraper
-Scrapes hackathon events from Major League Hacking (mlh.io).
+OpportunityHub — Major League Hacking (MLH) Live Scraper
+Scrapes all upcoming MLH hackathons and Global Hack Weeks directly from mlh.io/events.
 """
 
 import logging
-from .base_scraper import BaseScraper
+import urllib.request
+import ssl
+from bs4 import BeautifulSoup
 
 logger = logging.getLogger(__name__)
 
 
-class MLHScraper(BaseScraper):
-    """Scrapes the MLH Events page for upcoming hackathons.
-    
-    MLH's event listing is relatively well-structured HTML,
-    making it one of the more reliable scraping targets.
-    """
+class MLHScraper:
+    """Scrapes live upcoming student hackathons from MLH."""
 
     def __init__(self):
-        super().__init__(
-            name="MLH",
-            url="https://mlh.io/seasons/2026/events",
-            category="hackathons",
-        )
+        self.name = "MLH"
+        self.url = "https://mlh.io/events"
+        self.category = "hackathons"
 
-    def scrape(self):
-        page = self.fetch_page()
-        if not page:
+    def run(self):
+        logger.info(f"[{self.name}] Fetching live events from MLH...")
+        try:
+            return self.scrape()
+        except Exception as e:
+            logger.error(f"[{self.name}] Failed: {e}")
             return []
 
-        opportunities = []
+    def scrape(self):
+        ctx = ssl.create_default_context()
+        req = urllib.request.Request(
+            self.url,
+            headers={
+                "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+            },
+        )
 
         try:
-            # MLH uses .event cards with structured data
-            cards = page.css(".event, .event-wrapper, [class*='event']") or []
-            logger.info(f"[MLH] Found {len(cards)} event elements")
-
-            for card in cards:
-                try:
-                    name = self._extract_text(card, "h3, h4, .event-name, [class*='name']")
-                    if not name or len(name) < 3:
-                        continue
-
-                    # Extract event link
-                    link_el = card.css("a[href]")
-                    link = ""
-                    if link_el:
-                        link = link_el[0].attrib.get("href", "")
-                        if link and not link.startswith("http"):
-                            link = f"https://mlh.io{link}"
-
-                    # Extract date
-                    date_text = self._extract_text(card, ".event-date, [class*='date'], time")
-
-                    # Extract location
-                    location = self._extract_text(card, ".event-location, [class*='location']")
-
-                    # Determine mode from location text
-                    mode = "In-Person"
-                    if location:
-                        loc_lower = location.lower()
-                        if "digital" in loc_lower or "online" in loc_lower or "virtual" in loc_lower:
-                            mode = "Online"
-                        elif "hybrid" in loc_lower:
-                            mode = "Hybrid"
-
-                    opportunity = {
-                        "name": name,
-                        "organizer": "MLH (Major League Hacking)",
-                        "description": f"MLH hackathon event. {location or ''}".strip(),
-                        "eligibility": "Students (18+, global)",
-                        "mode": mode,
-                        "fee": "Free",
-                        "prize": "Varies — swag, prizes, and MLH points",
-                        "deadline": date_text or "Check MLH page",
-                        "eventDate": date_text or "",
-                        "applicationLink": link or self.url,
-                        "website": link or self.url,
-                        "tags": ["mlh", "hackathon", "student"],
-                        "status": "open",
-                        "source": "mlh-scraper",
-                    }
-                    opportunities.append(opportunity)
-                except Exception as e:
-                    logger.debug(f"[MLH] Failed to parse an event: {e}")
-                    continue
-
+            with urllib.request.urlopen(req, context=ctx, timeout=15) as response:
+                html = response.read().decode("utf-8", errors="ignore")
         except Exception as e:
-            logger.error(f"[MLH] Parsing failed: {e}")
+            logger.error(f"[MLH] Request failed: {e}")
+            return []
 
+        soup = BeautifulSoup(html, "html.parser")
+        h4_tags = soup.find_all("h4")
+        logger.info(f"[MLH] Found {len(h4_tags)} potential event headings")
+
+        opportunities = []
+        for h in h4_tags:
+            name = h.text.strip()
+            if not name or len(name) < 3 or name.lower() in ("mlh", "major league hacking", "menu", "events"):
+                continue
+
+            container = h.find_parent("a") or h.find_parent("div", class_=lambda c: c and "rounded" in c) or h.parent.parent.parent
+            if not container:
+                continue
+
+            # Extract application URL
+            link = ""
+            if container.name == "a" and container.get("href"):
+                link = container.get("href")
+            else:
+                a_tag = container.find("a", href=True)
+                if a_tag:
+                    link = a_tag["href"]
+
+            if not link or not link.startswith("http"):
+                link = "https://mlh.io/events"
+
+            all_texts = list(container.stripped_strings)
+            
+            # Find date strings like 'SEP 18 - 20' or 'AUG 28 - 30'
+            date_str = ""
+            location_str = "Global"
+            mode = "Online"
+
+            for t in all_texts:
+                if any(m in t.upper() for m in ["JAN ", "FEB ", "MAR ", "APR ", "MAY ", "JUN ", "JUL ", "AUG ", "SEP ", "OCT ", "NOV ", "DEC "]):
+                    date_str = t
+                if "In-Person" in t:
+                    mode = "In-Person"
+                elif "Digital" in t or "Online" in t or "Everywhere" in t:
+                    mode = "Online"
+
+            # Filter location from text list
+            loc_candidates = [t for t in all_texts if t != name and t != date_str and t not in ("In-Person", "Digital", "DIVERSITY", ",")]
+            if loc_candidates:
+                location_str = " ".join(loc_candidates[:2]).replace(" ,", ",").strip()
+
+            opportunity = {
+                "name": name,
+                "organizer": "Major League Hacking (MLH)",
+                "description": f"Official MLH Member Hackathon. Location: {location_str}.",
+                "eligibility": "Students worldwide (High School & University 18+)",
+                "mode": mode,
+                "fee": "Free",
+                "prize": "Prizes, Swag, Hardware Labs, Mentorship",
+                "deadline": date_str or "Check event page",
+                "eventDate": date_str or "",
+                "applicationLink": link,
+                "website": link,
+                "tags": ["mlh", "hackathon", "student", "global"],
+                "status": "open",
+                "source": "mlh-live-events",
+            }
+            opportunities.append(opportunity)
+
+        logger.info(f"[MLH] Successfully parsed {len(opportunities)} live hackathons")
         return opportunities
-
-    def _extract_text(self, element, selector):
-        """Safely extract text from a child element."""
-        try:
-            found = element.css(selector)
-            if found:
-                return found[0].text.strip() if hasattr(found[0], 'text') else ""
-        except Exception:
-            pass
-        return ""

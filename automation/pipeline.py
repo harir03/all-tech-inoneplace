@@ -34,6 +34,7 @@ from .utils import load_json, save_json, merge_opportunities, update_expired_sta
 from .scrapers.registry import get_all_scrapers
 from .social.social_aggregator import aggregate_social_findings
 from .notifications.email_reminder import send_deadline_reminders
+from .readme_generator import update_readme
 
 # Configure logging
 logging.basicConfig(
@@ -152,6 +153,14 @@ def update_data_files(scraped, social):
             "added_items": [item.get("name") for item in added],
         }
 
+    # Re-generate README.md tables dynamically
+    if not DRY_RUN:
+        all_current_data = {cat: load_json(fp) for cat, fp in DATA_FILES.items()}
+        try:
+            update_readme(all_current_data, PROJECT_ROOT)
+        except Exception as e:
+            logger.error(f"[README] Failed to regenerate README: {e}")
+
     return summary
 
 
@@ -164,7 +173,7 @@ def send_notifications():
 
 
 def auto_commit_changes():
-    """Auto-commit and push updated data files to git."""
+    """Auto-commit and push updated data files & README to git."""
     if not AUTO_COMMIT:
         logger.info("[Git] Auto-commit disabled (handled by GitHub Actions step)")
         return
@@ -172,20 +181,20 @@ def auto_commit_changes():
     try:
         os.chdir(PROJECT_ROOT)
         result = subprocess.run(
-            ["git", "diff", "--name-only", "data/"],
+            ["git", "diff", "--name-only", "data/", "README.md"],
             capture_output=True, text=True
         )
         if not result.stdout.strip():
             logger.info("[Git] No changes to commit")
             return
 
-        subprocess.run(["git", "add", "data/"], check=True)
+        subprocess.run(["git", "add", "data/", "README.md"], check=True)
         subprocess.run(
-            ["git", "commit", "-m", f"🤖 Auto-update: {datetime.now().strftime('%Y-%m-%d')} scrape"],
+            ["git", "commit", "-m", f"🤖 Auto-update: {datetime.now().strftime('%Y-%m-%d %H:%M')} — live scrape & dynamic README sync"],
             check=True
         )
         subprocess.run(["git", "push"], check=True)
-        logger.info("[Git] Changes committed and pushed")
+        logger.info("[Git] Changes committed and pushed to GitHub")
     except subprocess.CalledProcessError as e:
         logger.error(f"[Git] Failed: {e}")
     except Exception as e:
