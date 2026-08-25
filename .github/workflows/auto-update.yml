@@ -17,8 +17,6 @@ concurrency:
 
 permissions:
   contents: write
-  pages: write
-  id-token: write
 
 env:
   PYTHON_VERSION: '3.11'
@@ -26,12 +24,15 @@ env:
 jobs:
   update-and-sync:
     runs-on: ubuntu-latest
-    timeout-minutes: 15
+    timeout-minutes: 10
 
     steps:
       # ─── 1. Setup ───
       - name: 📥 Checkout repository
         uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          fetch-depth: 0
 
       - name: 🐍 Set up Python
         uses: actions/setup-python@v5
@@ -42,9 +43,10 @@ jobs:
 
       - name: 📦 Install Python dependencies
         run: |
+          pip install --upgrade pip
           pip install -r automation/requirements.txt
 
-      # ─── 2. Run Scraping & README Generator Pipeline ───
+      # ─── 2. Run Scraping & Dynamic README Sync Pipeline ───
       - name: 🚀 Run Multi-Tier Scraping & Sync Pipeline
         env:
           DRY_RUN: 'false'
@@ -56,9 +58,12 @@ jobs:
 
       # ─── 3. Commit & Push Updated Data & README ───
       - name: 📤 Auto-Commit Live Changes to Repository
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          git config --local user.email "action@github.com"
-          git config --local user.name "OpportunityHub Bot"
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git
           
           git add data/ README.md
           
@@ -66,7 +71,8 @@ jobs:
             echo "✅ Everything is already up-to-date — no new changes."
           else
             DATE=$(date -u +'%Y-%m-%d %H:%M UTC')
-            git commit -m "🤖 Auto-update: ${DATE} — live multi-repo sync & README update"
+            git commit -m "🤖 Auto-update: ${DATE} — live sync & dynamic README"
+            git pull --rebase origin main || true
             git push origin main
             echo "✅ Live updates pushed to GitHub!"
           fi

@@ -34,20 +34,19 @@ def generate_badge_markdown(total_counts, updated_time_str):
 </div>"""
 
 
-def format_table(category_name, items, max_items=12):
+def format_table(category_name, items, max_items=15):
     """Format a list of opportunity dicts into a clean Markdown table."""
-    if not items:
-        return f"\n*No active {category_name.lower()} found at this time. Check back soon!*\n"
+    # Filter ONLY active, open, and coming-soon items
+    active_items = [it for it in items if it.get("status") in ("open", "coming-soon")]
+    
+    if not active_items:
+        return f"\n*All current {category_name.lower()} have concluded or are undergoing updates. Check back soon or visit the [Interactive Web App](https://harir03.github.io/all-tech-inoneplace/) for historical listings.*\n"
 
-    # Prioritize open and coming-soon items
-    open_items = [it for it in items if it.get("status") == "open"]
-    other_items = [it for it in items if it.get("status") != "open"]
-    selected = (open_items + other_items)[:max_items]
+    selected = active_items[:max_items]
 
     status_emojis = {
         "open": "🟢 Open",
         "coming-soon": "🟡 Soon",
-        "closed": "🔴 Closed",
     }
 
     lines = []

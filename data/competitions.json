@@ -17,7 +17,7 @@
       "team",
       "prestigious"
     ],
-    "status": "coming-soon"
+    "status": "closed"
   },
   {
     "name": "Google Code Jam / Coding Competitions",
@@ -95,7 +95,7 @@
       "competition",
       "coding-challenge"
     ],
-    "status": "open",
+    "status": "closed",
     "source": "github-dipakkr-competitions"
   },
   {

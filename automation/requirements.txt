@@ -1,4 +1,4 @@
-scrapling[fetchers]
-pywhatkit
-requests
-python-dateutil
+requests>=2.31.0
+beautifulsoup4>=4.12.0
+python-dateutil>=2.8.2
+urllib3>=2.0.0

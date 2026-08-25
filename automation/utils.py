@@ -1,10 +1,11 @@
 """
 OpportunityHub — Utility functions
-Deduplication, date parsing, JSON merge, and common helpers.
+Deduplication, robust date parsing, JSON merge, and auto-expiry engine.
 """
 
 import json
 import os
+import re
 from datetime import datetime, date
 from dateutil.parser import parse as parse_date
 
@@ -29,14 +30,15 @@ def save_json(filepath, data):
 
 def normalize_name(name):
     """Normalize an opportunity name for deduplication comparison."""
-    return name.lower().strip().replace("  ", " ")
+    if not name:
+        return ""
+    # Strip emojis and extra whitespace
+    clean = re.sub(r'[^\w\s-]', '', name).lower().strip()
+    return re.sub(r'\s+', ' ', clean)
 
 
 def is_duplicate(new_item, existing_items):
-    """Check if a new item is a duplicate of any existing item.
-    
-    Matches on normalized name OR application link.
-    """
+    """Check if a new item is a duplicate of any existing item."""
     new_name = normalize_name(new_item.get("name", ""))
     new_link = new_item.get("applicationLink", "").strip().rstrip("/")
 
@@ -44,19 +46,16 @@ def is_duplicate(new_item, existing_items):
         existing_name = normalize_name(item.get("name", ""))
         existing_link = item.get("applicationLink", "").strip().rstrip("/")
 
-        if new_name and new_name == existing_name:
+        if new_name and len(new_name) > 4 and new_name == existing_name:
             return True
-        if new_link and existing_link and new_link == existing_link:
+        if new_link and len(new_link) > 10 and existing_link and new_link == existing_link:
             return True
 
     return False
 
 
 def merge_opportunities(existing, new_items):
-    """Merge new items into existing list, skipping duplicates.
-    
-    Returns: (merged_list, newly_added_items)
-    """
+    """Merge new items into existing list, updating open listings and skipping duplicates."""
     added = []
     for item in new_items:
         if not is_duplicate(item, existing):
@@ -65,8 +64,50 @@ def merge_opportunities(existing, new_items):
     return existing, added
 
 
+def is_date_in_past(date_str, today=None):
+    """Check if a date string, date range, or year indicates an ended event."""
+    if not date_str:
+        return False
+
+    if today is None:
+        today = date.today()
+
+    s = date_str.lower().strip()
+
+    # Never expire rolling/annual keywords
+    if any(k in s for k in ["rolling", "annual", "various", "check", "tbd", "tba", "asap"]):
+        return False
+
+    # Check for past years explicitly (e.g. 2023, 2024, 2025 if current year is 2026)
+    years = [int(y) for y in re.findall(r'\b(202[0-9])\b', s)]
+    if years:
+        latest_year = max(years)
+        if latest_year < today.year:
+            return True
+
+    # Check for keywords indicating closed status
+    if any(k in s for k in ["ended", "closed", "past", "concluded"]):
+        return True
+
+    # Split range like 'Jan 27–Feb 13, 2025' or 'AUG 28 - 30'
+    parts = re.split(r'[-–—]', date_str)
+    end_part = parts[-1].strip()
+
+    try:
+        dt = parse_date(end_part, fuzzy=True)
+        # If year was inferred and is in past, or explicitly past
+        if dt.year < today.year:
+            return True
+        if dt.date() < today:
+            return True
+    except Exception:
+        pass
+
+    return False
+
+
 def update_expired_statuses(items):
-    """Mark opportunities as 'closed' if their deadline has passed."""
+    """Mark opportunities as 'closed' if their deadline or event date has passed."""
     today = date.today()
     updated_count = 0
 
@@ -75,20 +116,25 @@ def update_expired_statuses(items):
             continue
 
         deadline_str = item.get("deadline", "")
-        if not deadline_str:
+        event_date_str = item.get("eventDate", "")
+        desc_str = item.get("description", "")
+
+        # Check deadline
+        if is_date_in_past(deadline_str, today):
+            item["status"] = "closed"
+            updated_count += 1
             continue
 
-        # Skip non-date deadlines like "Rolling", "Various", etc.
-        skip_keywords = ["rolling", "various", "check", "tbd", "tba"]
-        if any(kw in deadline_str.lower() for kw in skip_keywords):
+        # Check event date
+        if is_date_in_past(event_date_str, today):
+            item["status"] = "closed"
+            updated_count += 1
             continue
 
-        try:
-            deadline_date = parse_date(deadline_str).date()
-            if deadline_date < today:
-                item["status"] = "closed"
-                updated_count += 1
-        except (ValueError, TypeError):
+        # Check description
+        if any(k in desc_str.lower() for k in ["applications closed", "hackathon ended", "event ended"]):
+            item["status"] = "closed"
+            updated_count += 1
             continue
 
     return updated_count
