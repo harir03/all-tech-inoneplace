@@ -2,24 +2,27 @@ name: 🤖 Hourly OpportunityHub Auto-Updater
 
 on:
   schedule:
-    # Run every single hour (at minute 0)
+    # Runs at the top of every single hour (UTC)
     - cron: '0 * * * *'
-  workflow_dispatch:  # Allow manual trigger at any time from GitHub UI
+  workflow_dispatch:  # Allows 1-click manual trigger anytime from GitHub Actions tab
   push:
     branches:
       - main
     paths:
       - 'automation/**'
+      - '.github/workflows/auto-update.yml'
 
 concurrency:
   group: opportunityhub-auto-update
-  cancel-in-progress: true
+  cancel-in-progress: false
 
 permissions:
   contents: write
 
 env:
   PYTHON_VERSION: '3.11'
+  PYTHONIOENCODING: 'utf-8'
+  PYTHONUNBUFFERED: '1'
 
 jobs:
   update-and-sync:
@@ -43,11 +46,11 @@ jobs:
 
       - name: 📦 Install Python dependencies
         run: |
-          pip install --upgrade pip
+          python -m pip install --upgrade pip
           pip install -r automation/requirements.txt
 
       # ─── 2. Run Scraping & Dynamic README Sync Pipeline ───
-      - name: 🚀 Run Multi-Tier Scraping & Sync Pipeline
+      - name: 🚀 Run Multi-Tier Scraping & Dynamic Sync
         env:
           DRY_RUN: 'false'
           AUTO_COMMIT: 'false'
@@ -68,11 +71,11 @@ jobs:
           git add data/ README.md
           
           if git diff --staged --quiet; then
-            echo "✅ Everything is already up-to-date — no new changes."
+            echo "✅ Everything is already up-to-date — no new changes to commit."
           else
             DATE=$(date -u +'%Y-%m-%d %H:%M UTC')
             git commit -m "🤖 Auto-update: ${DATE} — live sync & dynamic README"
             git pull --rebase origin main || true
-            git push origin main
+            git push origin main || echo "⚠️ Push skipped (possibly pushed by concurrent runner)"
             echo "✅ Live updates pushed to GitHub!"
           fi
