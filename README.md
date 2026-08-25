@@ -4,8 +4,8 @@
 
 ### The Automated, Curated Hub for Hackathons, Internships, Competitions, Open Source & Fellowships
 
-[![Opportunities](https://img.shields.io/badge/Opportunities-1726+%20Active-6c5ce7.svg?style=for-the-badge)](data/)
-[![Last Updated](https://img.shields.io/badge/Last%20Updated-2026--08--25%2011:16%20UTC-00cec9.svg?style=for-the-badge)](https://github.com/harir03/all-tech-inoneplace/commits/main)
+[![Opportunities](https://img.shields.io/badge/Opportunities-1734+%20Active-6c5ce7.svg?style=for-the-badge)](data/)
+[![Last Updated](https://img.shields.io/badge/Last%20Updated-2026--08--25%2011:20%20UTC-00cec9.svg?style=for-the-badge)](https://github.com/harir03/all-tech-inoneplace/commits/main)
 [![Auto-Updated](https://img.shields.io/badge/Automated-Hourly%20via%20GitHub%20Actions-0984e3.svg?style=for-the-badge)](.github/workflows/auto-update.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-ffd32a.svg?style=for-the-badge)](LICENSE)
 
@@ -99,7 +99,7 @@
 
 ## 📋 Full Directory by Category
 
-- [🏆 Live Hackathons (101)](#-live-hackathons)
+- [🏆 Live Hackathons (109)](#-live-hackathons)
 - [💼 Tech Internships & New Grad (1492)](#-tech-internships--new-grad)
 - [⚔️ Competitions & Contests (8)](#️-competitions--contests)
 - [🌍 Open Source Programs (117)](#-open-source-programs)
@@ -109,7 +109,7 @@
 
 ## 🏆 Live Hackathons
 
-> Showing featured active & upcoming hackathons. Browse all **101 hackathons** on the [🌐 Interactive Web App](https://harir03.github.io/all-tech-inoneplace/).
+> Showing featured active & upcoming hackathons. Browse all **109 hackathons** on the [🌐 Interactive Web App](https://harir03.github.io/all-tech-inoneplace/).
 
 | Name | Organizer | Location / Mode | Prize / Fee | Timeline / Deadline | Status | Apply |
 |:-----|:----------|:----------------|:------------|:--------------------|:------:|:-----:|

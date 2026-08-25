@@ -37,30 +37,29 @@ def normalize_name(name):
     return re.sub(r'\s+', ' ', clean)
 
 
-def is_duplicate(new_item, existing_items):
-    """Check if a new item is a duplicate of any existing item."""
-    new_name = normalize_name(new_item.get("name", ""))
-    new_link = new_item.get("applicationLink", "").strip().rstrip("/")
-
-    for item in existing_items:
-        existing_name = normalize_name(item.get("name", ""))
-        existing_link = item.get("applicationLink", "").strip().rstrip("/")
-
-        if new_name and len(new_name) > 4 and new_name == existing_name:
-            return True
-        if new_link and len(new_link) > 10 and existing_link and new_link == existing_link:
-            return True
-
-    return False
-
-
 def merge_opportunities(existing, new_items):
-    """Merge new items into existing list, updating open listings and skipping duplicates."""
+    """Merge new items into existing list with O(1) hash set deduplication."""
+    existing_names = {normalize_name(it.get("name", "")) for it in existing if it.get("name")}
+    existing_links = {it.get("applicationLink", "").strip().rstrip("/") for it in existing if it.get("applicationLink")}
+
     added = []
     for item in new_items:
-        if not is_duplicate(item, existing):
-            existing.append(item)
-            added.append(item)
+        name = normalize_name(item.get("name", ""))
+        link = item.get("applicationLink", "").strip().rstrip("/")
+
+        # Check duplicate
+        if name and len(name) > 4 and name in existing_names:
+            continue
+        if link and len(link) > 10 and link in existing_links:
+            continue
+
+        existing.append(item)
+        added.append(item)
+        if name:
+            existing_names.add(name)
+        if link:
+            existing_links.add(link)
+
     return existing, added
 
 

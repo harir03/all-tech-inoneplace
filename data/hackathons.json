@@ -2079,5 +2079,173 @@
     ],
     "status": "open",
     "source": "devpost-live-api"
+  },
+  {
+    "id": "reddit-hackathons-freebootcamphac",
+    "name": "[Free Bootcamp + Hackathons Opportunity] Build on Kaia – Learn &amp; Build on a High-Speed",
+    "organizer": "r/hackathons Community",
+    "description": "Yoo Hackers,\n\nI came across a pretty cool opportunity for anyone looking to level up their Web3 dev skills — Kaia (formerly Klaytn) is running a global **virtual bootcamp** called **Build on Kaia**, focused on building dApps on their high-speed, low-...",
+    "eligibility": "Open to all (check post)",
+    "deadline": "Check community post",
+    "mode": "Online / Hybrid",
+    "status": "open",
+    "applicationLink": "https://reddit.com/r/hackathons/comments/1kpe3qr/free_bootcamp_hackathons_opportunity_build_on/",
+    "website": "https://reddit.com/r/hackathons/comments/1kpe3qr/free_bootcamp_hackathons_opportunity_build_on/",
+    "source": "reddit:r/hackathons",
+    "tags": [
+      "reddit",
+      "community",
+      "hackathons",
+      "hackathons"
+    ],
+    "prize": "$5k",
+    "teamSize": "1-4"
+  },
+  {
+    "id": "reddit-hackathons-web3andblockchain",
+    "name": "Web3 and blockchain summer course for 599 — and you can win up to ₹80K in the hackathon",
+    "organizer": "r/hackathons Community",
+    "description": "Hey buddies! My college is running this Summer School on Web3 & Blockchain, and it’s actually open to anyone. It’s a short online course that covers all the basics — Web3, blockchain, smart contracts, dApps, and how this stuff is used in the real wor...",
+    "eligibility": "Open to all (check post)",
+    "deadline": "Check community post",
+    "mode": "Online / Hybrid",
+    "status": "open",
+    "applicationLink": "https://forms.gle/zzW1Ks5v1Fh6kuTV6",
+    "website": "https://reddit.com/r/hackathons/comments/1knv1zw/web3_and_blockchain_summer_course_for_599_and_you/",
+    "source": "reddit:r/hackathons",
+    "tags": [
+      "reddit",
+      "community",
+      "hackathons",
+      "hackathons"
+    ],
+    "prize": "₹80,000",
+    "teamSize": "1-4"
+  },
+  {
+    "id": "reddit-hackathons-nationalhackathona",
+    "name": "National Hackathon Alert: I.D.E.A. by E3L – Solve Real Problems, Win Big, Get Noticed!",
+    "organizer": "r/hackathons Community",
+    "description": "[removed]",
+    "eligibility": "Open to all (check post)",
+    "deadline": "Check community post",
+    "mode": "Online / Hybrid",
+    "status": "open",
+    "applicationLink": "https://reddit.com/r/hackathons/comments/1kd8h5z/national_hackathon_alert_idea_by_e3l_solve_real/",
+    "website": "https://reddit.com/r/hackathons/comments/1kd8h5z/national_hackathon_alert_idea_by_e3l_solve_real/",
+    "source": "reddit:r/hackathons",
+    "tags": [
+      "reddit",
+      "community",
+      "hackathons",
+      "hackathons"
+    ],
+    "prize": "Community Hackathon",
+    "teamSize": "1-4"
+  },
+  {
+    "id": "reddit-hackathons-buildinthenuverse",
+    "name": "Build in the NUverse 2025 is here",
+    "organizer": "r/hackathons Community",
+    "description": "Why You Shouldn’t Miss NUverse Hackathon 2025? \n\nEver felt like your ideas are stuck in your head, waiting for the right moment to shine? \n\nThat moment is now, Welcome to Build in the NUverse Hackathon 2025. \n\nImagine solving real-world problems, win...",
+    "eligibility": "Open to all (check post)",
+    "deadline": "Check community post",
+    "mode": "Online / Hybrid",
+    "status": "open",
+    "applicationLink": "https://nuvento.com/nuverse-hackathon-2025/](https://nuvento.com/nuverse-hackathon-2025/",
+    "website": "https://reddit.com/r/hackathons/comments/1kcwlbr/build_in_the_nuverse_2025_is_here/",
+    "source": "reddit:r/hackathons",
+    "tags": [
+      "reddit",
+      "community",
+      "hackathons",
+      "hackathons"
+    ],
+    "prize": "Community Hackathon",
+    "teamSize": "1-4"
+  },
+  {
+    "id": "reddit-hackathons-exploreagenticaiw",
+    "name": "Explore Agentic AI with ASI-1 Mini at Fetch.ai’s Dubai Hackathon (May 2–4)",
+    "organizer": "r/hackathons Community",
+    "description": "Hey hackers! [Fetch.ai](http://Fetch.ai) is hosting an exciting in-person hackathon in Dubai this May 2–4 — focused entirely on building autonomous AI agents with their new platform, **Agentverse**.\n\nHere’s what makes this hackathon stand out:\n\n* 💡 *...",
+    "eligibility": "Open to all (check post)",
+    "deadline": "Check community post",
+    "mode": "Online / Hybrid",
+    "status": "open",
+    "applicationLink": "https://reddit.com/r/hackathons/comments/1k7h36u/explore_agentic_ai_with_asi1_mini_at_fetchais/",
+    "website": "https://reddit.com/r/hackathons/comments/1k7h36u/explore_agentic_ai_with_asi1_mini_at_fetchais/",
+    "source": "reddit:r/hackathons",
+    "tags": [
+      "reddit",
+      "community",
+      "hackathons",
+      "hackathons"
+    ],
+    "prize": "$14,000",
+    "teamSize": "1-4"
+  },
+  {
+    "id": "reddit-hackathons-lookingforweb30",
+    "name": "Looking for Web 3.0/Blockchain Hackathon Partner",
+    "organizer": "r/hackathons Community",
+    "description": "[removed]",
+    "eligibility": "Open to all (check post)",
+    "deadline": "Check community post",
+    "mode": "Online / Hybrid",
+    "status": "open",
+    "applicationLink": "https://reddit.com/r/hackathons/comments/1k3f46g/looking_for_web_30blockchain_hackathon_partner/",
+    "website": "https://reddit.com/r/hackathons/comments/1k3f46g/looking_for_web_30blockchain_hackathon_partner/",
+    "source": "reddit:r/hackathons",
+    "tags": [
+      "reddit",
+      "community",
+      "hackathons",
+      "hackathons"
+    ],
+    "prize": "Community Hackathon",
+    "teamSize": "1-4"
+  },
+  {
+    "id": "reddit-hackathons-ycombinatorbacked",
+    "name": "Y Combinator backed startup, AfterQuery is looking to license old repositories/code for th",
+    "organizer": "r/hackathons Community",
+    "description": "We're interested in paying you up to $1,500 for the licensing rights to a private repository of which you are no longer in need - think an old hackathon project, or a startup that failed or pivoted. The data would be used to evaluate the performance ...",
+    "eligibility": "Open to all (check post)",
+    "deadline": "Check community post",
+    "mode": "Online / Hybrid",
+    "status": "open",
+    "applicationLink": "https://reddit.com/r/hackathons/comments/1jz6nec/y_combinator_backed_startup_afterquery_is_looking/",
+    "website": "https://reddit.com/r/hackathons/comments/1jz6nec/y_combinator_backed_startup_afterquery_is_looking/",
+    "source": "reddit:r/hackathons",
+    "tags": [
+      "reddit",
+      "community",
+      "hackathons",
+      "hackathons"
+    ],
+    "prize": "$1,500",
+    "teamSize": "1-4"
+  },
+  {
+    "id": "reddit-hackathons-virtualhackathon",
+    "name": "[Virtual Hackathon] Hack Yeah! – Build tools to help hackathon participants succeed (Cash ",
+    "organizer": "r/hackathons Community",
+    "description": "Hey folks 👋\n\nI’m part of a small team that just launched **HackathonParty**—a platform made for running and joining online hackathons. To celebrate the launch, we’re hosting our first ever community hackathon, and we’d love to invite anyone here to j...",
+    "eligibility": "Open to all (check post)",
+    "deadline": "Check community post",
+    "mode": "Online / Hybrid",
+    "status": "open",
+    "applicationLink": "https://www.hackathonparty.com/hackathons/4](https://www.hackathonparty.com/hackathons/4",
+    "website": "https://reddit.com/r/hackathons/comments/1jwmdnt/virtual_hackathon_hack_yeah_build_tools_to_help/",
+    "source": "reddit:r/hackathons",
+    "tags": [
+      "reddit",
+      "community",
+      "hackathons",
+      "hackathons"
+    ],
+    "prize": "for the winning team",
+    "teamSize": "1-4"
   }
 ]
