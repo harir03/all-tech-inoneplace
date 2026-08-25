@@ -58,13 +58,29 @@
 
     // ===== Data Loading =====
     async function loadAllData() {
+        const candidatePaths = [
+            '../data',
+            './data',
+            '/data',
+            'data'
+        ];
+
         const promises = CATEGORIES.map(async (cat) => {
-            try {
-                const res = await fetch(`${DATA_BASE_PATH}/${cat.file}`);
-                if (!res.ok) throw new Error(`HTTP ${res.status}`);
-                allData[cat.key] = await res.json();
-            } catch (err) {
-                console.warn(`Failed to load ${cat.file}:`, err);
+            let loaded = false;
+            for (const basePath of candidatePaths) {
+                try {
+                    const res = await fetch(`${basePath}/${cat.file}`);
+                    if (res.ok) {
+                        allData[cat.key] = await res.json();
+                        loaded = true;
+                        break;
+                    }
+                } catch (err) {
+                    // Try next path
+                }
+            }
+            if (!loaded) {
+                console.warn(`Failed to load ${cat.file} across candidate paths`);
                 allData[cat.key] = [];
             }
         });

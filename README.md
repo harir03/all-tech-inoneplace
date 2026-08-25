@@ -5,9 +5,11 @@
 ### The Automated, Curated Hub for Hackathons, Internships, Competitions, Open Source & Fellowships
 
 [![Opportunities](https://img.shields.io/badge/Opportunities-1726+%20Active-6c5ce7.svg?style=for-the-badge)](data/)
-[![Last Updated](https://img.shields.io/badge/Last%20Updated-2026--08--25%2011:15%20UTC-00cec9.svg?style=for-the-badge)](https://github.com/harir03/all-tech-inoneplace/commits/main)
+[![Last Updated](https://img.shields.io/badge/Last%20Updated-2026--08--25%2011:16%20UTC-00cec9.svg?style=for-the-badge)](https://github.com/harir03/all-tech-inoneplace/commits/main)
 [![Auto-Updated](https://img.shields.io/badge/Automated-Hourly%20via%20GitHub%20Actions-0984e3.svg?style=for-the-badge)](.github/workflows/auto-update.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-ffd32a.svg?style=for-the-badge)](LICENSE)
+
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fharir03%2Fall-tech-inoneplace)
 
 **Never miss an application deadline again.** A real-time, automated aggregation pipeline scraping top student directories, official APIs (Devpost, MLH, Codeforces, LeetCode, GSoC), and GitHub trackers hourly.
 
@@ -17,23 +19,97 @@
 
 ---
 
-## 📋 Table of Contents
+## 🎯 Quick Jump: Browse by Reward & Prize Type
+
+| 💰 [Mega Cash Prizes](#-top-mega-cash-prizes) | 💼 [Job & Internship Tracks](#-direct-internship--job-referral-tracks) | 🌍 [Paid OS Stipends](#-stipend-backed-open-source-mentorships) | 🎁 [Swag, Goodies & Free GPU Credits](#-swag-goodies-hardware-labs--cloud-credits) |
+|:---:|:---:|:---:|:---:|
+
+---
+
+## 💰 Top Mega Cash Prizes ($10,000 to $740,000+ / ₹1,00,000+)
+
+> Live hackathons and coding competitions offering major cash prize pools and bounties.
+
+| Event Name | Type | Prize Pool / Rewards | Mode / Location | Deadline | Apply |
+|:-----------|:-----|:---------------------|:----------------|:---------|:-----:|
+| **Devfolio Hackathons** | ⚔️ Contest | **Varies — ₹10,000 to ₹10,00,000+** | Online / Offline / Hybrid | Rolling (check platform) | [Apply →](https://devfolio.co/hackathons) |
+| **RevenueCat Shipaton 2026** | 🏆 Hackathon | **$740,000** | Online | Jul 31 - Oct 01, 2026 | [Apply →](https://revenuecat-shipaton-2026.devpost.com/) |
+| **Agentic Cinema: The Blockbuster Hackathon** | 🏆 Hackathon | **$75,000** | Online | Jul 27 - Sep 09, 2026 | [Apply →](https://agentic-cinema.devpost.com/) |
+| **All Things Agentic Hackathon** | 🏆 Hackathon | **$180,000** | Online | Aug 04 - 31, 2026 | [Apply →](https://allthingsagentichackathon.devpost.com/) |
+| **Agents for Humans Hackathon** | 🏆 Hackathon | **$40,000** | Online | Aug 10 - Sep 14, 2026 | [Apply →](https://agentsforhumans.devpost.com/) |
+| **CALL-E: Your Code Is Calling** | 🏆 Hackathon | **$10,000** | Online | Jul 23 - Sep 14, 2026 | [Apply →](https://call-e.devpost.com/) |
+| **AI Builders Hackathon** | 🏆 Hackathon | **$33,900** | Online | Aug 21 - Sep 15, 2026 | [Apply →](https://ai-builders-hackathon-2026.devpost.com/) |
+| **VoltHacks** | 🏆 Hackathon | **$35,785** | Online | May 22 - Sep 05, 2026 | [Apply →](https://volthacks.devpost.com/) |
+| **3D Websites Hackathon** | 🏆 Hackathon | **$55** | Online | Jun 22 - Aug 31, 2026 | [Apply →](https://3d-websites-hackathon.devpost.com/) |
+| **Hack for Humanity - Summer 2026 (+13 non-cash prizes)** | 🏆 Hackathon | **$100** | Online | Aug 07 - Sep 04, 2026 | [Apply →](https://hack-for-humanity-summer-26.devpost.com/) |
+
+---
+
+## 💼 Direct Internship & Job Referral Tracks
+
+> Featured technical roles offering full-time internships, co-ops, and Pre-Placement Offers (PPOs).
+
+| Company & Role | Location | Career Level | Compensation | Application Link |
+|:---------------|:---------|:-------------|:-------------|:----------------:|
+| **ISRO Internship / Research Fellowship** | ISRO centres across India | B.E./B.Tech/M.Sc/M.Tech students (Indian nationals) | ₹10,000 - ₹25,000/month (varies by centre) | [Apply Now →](https://www.isro.gov.in/Internship.html) |
+| **Springs Window Fashions — Software Engineering Intern - Summer 2027** | Long Island City, Queens, NY | Students / New Grads (check listing) | Competitive / Check listing | [Apply Now →](https://careers-springswindowfashions.icims.com/jobs/12891/job?mobile=true&needsRedirect=false&utm_source=Simplify&ref=Simplify) |
+| **Sage — Software Engineer Intern - Edge - Summer 2027** | NYC | Students / New Grads (check listing) | Competitive / Check listing | [Apply Now →](https://job-boards.greenhouse.io/sage49/jobs/6131191004?utm_source=Simplify&ref=Simplify) |
+| **Westinghouse Electric Company — Computer Engineering / Software Engineering Intern** | Cranberry Township, PA | Students / New Grads (check listing) | Competitive / Check listing | [Apply Now →](https://careers.westinghousenuclear.com/job/Cranberry-Township-Summer-Intern-Computer-Engineering-Software-Engineering-NC/1422595200/?ats=successfactors&utm_source=Simplify&ref=Simplify) |
+| **🔥 Google — Software Developer Intern 🎓** | Montreal, QC, CanadaToronto, ON, CanadaWaterloo, ON, Canada | Students / New Grads (check listing) | Competitive / Check listing | [Apply Now →](https://www.google.com/about/careers/applications/jobs/results/112518690523488966?utm_source=Simplify&ref=Simplify) |
+| **BNY — Engineering Intern - Engineering - Developer** | Pittsburgh, PA | Students / New Grads (check listing) | Competitive / Check listing | [Apply Now →](https://eofe.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/81254?utm_source=Simplify&ref=Simplify) |
+| **Springs Window Fashions — Application Engineering Intern - Summer 2027** | Long Island City, Queens, NY | Students / New Grads (check listing) | Competitive / Check listing | [Apply Now →](https://careers-springswindowfashions.icims.com/jobs/12893/job?mobile=true&needsRedirect=false&utm_source=Simplify&ref=Simplify) |
+| **🔥 AMD — Software Engineer Intern/Co-op - Masters 🎓** | San Jose, CASanta Clara, CA | Students / New Grads (check listing) | Competitive / Check listing | [Apply Now →](https://careers.amd.com/jobs/91176?icims=1&utm_source=Simplify&ref=Simplify) |
+| **BNY — Product Management Intern - Product Management** | NYC | Students / New Grads (check listing) | Competitive / Check listing | [Apply Now →](https://eofe.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/81345?utm_source=Simplify&ref=Simplify) |
+| **Springs Window Fashions — Product Management Dashboard Analytics Intern** | Middleton, WI | Students / New Grads (check listing) | Competitive / Check listing | [Apply Now →](https://careers-springswindowfashions.icims.com/jobs/12882/job?mobile=true&needsRedirect=false&utm_source=Simplify&ref=Simplify) |
+
+---
+
+## 🌍 Stipend-Backed Open Source Mentorships ($1,500 – $7,000)
+
+> Prestigious open source programs where contributors get paired with senior mentors and receive milestone stipends.
+
+| Program Name | Organization | Stipend & Benefits | Duration | Eligibility | Apply |
+|:-------------|:-------------|:-------------------|:---------|:------------|:-----:|
+| **LFX Mentorship (Linux Foundation)** | The Linux Foundation | **$3000 - $6600 per term** | 12 weeks per term | Students & early-career developers (global) | [Apply →](https://mentorship.lfx.linuxfoundation.org) |
+| **Outreachy** | Software Freedom Conservancy | **$7000 for 3 months** | 13 weeks | People underrepresented in tech (global, eligibility criteria apply) | [Apply →](https://www.outreachy.org) |
+| **FOSSEE Summer Fellowship** | Via Deepanshu-OSPrograms | **Stipend** | 10-12 weeks | Open to all | [Apply →](https://fossee.in/) |
+| **IIT Bombay Summer Internship** | Via Deepanshu-OSPrograms | **Stipend** | 10-12 weeks | Open to all | [Apply →](https://www.it.iitb.ac.in/summerinternship2020/) |
+| **FOSS Overflow, IIT Bhilai** | Via Deepanshu-OSPrograms | **Stipend** | 10-12 weeks | Open to all | [Apply →](https://fossoverflow.dev/) |
+| **Python Software Foundation Fellowship Program** | Via Deepanshu-OSPrograms | **Grants** | 10-12 weeks | Open to all | [Apply →](https://www.python.org/psf/grants/) |
+| **The Processing Foundation Fellowships** | Via Deepanshu-OSPrograms | **Stipend** | 10-12 weeks | Open to all | [Apply →](https://processingfoundation.org/fellowships) |
+| **GitHub Accelerator** | Student / Research Organization | **Stipend / Mentorship provided** | 10-12 weeks | Students / Graduates (check program details) | [Apply →](https://accelerator.github.com/) |
+| **Community Contributor Group** | Student / Research Organization | **Stipend / Mentorship provided** | 10-12 weeks | Students / Graduates (check program details) | [Apply →](https://opencollective.com/community-contributor-group) |
+| **Eddiehub** | Student / Research Organization | **Stipend / Mentorship provided** | 10-12 weeks | Students / Graduates (check program details) | [Apply →](https://www.eddiehub.org/) |
+
+---
+
+## 🎁 Swag, Goodies, Hardware Labs & Cloud Credits
+
+> Free student benefits, verified contributor swag boxes, hardware labs, and developer packs.
+
+| Event / Initiative | Provider | Perks, Goodies & Free Credits | Access | Claim / Register |
+|:-------------------|:---------|:------------------------------|:-------|:----------------:|
+| **MLH Global Hack Week** | Major League Hacking (MLH) | 🎁 Free Official Swag Kits, T-Shirts, Stickers, Discord Badges & MLH Season Points | Online (Worldwide) | [Claim / Register →](https://ghw.mlh.io) |
+| **Hacktoberfest** | DigitalOcean & Cloudflare | 🌳 Official Contributor Digital Badge, Swag Packs & Tree Planting in your name | Online | [Claim / Register →](https://hacktoberfest.com) |
+| **NVIDIA OpenHackathons** | NVIDIA / OpenACC | ⚡ Free GPU Cluster Compute Access, Mentorship from NVIDIA AI Engineers, Certificate | Online / Hybrid | [Claim / Register →](https://www.openhackathons.org/) |
+| **GitHub Student Developer Pack** | GitHub Education | 🎒 $200k+ in Free Cloud Credits (AWS, Azure, DigitalOcean), Domain names, GitHub Copilot | Online | [Claim / Register →](https://education.github.com/pack) |
+| **Midnight Virtual Hackathons** | Major League Hacking | 🛠️ Hardware Lab Access, API Credits, Swag, Resume Drop to Sponsors | Online | [Claim / Register →](https://events.mlh.com/) |
+
+---
+
+## 📋 Full Directory by Category
 
 - [🏆 Live Hackathons (101)](#-live-hackathons)
-- [💼 Featured Tech Internships (1492)](#-featured-tech-internships)
-- [⚔️ Live Competitions & Contests (8)](#️-live-competitions--contests)
-- [🌍 Open Source Programs & Mentorships (117)](#-open-source-programs--mentorships)
+- [💼 Tech Internships & New Grad (1492)](#-tech-internships--new-grad)
+- [⚔️ Competitions & Contests (8)](#️-competitions--contests)
+- [🌍 Open Source Programs (117)](#-open-source-programs)
 - [🎓 Fellowships & Grants (8)](#-fellowships--grants)
-- [🌐 Interactive Website & Filters](#-interactive-website--filters)
-- [🤖 Automated Production Pipeline](#-automated-production-pipeline)
-- [🤝 How to Contribute](#-how-to-contribute)
-- [📜 License](#-license)
 
 ---
 
 ## 🏆 Live Hackathons
 
-> Showing top active & upcoming hackathons. Browse all **101 hackathons** on the [🌐 Interactive Web App](https://harir03.github.io/all-tech-inoneplace/).
+> Showing featured active & upcoming hackathons. Browse all **101 hackathons** on the [🌐 Interactive Web App](https://harir03.github.io/all-tech-inoneplace/).
 
 | Name | Organizer | Location / Mode | Prize / Fee | Timeline / Deadline | Status | Apply |
 |:-----|:----------|:----------------|:------------|:--------------------|:------:|:-----:|
@@ -49,15 +125,12 @@
 | **hackUMBC** | Major League Hacking (MLH) | In-Person | Prizes, Swag, Hardware Labs, Mentorship | SEP 26 - 27 | 🟢 Open | [Apply →](https://hackumbc.tech/?utm_source=mlh&utm_medium=referral&utm_campaign=events&utm_content=hackUMBC) |
 | **OwlHacks** | Major League Hacking (MLH) | In-Person | Prizes, Swag, Hardware Labs, Mentorship | SEP 26 - 27 | 🟢 Open | [Apply →](https://www.owlhacks.com/?utm_source=mlh&utm_medium=referral&utm_campaign=events&utm_content=OwlHacks) |
 | **hackCBS 9.O** | Major League Hacking (MLH) | In-Person | Prizes, Swag, Hardware Labs, Mentorship | OCT 31 - NOV 01 | 🟢 Open | [Apply →](https://hackcbs.tech/?utm_source=mlh&utm_medium=referral&utm_campaign=events&utm_content=hackCBS+9.O) |
-| **ElleHacks** | Major League Hacking (MLH) | In-Person | Prizes, Swag, Hardware Labs, Mentorship | JAN 29 - 31 | 🟢 Open | [Apply →](https://ellehacks.com/?utm_source=mlh&utm_medium=referral&utm_campaign=events&utm_content=ElleHacks) |
-| **Hacklytics 2027** | Major League Hacking (MLH) | In-Person | Prizes, Swag, Hardware Labs, Mentorship | FEB 26 - 28 | 🟢 Open | [Apply →](https://hacklytics2027.web.app/?utm_source=mlh&utm_medium=referral&utm_campaign=events&utm_content=Hacklytics+2027) |
-| **HackIllinois** | Major League Hacking (MLH) | In-Person | Prizes, Swag, Hardware Labs, Mentorship | FEB 26 - 28 | 🟢 Open | [Apply →](https://www.hackillinois.org/?utm_source=mlh&utm_medium=referral&utm_campaign=events&utm_content=HackIllinois) |
 
 ---
 
-## 💼 Featured Tech Internships
+## 💼 Tech Internships & New Grad
 
-> Showing sample openings. Browse all **1,492 internships & new grad positions** on the [🌐 Interactive Web App](https://harir03.github.io/all-tech-inoneplace/) with role, domain & location filters!
+> Showing featured openings. Filter all **1,492 internships** by domain (AI/ML, SWE, Cloud, Security) on the [🌐 Interactive Web App](https://harir03.github.io/all-tech-inoneplace/).
 
 | Company & Role | Location | Level / Type | Compensation | Deadline | Status | Apply |
 |:---------------|:---------|:-------------|:-------------|:---------|:------:|:-----:|
@@ -73,15 +146,12 @@
 | **↳ — Engineering Intern - Developer** | Greater Manchester, UK | Students / New Grads (check listing) | Competitive / Check listing | Apply ASAP (Rolling) | 🟢 Open | [Apply →](https://eofe.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/81318?utm_source=Simplify&ref=Simplify) |
 | **↳ — Engineering Developer Intern - Engineering** | Lake Mary, FL | Students / New Grads (check listing) | Competitive / Check listing | Apply ASAP (Rolling) | 🟢 Open | [Apply →](https://eofe.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/81252?utm_source=Simplify&ref=Simplify) |
 | **↳ — Software Developer Intern - Engineering** | NYC | Students / New Grads (check listing) | Competitive / Check listing | Apply ASAP (Rolling) | 🟢 Open | [Apply →](https://eofe.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/81253?utm_source=Simplify&ref=Simplify) |
-| **Gulfstream — Software Engineer Intern - IEF** | Savannah, GA | Students / New Grads (check listing) | Competitive / Check listing | Apply ASAP (Rolling) | 🟢 Open | [Apply →](https://careers.gulfstream.com/job/Savannah-Summer-2027-IEF-Software-Engineer-Collegiate-Associate-Intern-GA-31401/1421863200/?ats=successfactors&utm_source=Simplify&ref=Simplify) |
-| **The Hartford — Software Engineer Intern - Tech & Data Program** | Hartford, CT | Students / New Grads (check listing) | Competitive / Check listing | Apply ASAP (Rolling) | 🟢 Open | [Apply →](https://thehartford.wd5.myworkdayjobs.com/Careers_External/job/Hartford-CT/Tech---Data-Program-Summer-2027---Software-Engineer-Intern--Hartford-_R2626105-1?utm_source=Simplify&ref=Simplify) |
-| **Motorola — Android Application Developer Intern - Summer 2027** | Chicago, IL | Students / New Grads (check listing) | Competitive / Check listing | Apply ASAP (Rolling) | 🟢 Open | [Apply →](https://motorolasolutions.wd5.myworkdayjobs.com/Careers/job/Chicago-IL/Android-Applications-Developer-Intern---Summer-2027_R67740?utm_source=Simplify&ref=Simplify) |
 
 ---
 
-## ⚔️ Live Competitions & Contests
+## ⚔️ Competitions & Contests
 
-> Real-time contests fetched directly from Codeforces, LeetCode, ACM-ICPC, and platforms.
+> Real-time contests from Codeforces, LeetCode, ICPC, and competitive programming platforms.
 
 | Contest / Challenge | Platform | Mode | Prizes / Rating | Event Date | Status | Register |
 |:--------------------|:---------|:-----|:----------------|:-----------|:------:|:--------:|
@@ -94,9 +164,7 @@
 
 ---
 
-## 🌍 Open Source Programs & Mentorships
-
-> Mentorship programs offering stipends, contributor tracks, and real-world OSS experience.
+## 🌍 Open Source Programs
 
 | Program | Organization | Stipend / Grant | Duration | Timeline / Deadline | Status | Apply |
 |:--------|:-------------|:----------------|:---------|:--------------------|:------:|:-----:|
@@ -112,9 +180,6 @@
 | **Hacktoberfest** | Via Deepanshu-OSPrograms | Swag | 10-12 weeks | October annually | 🟢 Open | [Apply →](https://hacktoberfest.digitalocean.com/) |
 | **24 Pull Requests** | Via Deepanshu-OSPrograms | No prizes | 10-12 weeks | December annually | 🟢 Open | [Apply →](https://24pullrequests.com/) |
 | **Advent of Code** | Via Deepanshu-OSPrograms | Learning | 10-12 weeks | December annually | 🟢 Open | [Apply →](https://adventofcode.com/) |
-| **CodeForces** | Via Deepanshu-OSPrograms | Ratings, prizes | 10-12 weeks | Year-round | 🟢 Open | [Apply →](https://codeforces.com/) |
-| **Facebook Hacker Cup** | Via Deepanshu-OSPrograms | Cash prizes | 10-12 weeks | Annual | 🟢 Open | [Apply →](https://www.facebook.com/codingcompetitions/hacker-cup/) |
-| **ACM ICPC** | Via Deepanshu-OSPrograms | Medals, prizes | 10-12 weeks | Annual | 🟢 Open | [Apply →](https://icpc.global/) |
 
 ---
 
@@ -132,47 +197,45 @@
 
 ---
 
-## 🌐 Interactive Website & Filters
+## 🌐 Deploy to Vercel (1-Click Deployment)
 
-OpportunityHub comes with a companion web app offering:
-- **💻 Role & Domain Filters**: Software Engineering, AI/ML, Data Science, Cloud/DevOps, Security, Mobile, Hardware/FPGA, Quant, Product.
-- **📍 Location Filters**: Remote (WFH), India (Bangalore, NCR, Pune, Hyd), US, Canada, Europe, Global.
-- **⚡ 1-Click Quick Apply**: Store your profile locally in your browser and autofill applications with 1 click.
-- **🔔 Deadline Reminders**: Get notified before deadlines close.
+You can host this entire platform on Vercel with zero configuration:
 
-👉 **Launch the Web App:** [**https://harir03.github.io/all-tech-inoneplace/**](https://harir03.github.io/all-tech-inoneplace/)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fharir03%2Fall-tech-inoneplace)
+
+### Manual Vercel Deployment:
+1. Import `harir03/all-tech-inoneplace` in your [Vercel Dashboard](https://vercel.com/new).
+2. Framework Preset: **Other** (Root directory: `./`).
+3. Click **Deploy** — [`vercel.json`](vercel.json) will automatically handle clean routing and `/data/` endpoints!
 
 ---
 
-## 🤖 Automated Production Pipeline
-
-OpportunityHub is powered by a GitHub Actions automation engine that runs **every hour**:
+## 🤖 Automated Hourly Pipeline Architecture
 
 ```mermaid
 graph TD
-    A[GitHub Actions Cron: Hourly] --> B[Multi-Tier Scraping Pipeline]
-    B --> C1[Tier 1: GitHub Curated Repos]
-    B --> C2[Tier 2: Official Public APIs: Devpost, MLH, Codeforces, LeetCode, GSoC]
-    B --> C3[Tier 3: Web Scrapers with Scrapling]
-    C1 --> D[Deduplication & Validation Engine]
-    C2 --> D
-    C3 --> D
-    D --> E[Update data/*.json datasets]
-    E --> F[Auto-Regenerate README.md tables]
-    F --> G[Auto-Commit & Deploy to GitHub Pages]
+    A[GitHub Actions Cron: Hourly] --> B[automation/pipeline.py]
+    B --> C1[Devpost Live JSON API]
+    B --> C2[MLH Live Events API]
+    B --> C3[Codeforces & LeetCode APIs]
+    B --> C4[SimplifyJobs Daily Repos: 12k Stars]
+    B --> C5[GSoC & Deepanshu OS Trackers]
+    C1 & C2 & C3 & C4 & C5 --> D[Intelligent Date Expiry & Deduplication Engine]
+    D --> E[Update data/*.json datasets: 1,700+ opportunities]
+    E --> F[Dynamically Rebuild README.md with Reward Filters]
+    F --> G[Auto-Commit to GitHub & Deploy to Vercel / GitHub Pages]
 ```
 
 ---
 
 ## 🤝 How to Contribute
 
-We love community contributions!
-- ➕ **[Submit an Opportunity](https://github.com/harir03/all-tech-inoneplace/issues/new?template=add-opportunity.yml)** via our structured form.
-- 🐛 **[Report Dead Links or Outdated Info](https://github.com/harir03/all-tech-inoneplace/issues/new?template=report-issue.yml)**.
-- 💻 **Open a PR**: Edit `data/*.json` directly and submit a Pull Request.
+- ➕ **[Submit an Opportunity](https://github.com/harir03/all-tech-inoneplace/issues/new?template=add-opportunity.yml)** via our issue form.
+- 🐛 **[Report Outdated Info / Dead Links](https://github.com/harir03/all-tech-inoneplace/issues/new?template=report-issue.yml)**.
+- 💻 **Open a Pull Request**: Edit `data/*.json` directly.
 
 ---
 
 ## 📜 License
 
-Distributed under the [MIT License](LICENSE). Data aggregated from open-source community trackers and public APIs.
+Distributed under the [MIT License](LICENSE).
