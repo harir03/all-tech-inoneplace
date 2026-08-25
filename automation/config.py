@@ -12,6 +12,7 @@ DATA_DIR = os.path.join(PROJECT_ROOT, "data")
 DATA_FILES = {
     "hackathons": os.path.join(DATA_DIR, "hackathons.json"),
     "internships": os.path.join(DATA_DIR, "internships.json"),
+    "jobs": os.path.join(DATA_DIR, "jobs.json"),
     "competitions": os.path.join(DATA_DIR, "competitions.json"),
     "open-source-programs": os.path.join(DATA_DIR, "open-source-programs.json"),
     "fellowships": os.path.join(DATA_DIR, "fellowships.json"),

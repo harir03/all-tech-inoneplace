@@ -3,37 +3,33 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>OpportunityHub — Hackathons, Internships, Competitions & More</title>
-    <meta name="description" content="Your one-stop resource for hackathons, internships, competitions, open source programs and fellowships for Indian college students. Never miss a deadline again.">
-    <meta property="og:title" content="OpportunityHub — Never Miss an Opportunity">
-    <meta property="og:description" content="Curated list of hackathons, internships, competitions, open source programs and fellowships for Indian college students.">
-    <meta property="og:type" content="website">
+    <title>OpportunityHub — Hackathons, Internships, Jobs & Competitions</title>
+    <meta name="description" content="Community-driven aggregation platform for tech hackathons, internships, full-time new-grad jobs, coding competitions, and open source mentorships.">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Outfit:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <!-- Navigation -->
-    <nav class="navbar" id="navbar">
+    <!-- Navigation Bar -->
+    <nav class="navbar">
         <div class="nav-container">
             <a href="#" class="nav-logo">
                 <span class="logo-icon">🚀</span>
-                <span class="logo-text">OpportunityHub</span>
+                <span class="logo-text">Opportunity<span class="logo-accent">Hub</span></span>
             </a>
-            <ul class="nav-links" id="navLinks">
-                <li><a href="#opportunities">Browse</a></li>
-                <li><a href="#quick-apply">Quick Apply</a></li>
-                <li><a href="#reminders">Reminders</a></li>
-                <li><a href="#references">Resources</a></li>
-                <li><a href="https://github.com/harir03/all-tech-inoneplace" target="_blank" class="nav-github">
-                    <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
-                    GitHub
-                </a></li>
-            </ul>
-            <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
-                <span></span><span></span><span></span>
-            </button>
+            <div class="nav-links">
+                <a href="#opportunities" class="nav-link">Opportunities</a>
+                <a href="#quick-apply" class="nav-link">Quick Apply</a>
+                <a href="#reminders" class="nav-link">Reminders</a>
+                <button id="navAiMatcherBtn" class="btn btn-outline-ai" title="AI Resume Matcher & Auto-Applier">
+                    <span class="ai-sparkle">🤖</span> AI Matcher & Auto-Apply
+                </button>
+                <button id="navAuthBtn" class="btn btn-auth" title="Sign In / Manage Profile">
+                    <span class="user-avatar-icon" id="navAvatarIcon">👤</span>
+                    <span id="navAuthText">Profile / Sign In</span>
+                </button>
+            </div>
         </div>
     </nav>
 
@@ -45,23 +41,26 @@
             <div class="hero-orb hero-orb-3"></div>
         </div>
         <div class="hero-content">
-            <div class="hero-badge">🎯 India's Open Source Opportunity Tracker</div>
+            <div class="hero-badge">🎯 Curated Live Tech Opportunities & AI Auto-Applier</div>
             <h1 class="hero-title">
                 Never Miss an<br>
                 <span class="hero-gradient-text">Opportunity</span> Again
             </h1>
             <p class="hero-subtitle">
-                Hackathons, internships, competitions, open-source programs & fellowships — 
-                all in one place. Community-maintained. Auto-updated. Always free.
+                2,600+ hackathons, internships, new grad jobs, open-source programs & fellowships — 
+                all in one place. Auto-updated hourly. AI-matched to your resume. 100% Free.
             </p>
             <div class="hero-actions">
                 <a href="#opportunities" class="btn btn-primary">
-                    <span>Browse Opportunities</span>
+                    <span>Browse 2,600+ Opportunities</span>
                     <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M3 8h10m0 0L9 4m4 4L9 12" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
                 </a>
+                <button id="heroAiBtn" class="btn btn-ai-glow">
+                    <span>🤖 Match with My Resume</span>
+                </button>
                 <a href="https://github.com/harir03/all-tech-inoneplace" target="_blank" class="btn btn-secondary">
                     <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
-                    <span>Contribute on GitHub</span>
+                    <span>GitHub Repo</span>
                 </a>
             </div>
         </div>
@@ -78,6 +77,11 @@
             <div class="stat-item" data-target="0" id="stat-internships">
                 <span class="stat-number">0</span>
                 <span class="stat-label">Internships</span>
+            </div>
+            <div class="stat-divider"></div>
+            <div class="stat-item" data-target="0" id="stat-jobs">
+                <span class="stat-number">0</span>
+                <span class="stat-label">Jobs & New Grad</span>
             </div>
             <div class="stat-divider"></div>
             <div class="stat-item" data-target="0" id="stat-competitions">
@@ -102,13 +106,14 @@
         <div class="section-container">
             <div class="section-header">
                 <h2 class="section-title">Explore Opportunities</h2>
-                <p class="section-subtitle">Filter by category, status, and more to find what's right for you</p>
+                <p class="section-subtitle">Browse all 6 live categories, apply multi-dimensional filters, or batch-apply with 1 click</p>
             </div>
 
             <!-- Category Tabs -->
             <div class="tabs">
                 <button class="tab active" data-category="hackathons">🏆 Hackathons</button>
                 <button class="tab" data-category="internships">💼 Internships</button>
+                <button class="tab" data-category="jobs">🏢 Jobs & New Grad</button>
                 <button class="tab" data-category="competitions">⚔️ Competitions</button>
                 <button class="tab" data-category="open-source-programs">🌍 Open Source</button>
                 <button class="tab" data-category="fellowships">🎓 Fellowships</button>
@@ -128,6 +133,7 @@
                         <label for="sortSelect" class="filter-label">Sort by:</label>
                         <select id="sortSelect" class="filter-select">
                             <option value="default">✨ Default / Featured</option>
+                            <option value="ai-match">🤖 Best AI Resume Match</option>
                             <option value="deadline">📅 Deadline: Soonest First</option>
                             <option value="company-asc">🏢 Name: A → Z</option>
                             <option value="company-desc">🏢 Name: Z → A</option>
@@ -178,32 +184,31 @@
                         <select id="typeFilter" class="filter-select">
                             <option value="all">All Levels</option>
                             <option value="summer">☀️ Summer Internships</option>
-                            <option value="newgrad">🎓 New Grad / Entry Level</option>
-                            <option value="offseason">🍂 Off-Season / Co-op</option>
-                            <option value="research">🔬 Research & Fellowship</option>
-                            <option value="opensource">🌍 Open Source Mentorship</option>
+                            <option value="new-grad">🎓 New Grad & Entry Level</option>
+                            <option value="off-season">🍂 Off-Season / Fall / Winter</option>
+                            <option value="research">🔬 Research / Fellowship</option>
+                            <option value="open-source">🌍 Open Source Mentorship</option>
                         </select>
                     </div>
 
                     <!-- Status Filter -->
                     <div class="filter-field">
-                        <label for="statusFilter" class="filter-label">⚡ Status</label>
+                        <label for="statusFilter" class="filter-label">🟢 Application Status</label>
                         <select id="statusFilter" class="filter-select">
-                            <option value="all">All Status</option>
-                            <option value="open">🟢 Open Now</option>
+                            <option value="all">All Statuses</option>
+                            <option value="open" selected>🟢 Open Now</option>
                             <option value="coming-soon">🟡 Coming Soon</option>
                             <option value="closed">🔴 Closed</option>
                         </select>
                     </div>
 
-                    <!-- Compensation & Fee Filter -->
+                    <!-- Stipend / Fee Filter -->
                     <div class="filter-field">
-                        <label for="stipendFilter" class="filter-label">💰 Stipend & Fee</label>
+                        <label for="stipendFilter" class="filter-label">💰 Compensation & Fee</label>
                         <select id="stipendFilter" class="filter-select">
-                            <option value="all">All</option>
-                            <option value="paid">💵 Paid / Stipend Provided</option>
-                            <option value="free">🆓 Free Registration Only</option>
-                            <option value="prizes">🏆 Prize Money / Grants</option>
+                            <option value="all">All Compensation Types</option>
+                            <option value="paid">💵 Paid / Stipend / High Cash Prize</option>
+                            <option value="free">🆓 Free to Participate</option>
                         </select>
                     </div>
 
@@ -214,39 +219,43 @@
                             <option value="all">All Modes</option>
                             <option value="online">💻 Online / Virtual</option>
                             <option value="in-person">🏢 In-Person / Onsite</option>
-                            <option value="hybrid">🔀 Hybrid</option>
+                            <option value="hybrid">🔄 Hybrid</option>
                         </select>
                     </div>
                 </div>
 
-                <!-- Quick Filter Chips / Tags -->
-                <div class="quick-chips-row">
-                    <span class="quick-chips-label">Quick Filters:</span>
-                    <div class="chips-container" id="quickChipsContainer">
+                <!-- Quick Filter Chips Row -->
+                <div class="filter-chips-row">
+                    <span class="chips-label">Quick Filters:</span>
+                    <div class="chips-container" id="filterChips">
                         <button class="chip" data-chip="remote">🌐 Remote Only</button>
                         <button class="chip" data-chip="india">🇮🇳 India Friendly</button>
-                        <button class="chip" data-chip="faang">🔥 FAANG / Big Tech</button>
-                        <button class="chip" data-chip="ai-ml">🤖 AI & ML</button>
-                        <button class="chip" data-chip="newgrad">🎓 New Grad</button>
-                        <button class="chip" data-chip="summer">☀️ Summer 2025/2026</button>
-                        <button class="chip" data-chip="paid">💰 High Stipend</button>
-                        <button class="chip" data-chip="open">🟢 Open Now</button>
+                        <button class="chip" data-chip="faang">🔥 Big Tech / Top Tier</button>
+                        <button class="chip" data-chip="ai">🤖 AI & ML</button>
+                        <button class="chip" data-chip="new-grad">🎓 New Grad</button>
+                        <button class="chip" data-chip="summer">☀️ Summer</button>
+                        <button class="chip" data-chip="paid">💰 Paid / Cash Prizes</button>
+                        <button class="chip active" data-chip="open">🟢 Open Now</button>
+                        <button id="resetFiltersBtn" class="chip chip-reset" title="Reset all filters">↺ Reset Filters</button>
                     </div>
-                    <button id="resetFiltersBtn" class="btn btn-reset-filters" style="display: none;">
-                        🔄 Clear All Filters
-                    </button>
+                </div>
+            </div>
+
+            <!-- Active Filter Results Summary & Batch Select Controls -->
+            <div class="filter-results-summary" id="filterSummaryBar">
+                <span id="resultsCount">Showing 0 opportunities</span>
+                <div class="results-actions">
+                    <button id="selectAllVisibleBtn" class="btn btn-sm btn-outline">☑️ Select All Visible</button>
+                    <button id="aiMatchModalBtn" class="btn btn-sm btn-ai-outline">🤖 AI Resume Match</button>
                 </div>
             </div>
 
             <!-- Cards Grid -->
-            <div class="results-header" id="resultsHeader" style="margin-bottom: 1.5rem; display: flex; justify-content: space-between; align-items: center; color: var(--text-muted); font-size: 0.9rem;">
-                <span id="resultsCount">Loading opportunities...</span>
-            </div>
-
             <div class="cards-grid" id="cardsGrid">
-                <!-- Cards loaded dynamically by JS -->
+                <!-- Opportunity cards dynamically rendered here -->
             </div>
 
+            <!-- Load More Button -->
             <div class="load-more-container" id="loadMoreContainer" style="text-align: center; margin-top: 2.5rem; display: none;">
                 <button class="btn btn-secondary" id="loadMoreBtn" style="padding: 0.85rem 2rem; font-weight: 600; border-radius: 9999px; background: rgba(255,255,255,0.06); border: 1px solid rgba(255,255,255,0.12); color: #fff; cursor: pointer; transition: all 0.2s;">
                     Load More Opportunities ⬇️
@@ -261,63 +270,114 @@
         </div>
     </section>
 
-    <!-- Quick Apply Section -->
+    <!-- Sticky Batch Quick Apply Bar -->
+    <div class="batch-apply-bar" id="batchApplyBar" style="display: none;">
+        <div class="batch-bar-container">
+            <div class="batch-info">
+                <span class="batch-count-badge" id="batchSelectedCount">0</span>
+                <span class="batch-text">Opportunities Selected for Batch Apply</span>
+            </div>
+            <div class="batch-actions">
+                <button id="batchOpenBtn" class="btn btn-primary btn-batch-open">
+                    ⚡ Open & Autofill Selected
+                </button>
+                <button id="batchCopyPacketBtn" class="btn btn-secondary btn-batch-copy">
+                    📋 Copy Tailored Packet
+                </button>
+                <button id="batchClearBtn" class="btn btn-ghost">✕ Deselect All</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Quick Apply Profile Section -->
     <section class="quick-apply-section" id="quick-apply">
         <div class="section-container">
             <div class="section-header">
-                <h2 class="section-title">Quick Apply Profile</h2>
-                <p class="section-subtitle">Save your info once, copy-paste it into any application form with one click</p>
+                <h2 class="section-title">⚡ 1-Click Quick Apply Profile</h2>
+                <p class="section-subtitle">Save your profile details (LinkedIn, GitHub, Resume, Skills) once — 1-click autofill into any application form</p>
             </div>
             <div class="profile-card">
                 <form id="profileForm" class="profile-form">
                     <div class="form-row">
                         <div class="form-group">
-                            <label for="profileName">Full Name</label>
-                            <input type="text" id="profileName" placeholder="Your full name">
+                            <label for="profileName">Full Name *</label>
+                            <input type="text" id="profileName" placeholder="e.g., Hariraman S" required>
                         </div>
                         <div class="form-group">
-                            <label for="profileEmail">Email</label>
-                            <input type="email" id="profileEmail" placeholder="you@email.com">
+                            <label for="profileEmail">Email Address *</label>
+                            <input type="email" id="profileEmail" placeholder="you@email.com" required>
                         </div>
                     </div>
+
                     <div class="form-row">
+                        <div class="form-group">
+                            <label for="profilePhone">Phone / WhatsApp *</label>
+                            <input type="tel" id="profilePhone" placeholder="+91 98765 43210">
+                        </div>
                         <div class="form-group">
                             <label for="profileCollege">College / University</label>
-                            <input type="text" id="profileCollege" placeholder="Your institution">
-                        </div>
-                        <div class="form-group">
-                            <label for="profileYear">Year</label>
-                            <select id="profileYear">
-                                <option value="">Select year</option>
-                                <option value="1st Year">1st Year</option>
-                                <option value="2nd Year">2nd Year</option>
-                                <option value="3rd Year">3rd Year</option>
-                                <option value="4th Year">4th Year</option>
-                                <option value="Post-Graduate">Post-Graduate</option>
-                            </select>
+                            <input type="text" id="profileCollege" placeholder="e.g., IIT Madras, BITS, VIT">
                         </div>
                     </div>
+
                     <div class="form-row">
                         <div class="form-group">
-                            <label for="profileBranch">Branch / Major</label>
-                            <input type="text" id="profileBranch" placeholder="e.g., Computer Science">
+                            <label for="profileGradYear">Graduation Year</label>
+                            <select id="profileGradYear">
+                                <option value="">Select Graduation Year</option>
+                                <option value="2025">2025 (New Grad / Immediate)</option>
+                                <option value="2026">2026 (Final Year)</option>
+                                <option value="2027">2027 (Pre-Final Year)</option>
+                                <option value="2028">2028 (2nd Year)</option>
+                                <option value="2029">2029 (1st Year)</option>
+                            </select>
                         </div>
                         <div class="form-group">
-                            <label for="profileSkills">Skills</label>
-                            <input type="text" id="profileSkills" placeholder="e.g., Python, React, ML">
+                            <label for="profileBranch">Degree / Major</label>
+                            <input type="text" id="profileBranch" placeholder="e.g., B.Tech Computer Science">
                         </div>
                     </div>
-                    <div class="form-group">
-                        <label for="profileResume">Resume Link</label>
-                        <input type="url" id="profileResume" placeholder="https://drive.google.com/...">
+
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="profileLinkedIn">LinkedIn Profile URL</label>
+                            <input type="url" id="profileLinkedIn" placeholder="https://linkedin.com/in/yourprofile">
+                        </div>
+                        <div class="form-group">
+                            <label for="profileGithub">GitHub Profile URL</label>
+                            <input type="url" id="profileGithub" placeholder="https://github.com/yourhandle">
+                        </div>
                     </div>
+
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="profilePortfolio">Portfolio / Personal Website</label>
+                            <input type="url" id="profilePortfolio" placeholder="https://yourportfolio.dev">
+                        </div>
+                        <div class="form-group">
+                            <label for="profileResume">Resume Link (Google Drive / Dropbox / PDF)</label>
+                            <input type="url" id="profileResume" placeholder="https://drive.google.com/file/d/...">
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="profileSkills">Technical Skills & Tech Stack</label>
+                        <input type="text" id="profileSkills" placeholder="e.g., Python, React, PyTorch, AWS, Node.js, SQL, Docker">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="profileBio">2-Line Bio / Elevator Pitch</label>
+                        <textarea id="profileBio" rows="2" placeholder="Passionate full-stack developer and open source enthusiast looking for SWE internships & hackathons..."></textarea>
+                    </div>
+
                     <div class="profile-actions">
                         <button type="submit" class="btn btn-primary">💾 Save Profile</button>
-                        <button type="button" id="copyProfileBtn" class="btn btn-secondary">📋 Copy to Clipboard</button>
+                        <button type="button" id="copyProfileBtn" class="btn btn-secondary">📋 Copy Application Packet</button>
+                        <button type="button" id="triggerAiMatchFromProfileBtn" class="btn btn-ai-outline">🤖 Run AI Resume Match</button>
                     </div>
                 </form>
                 <div class="profile-saved-msg" id="profileSavedMsg" style="display: none;">
-                    ✅ Profile saved locally! Click "Quick Apply" on any opportunity card to use it.
+                    ✅ Profile saved securely! Click "Quick Apply" on any card or use Batch Apply to autofill.
                 </div>
             </div>
         </div>
@@ -341,6 +401,7 @@
                         <div class="checkbox-group">
                             <label class="checkbox-label"><input type="checkbox" value="hackathons" checked> 🏆 Hackathons</label>
                             <label class="checkbox-label"><input type="checkbox" value="internships" checked> 💼 Internships</label>
+                            <label class="checkbox-label"><input type="checkbox" value="jobs" checked> 🏢 Jobs & New Grad</label>
                             <label class="checkbox-label"><input type="checkbox" value="competitions" checked> ⚔️ Competitions</label>
                             <label class="checkbox-label"><input type="checkbox" value="open-source-programs"> 🌍 Open Source</label>
                             <label class="checkbox-label"><input type="checkbox" value="fellowships"> 🎓 Fellowships</label>
@@ -349,7 +410,7 @@
                     <button type="submit" class="btn btn-primary">🔔 Subscribe to Reminders</button>
                 </form>
                 <div class="reminder-note">
-                    <p>📧 You'll receive email reminders <strong>7 days, 3 days, and 1 day</strong> before deadlines close.</p>
+                    <p>📧 You'll receive automated email reminders <strong>7 days, 3 days, and 1 day</strong> before deadlines close.</p>
                 </div>
             </div>
         </div>
@@ -359,67 +420,111 @@
     <section class="references-section" id="references">
         <div class="section-container">
             <div class="section-header">
-                <h2 class="section-title">More Resources</h2>
-                <p class="section-subtitle">Other great repos and platforms to find opportunities</p>
+                <h2 class="section-title">Top Open-Source Auto-Applier & Job Tools</h2>
+                <p class="section-subtitle">Proven tools that match resumes and automatically apply to thousands of jobs</p>
             </div>
             <div class="references-grid">
+                <a href="https://github.com/mukul-anand/Auto_Jobs_Applier_AIHawk" target="_blank" class="reference-card">
+                    <div class="ref-icon">🦅</div>
+                    <h3>AIHawk Auto Jobs Applier</h3>
+                    <p>Autonomous AI bot that auto-applies to jobs on LinkedIn and Indeed using your resume and LLM tailoring</p>
+                </a>
+                <a href="https://simplify.jobs/" target="_blank" class="reference-card">
+                    <div class="ref-icon">⚡</div>
+                    <h3>Simplify Copilot</h3>
+                    <p>1-click browser autofill extension for Greenhouse, Lever, Workday, Taleo, and iCIMS application portals</p>
+                </a>
+                <a href="https://github.com/PromptEngineer48/AI-Auto-Job-Applier" target="_blank" class="reference-card">
+                    <div class="ref-icon">🤖</div>
+                    <h3>AI Auto Job Applier</h3>
+                    <p>Open-source automated job finder and application assistant with intelligent resume parsing</p>
+                </a>
                 <a href="https://github.com/SimplifyJobs/Summer2025-Internships" target="_blank" class="reference-card">
                     <div class="ref-icon">📋</div>
-                    <h3>SimplifyJobs Internships</h3>
-                    <p>Massive, updated list of summer tech internships (US/Canada/Remote)</p>
-                </a>
-                <a href="https://github.com/deepanshu1422/List-Of-Open-Source-Internships-Programs" target="_blank" class="reference-card">
-                    <div class="ref-icon">🌐</div>
-                    <h3>Open Source Internships List</h3>
-                    <p>Curated list of open-source internship programs</p>
-                </a>
-                <a href="https://devfolio.co/hackathons" target="_blank" class="reference-card">
-                    <div class="ref-icon">💻</div>
-                    <h3>Devfolio</h3>
-                    <p>India's top hackathon platform — browse hundreds of upcoming hacks</p>
-                </a>
-                <a href="https://unstop.com" target="_blank" class="reference-card">
-                    <div class="ref-icon">🏅</div>
-                    <h3>Unstop</h3>
-                    <p>Competitions, quizzes, hackathons & case studies across India</p>
-                </a>
-                <a href="https://mlh.io/seasons/2026/events" target="_blank" class="reference-card">
-                    <div class="ref-icon">🎪</div>
-                    <h3>MLH Events</h3>
-                    <p>Official student hackathon league — global events year-round</p>
-                </a>
-                <a href="https://github.com/Every-Open-Source-Programs/Every-Open-Source-Programs" target="_blank" class="reference-card">
-                    <div class="ref-icon">📂</div>
-                    <h3>Every OS Program</h3>
-                    <p>Systematic tracker for all open source programs & competitions</p>
+                    <h3>SimplifyJobs Tracker</h3>
+                    <p>12,000+ star curated live tech internships and new grad opportunities repository</p>
                 </a>
             </div>
         </div>
     </section>
 
+    <!-- AI Resume Matcher Modal -->
+    <div class="modal-overlay" id="aiMatcherModal" style="display: none;">
+        <div class="modal-card ai-modal-card">
+            <div class="modal-header">
+                <div class="modal-title-group">
+                    <span class="modal-icon">🤖</span>
+                    <h3>AI Resume Matcher & Auto-Applier</h3>
+                </div>
+                <button class="modal-close" id="closeAiModalBtn">✕</button>
+            </div>
+            <div class="modal-body">
+                <p class="ai-modal-desc">
+                    Paste your resume text or key skills below. Our AI scoring engine will calculate match percentages for all <strong>2,600+ opportunities</strong> and highlight the highest-probability roles.
+                </p>
+                <div class="form-group">
+                    <label for="aiResumeInput">Paste Resume Text / Key Skills</label>
+                    <textarea id="aiResumeInput" rows="5" placeholder="e.g., Computer Science senior with 2 years experience in Python, PyTorch, React, Next.js, FastAPI, AWS, Docker, Kubernetes, NLP, and Distributed Systems..."></textarea>
+                </div>
+                <div class="ai-tools-integration">
+                    <h4>🚀 Recommended Auto-Applier Integrations:</h4>
+                    <div class="tools-pills">
+                        <a href="https://github.com/mukul-anand/Auto_Jobs_Applier_AIHawk" target="_blank" class="tool-pill">🦅 Auto_Jobs_Applier_AIHawk (GitHub)</a>
+                        <a href="https://simplify.jobs/" target="_blank" class="tool-pill">⚡ Simplify 1-Click Autofill Extension</a>
+                    </div>
+                </div>
+                <div class="modal-actions">
+                    <button id="runAiMatchingBtn" class="btn btn-primary btn-ai-run">🎯 Calculate Match Scores</button>
+                    <button id="clearAiMatchingBtn" class="btn btn-secondary">Clear Scores</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- User Auth & Profile Modal -->
+    <div class="modal-overlay" id="authModal" style="display: none;">
+        <div class="modal-card auth-modal-card">
+            <div class="modal-header">
+                <div class="modal-title-group">
+                    <span class="modal-icon">👤</span>
+                    <h3 id="authModalTitle">Applicant Profile & Account</h3>
+                </div>
+                <button class="modal-close" id="closeAuthModalBtn">✕</button>
+            </div>
+            <div class="modal-body">
+                <div class="auth-status-card" id="authStatusCard">
+                    <div class="avatar-circle" id="authModalAvatar">👤</div>
+                    <div class="auth-user-info">
+                        <h4 id="authModalUserName">Guest Applicant</h4>
+                        <p id="authModalUserEmail">Profile stored locally in your browser</p>
+                    </div>
+                </div>
+                <div class="auth-quick-actions">
+                    <a href="#quick-apply" class="btn btn-outline" id="authEditProfileBtn">✏️ Edit Quick Apply Details</a>
+                    <button id="authExportDataBtn" class="btn btn-secondary">📤 Export Saved Profile (JSON)</button>
+                    <button id="authClearDataBtn" class="btn btn-ghost text-danger">🗑️ Reset Profile</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <!-- Footer -->
     <footer class="footer">
         <div class="footer-container">
-            <div class="footer-top">
-                <div class="footer-brand">
-                    <span class="logo-icon">🚀</span>
-                    <span class="logo-text">OpportunityHub</span>
-                    <p class="footer-tagline">Made with ❤️ for the student community</p>
-                </div>
-                <div class="footer-cta">
-                    <p>Know an opportunity that's missing?</p>
-                    <a href="https://github.com/harir03/all-tech-inoneplace/issues/new?template=add-opportunity.yml" target="_blank" class="btn btn-primary btn-sm">➕ Add an Opportunity</a>
-                </div>
+            <div class="footer-brand">
+                <span class="logo-icon">🚀</span>
+                <span class="logo-text">Opportunity<span class="logo-accent">Hub</span></span>
+                <p>Curated tech opportunities with automated hourly updates and 1-click apply.</p>
             </div>
-            <div class="footer-bottom">
-                <p>© 2026 OpportunityHub · <a href="https://github.com/harir03/all-tech-inoneplace/blob/main/LICENSE">MIT License</a> · Data is community-maintained</p>
+            <div class="footer-links">
+                <a href="https://github.com/harir03/all-tech-inoneplace" target="_blank">GitHub</a>
+                <a href="https://github.com/harir03/all-tech-inoneplace/issues/new?template=add-opportunity.yml" target="_blank">Submit Opportunity</a>
+                <a href="https://github.com/harir03/all-tech-inoneplace/blob/main/LICENSE" target="_blank">MIT License</a>
             </div>
         </div>
     </footer>
 
-    <!-- Toast Notification -->
-    <div class="toast" id="toast"></div>
-
+    <!-- JavaScript -->
     <script src="js/app.js"></script>
 </body>
 </html>

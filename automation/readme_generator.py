@@ -66,14 +66,14 @@ def format_category_table(category_name, items, max_items=12):
             link = it.get("applicationLink") or it.get("website") or "#"
             lines.append(f"| **{name}** | {org} | {mode} | {prize} | {deadline} | {status} | [Apply →]({link}) |")
 
-    elif category_name == "Internships":
+    elif category_name in ("Internships", "Jobs"):
         lines.append("| Company & Role | Location | Level / Type | Compensation | Deadline | Status | Apply |")
         lines.append("|:---------------|:---------|:-------------|:-------------|:---------|:------:|:-----:|")
         for it in selected:
-            name = it.get("name", "Internship").replace("|", "-")
+            name = it.get("name", "Role").replace("|", "-")
             loc = (it.get("location") or it.get("mode") or "Check listing").replace("|", "-")
-            elig = it.get("eligibility", "Students").replace("|", "-")
-            stipend = (it.get("stipend") or "Competitive").replace("|", "-")
+            elig = it.get("eligibility", "Graduates / Students").replace("|", "-")
+            stipend = (it.get("stipend") or "Competitive / Check listing").replace("|", "-")
             deadline = (it.get("deadline") or "Apply ASAP").replace("|", "-")
             status = status_emojis.get(it.get("status"), "🟢 Open")
             link = it.get("applicationLink") or it.get("website") or "#"
@@ -288,6 +288,7 @@ def update_readme(data_dict, project_root):
     # Category Tables
     hackathons_table = format_category_table("Hackathons", data_dict.get("hackathons", []), max_items=12)
     internships_table = format_category_table("Internships", data_dict.get("internships", []), max_items=12)
+    jobs_table = format_category_table("Jobs", data_dict.get("jobs", []), max_items=12)
     competitions_table = format_category_table("Competitions", data_dict.get("competitions", []), max_items=8)
     opensource_table = format_category_table("Open Source Programs", data_dict.get("open-source-programs", []), max_items=12)
     fellowships_table = format_category_table("Fellowships", data_dict.get("fellowships", []), max_items=8)
@@ -338,7 +339,8 @@ def update_readme(data_dict, project_root):
 ## 📋 Full Directory by Category
 
 - [🏆 Live Hackathons ({counts.get('hackathons', 0)})](#-live-hackathons)
-- [💼 Tech Internships & New Grad ({counts.get('internships', 0)})](#-tech-internships--new-grad)
+- [💼 Tech Internships ({counts.get('internships', 0)})](#-tech-internships)
+- [🏢 Full-Time Jobs & New Grad ({counts.get('jobs', 0)})](#-full-time-jobs--new-grad)
 - [⚔️ Competitions & Contests ({counts.get('competitions', 0)})](#️-competitions--contests)
 - [🌍 Open Source Programs ({counts.get('open-source-programs', 0)})](#-open-source-programs)
 - [🎓 Fellowships & Grants ({counts.get('fellowships', 0)})](#-fellowships--grants)
@@ -353,11 +355,19 @@ def update_readme(data_dict, project_root):
 
 ---
 
-## 💼 Tech Internships & New Grad
+## 💼 Tech Internships
 
 > Showing featured openings. Filter all **{counts.get('internships', 0):,} internships** by domain (AI/ML, SWE, Cloud, Security) on the [🌐 Interactive Web App](https://harir03.github.io/all-tech-inoneplace/).
 
 {internships_table}
+
+---
+
+## 🏢 Full-Time Jobs & New Grad
+
+> Showing entry-level & new grad engineering positions. Filter all **{counts.get('jobs', 0):,} full-time jobs** on the [🌐 Interactive Web App](https://harir03.github.io/all-tech-inoneplace/).
+
+{jobs_table}
 
 ---
 

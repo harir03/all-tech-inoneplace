@@ -33,7 +33,7 @@ GITHUB_SOURCES = [
     {
         "name": "SimplifyJobs-NewGrad",
         "url": "https://raw.githubusercontent.com/SimplifyJobs/New-Grad-Positions/dev/README.md",
-        "category": "internships",
+        "category": "jobs",
         "parser": "simplify_html",
         "description": "Curated new-grad and entry-level tech roles",
     },

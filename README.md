@@ -4,8 +4,8 @@
 
 ### The Automated, Curated Hub for Hackathons, Internships, Competitions, Open Source & Fellowships
 
-[![Opportunities](https://img.shields.io/badge/Opportunities-1734+%20Active-6c5ce7.svg?style=for-the-badge)](data/)
-[![Last Updated](https://img.shields.io/badge/Last%20Updated-2026--08--25%2011:20%20UTC-00cec9.svg?style=for-the-badge)](https://github.com/harir03/all-tech-inoneplace/commits/main)
+[![Opportunities](https://img.shields.io/badge/Opportunities-2669+%20Active-6c5ce7.svg?style=for-the-badge)](data/)
+[![Last Updated](https://img.shields.io/badge/Last%20Updated-2026--08--25%2011:31%20UTC-00cec9.svg?style=for-the-badge)](https://github.com/harir03/all-tech-inoneplace/commits/main)
 [![Auto-Updated](https://img.shields.io/badge/Automated-Hourly%20via%20GitHub%20Actions-0984e3.svg?style=for-the-badge)](.github/workflows/auto-update.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-ffd32a.svg?style=for-the-badge)](LICENSE)
 
@@ -100,7 +100,8 @@
 ## 📋 Full Directory by Category
 
 - [🏆 Live Hackathons (109)](#-live-hackathons)
-- [💼 Tech Internships & New Grad (1492)](#-tech-internships--new-grad)
+- [💼 Tech Internships (1492)](#-tech-internships)
+- [🏢 Full-Time Jobs & New Grad (935)](#-full-time-jobs--new-grad)
 - [⚔️ Competitions & Contests (8)](#️-competitions--contests)
 - [🌍 Open Source Programs (117)](#-open-source-programs)
 - [🎓 Fellowships & Grants (8)](#-fellowships--grants)
@@ -128,7 +129,7 @@
 
 ---
 
-## 💼 Tech Internships & New Grad
+## 💼 Tech Internships
 
 > Showing featured openings. Filter all **1,492 internships** by domain (AI/ML, SWE, Cloud, Security) on the [🌐 Interactive Web App](https://harir03.github.io/all-tech-inoneplace/).
 
@@ -146,6 +147,27 @@
 | **↳ — Engineering Intern - Developer** | Greater Manchester, UK | Students / New Grads (check listing) | Competitive / Check listing | Apply ASAP (Rolling) | 🟢 Open | [Apply →](https://eofe.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/81318?utm_source=Simplify&ref=Simplify) |
 | **↳ — Engineering Developer Intern - Engineering** | Lake Mary, FL | Students / New Grads (check listing) | Competitive / Check listing | Apply ASAP (Rolling) | 🟢 Open | [Apply →](https://eofe.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/81252?utm_source=Simplify&ref=Simplify) |
 | **↳ — Software Developer Intern - Engineering** | NYC | Students / New Grads (check listing) | Competitive / Check listing | Apply ASAP (Rolling) | 🟢 Open | [Apply →](https://eofe.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/81253?utm_source=Simplify&ref=Simplify) |
+
+---
+
+## 🏢 Full-Time Jobs & New Grad
+
+> Showing entry-level & new grad engineering positions. Filter all **935 full-time jobs** on the [🌐 Interactive Web App](https://harir03.github.io/all-tech-inoneplace/).
+
+| Company & Role | Location | Level / Type | Compensation | Deadline | Status | Apply |
+|:---------------|:---------|:-------------|:-------------|:---------|:------:|:-----:|
+| **DC Thomson — Junior Software Engineer** | London, UK | Students / New Grads (check listing) | Competitive / Check listing | Apply ASAP (Rolling) | 🟢 Open | [Apply →](https://apply.workable.com/dcthomson/j/31E88278E1/apply?utm_source=Simplify&ref=Simplify) |
+| **Bloxd — Software Engineer New Grad** | London, UK | Students / New Grads (check listing) | Competitive / Check listing | Apply ASAP (Rolling) | 🟢 Open | [Apply →](https://jobs.ashbyhq.com/bloxd/1c9d0167-b9b4-4aaa-af4f-8eccd89bf8a3/application?embed=true&utm_source=Simplify&ref=Simplify) |
+| **🔥 SpaceX — Software Security Engineer New Grad - Software Security - Starlink** | Hawthorne, CA | Students / New Grads (check listing) | Competitive / Check listing | Apply ASAP (Rolling) | 🟢 Open | [Apply →](https://boards.greenhouse.io/spacex/jobs/8724316002?utm_source=Simplify&ref=Simplify) |
+| **🔥 Oracle — Platform Software Engineer 1** | Nashville, TN | Students / New Grads (check listing) | Competitive / Check listing | Apply ASAP (Rolling) | 🟢 Open | [Apply →](https://eeho.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_45001/job/343770?utm_source=Simplify&ref=Simplify) |
+| **SteerBridge — Junior Software Engineer** | Vienna, VA | Students / New Grads (check listing) | Competitive / Check listing | Apply ASAP (Rolling) | 🟢 Open | [Apply →](https://jobs.lever.co/steerbridge/718b3135-d15d-4cbc-9541-1cbb8a6f5ec5/apply?utm_source=Simplify&ref=Simplify) |
+| **TraceLink — Software Engineer 1 - Engineering Services** | Wilmington, MA | Students / New Grads (check listing) | Competitive / Check listing | Apply ASAP (Rolling) | 🟢 Open | [Apply →](https://www.tracelink.com/about/culture-and-careers/jobs?gh_jid=5217396007&utm_source=Simplify&ref=Simplify) |
+| **🔥 Google — Software Engineer Early Career - Multiple Teams 🎓** | 12 locationsMadison, WISeattle, WAAustin, TXLARaleigh, NCSan Bruno, CADurham, NCKirkland, WANYCSunnyvale, CAMountain View, CAAtlanta, GA | Students / New Grads (check listing) | Competitive / Check listing | Apply ASAP (Rolling) | 🟢 Open | [Apply →](https://www.google.com/about/careers/applications/jobs/results/84680705375642310?utm_source=Simplify&ref=Simplify) |
+| **RTX — Software Engineer 1** | Andover, MA | Students / New Grads (check listing) | Competitive / Check listing | Apply ASAP (Rolling) | 🟢 Open | [Apply →](https://globalhr.wd5.myworkdayjobs.com/fr-CA/Private_Posting_No_TMP/job/US-MA-ANDOVER-AN0--366-Lowell-St--BLDG-AN0/Software-Engineer-I---Onsite-_01867989?utm_source=Simplify&ref=Simplify) |
+| **Royal Bank of Canada — Java Full Stack Developer New Grad** | Mississauga, ON, Canada | Students / New Grads (check listing) | Competitive / Check listing | Apply ASAP (Rolling) | 🟢 Open | [Apply →](https://rbc.wd3.myworkdayjobs.com/ExternalPrivatePostingStudents/job/MISSISSAUGA-Ontario-Canada/Java-Full-Stack-Developer--New-Grad-_R-0000184142?utm_source=Simplify&ref=Simplify) |
+| **↳ — Junior Full Stack Developer New Grad** | Toronto, ON, Canada | Students / New Grads (check listing) | Competitive / Check listing | Apply ASAP (Rolling) | 🟢 Open | [Apply →](https://rbc.wd3.myworkdayjobs.com/ExternalPrivatePostingStudents/job/TORONTO-Ontario-Canada/Junior-Full-Stack-Developer--New-Grad-_R-0000185234?utm_source=Simplify&ref=Simplify) |
+| **Northrop Grumman — Java Software Engineer 1 or 2** | Aurora, COMorrisville, NCLinthicum Heights, MD | Students / New Grads (check listing) | Competitive / Check listing | Apply ASAP (Rolling) | 🟢 Open | [Apply →](https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-Colorado-Aurora/Java-Software-Engineer-Level-1-or-2_R10247380?utm_source=Simplify&ref=Simplify) |
+| **Nightwing Intelligence Solutions — Software Engineer 1** | Sterling, VA | Students / New Grads (check listing) | Competitive / Check listing | Apply ASAP (Rolling) | 🟢 Open | [Apply →](https://nwis.wd12.myworkdayjobs.com/NW/job/Sterling-VA/Software-Engineer-I_JR101958?utm_source=Simplify&ref=Simplify) |
 
 ---
 
