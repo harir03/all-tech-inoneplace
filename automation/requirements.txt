@@ -2,3 +2,11 @@ requests>=2.31.0
 beautifulsoup4>=4.12.0
 python-dateutil>=2.8.2
 urllib3>=2.0.0
+yt-dlp>=2024.3.10
+edge-tts>=6.1.9
+
+# Agent Reach `rss` channel backend (https://github.com/Panniantong/Agent-Reach).
+# Optional: automation/reach.py falls back to a stdlib ElementTree parser when
+# this is absent, so the pipeline still runs without it. feedparser is preferred
+# because it tolerates the malformed real-world feeds that ElementTree rejects.
+feedparser>=6.0.11

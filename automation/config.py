@@ -18,6 +18,16 @@ DATA_FILES = {
     "fellowships": os.path.join(DATA_DIR, "fellowships.json"),
 }
 
+# Verification state files.
+#
+# These live inside data/ on purpose. GitHub Actions checks out a fresh copy of
+# the repo on every run, so the only way verification memory survives between
+# runs is for it to be committed — and the workflow already does `git add data/`.
+# The leading underscore keeps them out of the website, which loads an explicit
+# whitelist of category files (see website/js/app.js), not a directory glob.
+LEDGER_FILE = os.path.join(DATA_DIR, "_verification_ledger.json")
+QUARANTINE_FILE = os.path.join(DATA_DIR, "_quarantine.json")
+
 # ===== Scraping Targets =====
 SCRAPE_TARGETS = {
     "devfolio": {
@@ -49,11 +59,19 @@ REDDIT_CONFIG = {
         "developersIndia",
         "cscareerquestions",
         "Indian_Academia",
+        "Btechtards",
+        "csMajors",
+        "newgrad",
+        "remotework",
+        "webdev",
+        "learnprogramming",
     ],
     "keywords": [
         "hackathon", "internship", "fellowship", "open source program",
         "registration open", "application deadline", "apply now",
         "stipend", "coding competition", "gsoc", "mlh",
+        "prize pool", "cash prize", "hiring", "new grad",
+        "buildathon", "bounty", "challenge", "designathon",
     ],
     "max_posts_per_sub": 25,
     "enabled": True,
@@ -85,3 +103,138 @@ EMAIL_CONFIG = {
 # ===== Pipeline =====
 AUTO_COMMIT = os.getenv("AUTO_COMMIT", "false").lower() == "true"
 DRY_RUN = os.getenv("DRY_RUN", "true").lower() == "true"
+
+
+def _flag(name: str, default: bool) -> bool:
+    return os.getenv(name, str(default)).strip().lower() in ("1", "true", "yes", "on")
+
+
+# ═══════════════════════════════════════════════════════════════════════════
+# Verification stack
+#
+#   Layer 1  (verification.py)  — per-item plausibility heuristics
+#   Layer 2  (adjudication.py)  — claim-vs-evidence reconciliation
+#   Ledger   (ledger.py)        — persistent decisions + quarantine retry queue
+#   Gate     (commit_gate.py)   — dataset-wide invariants, last stop before write
+# ═══════════════════════════════════════════════════════════════════════════
+
+# Master switch for Layer 2. Turning this off reverts to Layer 1 only.
+LAYER2_ENABLED = _flag("LAYER2_ENABLED", True)
+
+# Seconds of network I/O Layer 2 may spend gathering evidence per run.
+# The CI job has a 10 minute cap, so this stays well inside it.
+EVIDENCE_TIME_BUDGET = float(os.getenv("EVIDENCE_TIME_BUDGET", "240"))
+
+# Hours an accepted item is trusted before its evidence is re-probed.
+RECHECK_TTL_HOURS = int(os.getenv("RECHECK_TTL_HOURS", "72"))
+
+# Skip network work on items already permanently disproven.
+SUPPRESS_RETIRED = _flag("SUPPRESS_RETIRED", True)
+
+# Hold unproven items for retry instead of discarding them.
+QUARANTINE_ENABLED = _flag("QUARANTINE_ENABLED", True)
+
+# Dataset-level invariant checks before any file is written.
+COMMIT_GATE_ENABLED = _flag("COMMIT_GATE_ENABLED", True)
+
+# Exit non-zero when the gate blocks a write, so CI surfaces it loudly
+# instead of silently publishing nothing.
+FAIL_RUN_ON_GATE_BLOCK = _flag("FAIL_RUN_ON_GATE_BLOCK", True)
+
+
+# ═══════════════════════════════════════════════════════════════════════════
+# Agent Reach integration — https://github.com/Panniantong/Agent-Reach
+#
+# Agent Reach is a capability layer, not a dataset: it selects, installs and
+# health-checks the best available backend per platform, and explicitly does not
+# proxy the reads itself. We therefore adopt its routing model and its chosen
+# backends rather than calling it as a service.
+#
+# The backend that matters most here is its `web` choice, Jina Reader
+# (https://r.jina.ai/<url>) — free, keyless, renders server-side, and needs
+# nothing installed, so it works unchanged inside GitHub Actions. It gives us:
+#   * a second acquisition path for listing pages and RSS feeds, and
+#   * an evidence fallback for pages that refuse direct access, where Jina's
+#     HTML mode still returns JSON-LD and OpenGraph metadata intact.
+# ═══════════════════════════════════════════════════════════════════════════
+
+REACH_ENABLED = _flag("REACH_ENABLED", True)
+
+# Use Jina Reader as the primary `web` backend (Agent Reach's own choice).
+REACH_USE_JINA = _flag("REACH_USE_JINA", True)
+
+# Optional — only raises the rate limit; the keyless tier works fine.
+JINA_API_KEY = os.getenv("JINA_API_KEY", "")
+
+# Hard caps so a slow backend can never threaten the CI timeout.
+REACH_MAX_READS = int(os.getenv("REACH_MAX_READS", "60"))
+REACH_TIME_BUDGET = float(os.getenv("REACH_TIME_BUDGET", "180"))
+
+# Let Layer 2 retry blocked pages through the Reach web channel.
+REACH_EVIDENCE_FALLBACK = _flag("REACH_EVIDENCE_FALLBACK", True)
+
+# Feeds read through the Reach `rss` channel. Feeds beat scraping: they are
+# publisher-authored, already structured, and survive site redesigns.
+#
+# Two kinds, and the distinction matters:
+#   filter=None       — a dedicated opportunity feed; every entry is an item.
+#   filter="keywords" — a general news/blog feed that occasionally announces an
+#                       opportunity. Entries must match an opportunity keyword or
+#                       they are discarded, and the source is tagged `reach:news:`
+#                       (trust 0.45) rather than `reach:rss:` (trust 0.80).
+#
+# Verified reachable at time of writing. Devpost's RSS/Atom endpoints now return
+# 403/406 and its JSON API is already covered by devpost_scraper.py, so it is
+# intentionally absent here rather than left in as a silently-broken entry.
+REACH_FEEDS = [
+    {
+        "url": "https://blog.google/technology/developers/rss/",
+        "category": "hackathons",
+        "source": "reach:news:google-developers",
+        "filter": "keywords",
+        "limit": 30,
+        "enabled": True,
+    },
+    {
+        "url": "https://developers.googleblog.com/feeds/posts/default",
+        "category": "hackathons",
+        "source": "reach:news:google-devblog",
+        "filter": "keywords",
+        "limit": 30,
+        "enabled": True,
+    },
+    {
+        "url": "https://github.blog/feed/",
+        "category": "open-source-programs",
+        "source": "reach:news:github-blog",
+        "filter": "keywords",
+        "limit": 20,
+        "enabled": True,
+    },
+]
+
+# Listing pages read as clean text through the Reach `web` channel. These are
+# deliberately tagged low-trust: Layer 2 quarantines anything derived from them
+# until an independent source corroborates it.
+REACH_WEB_TARGETS = [
+    {
+        "url": "https://unstop.com/hackathons",
+        "category": "hackathons",
+        "source": "reach:web:unstop",
+        "enabled": False,
+    },
+    {
+        "url": "https://devfolio.co/hackathons",
+        "category": "hackathons",
+        "source": "reach:web:devfolio",
+        "enabled": False,
+    },
+]
+
+# Optional semantic discovery via Exa (needs mcporter installed locally).
+# Off by default because it is unavailable in CI and produces unproven leads.
+REACH_SEARCH_ENABLED = _flag("REACH_SEARCH_ENABLED", False)
+REACH_SEARCH_QUERIES = [
+    "student hackathon 2026 registration open India",
+    "paid software engineering internship 2026 applications open",
+]

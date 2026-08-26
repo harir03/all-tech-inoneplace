@@ -62,6 +62,33 @@ def get_all_scrapers():
     except Exception as e:
         logger.warning(f"[Registry] Skipping CompanyHackathonsScraper: {e}")
 
+    try:
+        from .jobspy_scraper import JobSpyScraper
+        scrapers.append(JobSpyScraper())
+    except Exception as e:
+        logger.warning(f"[Registry] Skipping JobSpyScraper: {e}")
+
+    try:
+        from .kontests_scraper import KontestsScraper
+        scrapers.append(KontestsScraper())
+    except Exception as e:
+        logger.warning(f"[Registry] Skipping KontestsScraper: {e}")
+
+    # ═══════════════════════════════════════════════════════════════
+    # TIER 2b: Agent Reach multi-channel acquisition
+    # https://github.com/Panniantong/Agent-Reach
+    #
+    # Reads publisher RSS feeds and (opt-in) listing pages through Agent Reach's
+    # chosen backends — Jina Reader for web, feedparser for RSS. Needs nothing
+    # installed, so it works unchanged in CI. Emits provenance-tagged sources
+    # (reach:rss:* trusted, reach:web:* low-trust) that Layer 2 weighs accordingly.
+    # ═══════════════════════════════════════════════════════════════
+    try:
+        from .agent_reach_scraper import AgentReachScraper
+        scrapers.append(AgentReachScraper())
+    except Exception as e:
+        logger.warning(f"[Registry] Skipping AgentReachScraper: {e}")
+
     # ═══════════════════════════════════════════════════════════════
     # TIER 3: Website scrapers (need Scrapling — may break if site changes)
     # These are bonus sources. If Scrapling isn't installed, they're skipped.
