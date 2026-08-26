@@ -206,14 +206,23 @@ def parse_simplify_html(content, source_name):
         elif role_cell["links"]:
             app_link = role_cell["links"][0]
 
-        mode = "Remote" if any(k in location.lower() for k in ["remote", "work from home", "wfh"]) else (location or "Check listing")
+        # Classify the parsed location into a structured mode + country.
+        #
+        # This used to write `location` into `description` and `mode` and then
+        # throw the structured value away, which left 1,495 of 1,499 records with
+        # no `location` field at all — nothing to filter on, and a board full of
+        # unlabelled "New York, NY" roles.
+        from automation.location import classify
+
+        loc_info = classify(location, f"{role} {company}")
 
         opportunity = {
             "name": f"{company} — {role}",
             "organizer": company,
             "description": f"{role} position at {company}. Location: {location or 'Various'}.",
             "eligibility": "Students / New Grads (check listing)",
-            "mode": mode,
+            "location": location,
+            "mode": loc_info.label,
             "fee": "Free",
             "stipend": "Competitive / Check listing",
             "deadline": "Apply ASAP (Rolling)",
@@ -223,6 +232,7 @@ def parse_simplify_html(content, source_name):
             "status": "open",
             "source": f"github-{source_name}",
         }
+        opportunity.update(loc_info.to_fields())
         opportunities.append(opportunity)
 
     return opportunities

@@ -63,7 +63,7 @@ MAX_QUARANTINE_ITEMS = 500
 # Keys that are internal bookkeeping and must never reach data/*.json.
 INTERNAL_KEYS = (
     "_verification_score", "_verification_warnings", "_rejection_reasons",
-    "_adjudication", "_quarantine",
+    "_adjudication", "_quarantine", "_location_reject", "_research",
 )
 
 

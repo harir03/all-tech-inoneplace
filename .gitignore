@@ -21,6 +21,11 @@ downloads/
 *.log
 automation/last_run_report.txt
 
+# Data backups written by automation/tools/apply_location_policy.py
+# These are multi-MB pre-migration snapshots for local rollback, not history.
+*.bak
+data/*.pre-location-*.bak
+
 # OS
 .DS_Store
 Thumbs.db

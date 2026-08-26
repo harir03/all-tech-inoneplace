@@ -5,6 +5,12 @@ Central config for scraping targets, social monitors, and notification settings.
 
 import os
 
+
+def _flag(name: str, default: bool) -> bool:
+    """Read a boolean env var. Defined early because config reads flags below."""
+    return os.getenv(name, str(default)).strip().lower() in ("1", "true", "yes", "on")
+
+
 # ===== Paths =====
 PROJECT_ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 DATA_DIR = os.path.join(PROJECT_ROOT, "data")
@@ -100,13 +106,49 @@ EMAIL_CONFIG = {
     "sender_password": os.getenv("SENDER_PASSWORD", ""),  # Gmail App Password
 }
 
-# ===== Pipeline =====
+# ═══════════════════════════════════════════════════════════════════════════
+# Geographic policy (automation/location.py)
+#
+# This board serves Indian students, but the upstream SimplifyJobs repos are
+# US-centric: 1,231 of 1,499 internship records were US-based and only 4 were
+# Indian. Every record is now classified into a location mode and country, and
+# anything requiring physical presence outside the home country is filtered out
+# at ingestion.
+#
+# Rules per mode:
+#   "any"  → keep regardless of country (globally remote work)
+#   "home" → keep only when in LOCATION_HOME_COUNTRY, or country unknown
+#   "keep" → always keep
+#   "drop" → always drop
+#
+# `unknown` defaults to "keep" on purpose. Dropping records we merely failed to
+# parse would convert a gazetteer gap into invisible data loss.
+# ═══════════════════════════════════════════════════════════════════════════
+
+LOCATION_FILTER_ENABLED = _flag("LOCATION_FILTER_ENABLED", True)
+LOCATION_HOME_COUNTRY = os.getenv("LOCATION_HOME_COUNTRY", "IN")
+
+LOCATION_POLICY = {
+    "remote": "any",        # Work from anywhere — useful to an Indian student
+    "remote_geo": "home",   # "Remote (US)" still requires US authorization
+    "hybrid": "home",       # Splits time with an office, so presence is required
+    "onsite": "home",       # Full physical presence
+    "unknown": "keep",
+}
+
+# Categories the geographic filter applies to. Hackathons, competitions,
+# fellowships and OSS programs are overwhelmingly online/global already, and
+# filtering them adds risk without benefit.
+LOCATION_FILTERED_CATEGORIES = tuple(
+    (os.getenv("LOCATION_FILTERED_CATEGORIES") or "internships,jobs").split(",")
+)
+
+
+# ═══════════════════════════════════════════════════════════════════════════
+# Pipeline
+# ═══════════════════════════════════════════════════════════════════════════
 AUTO_COMMIT = os.getenv("AUTO_COMMIT", "false").lower() == "true"
 DRY_RUN = os.getenv("DRY_RUN", "true").lower() == "true"
-
-
-def _flag(name: str, default: bool) -> bool:
-    return os.getenv(name, str(default)).strip().lower() in ("1", "true", "yes", "on")
 
 
 # ═══════════════════════════════════════════════════════════════════════════

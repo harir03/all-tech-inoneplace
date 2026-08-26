@@ -18,7 +18,9 @@
       "mentorship",
       "summer"
     ],
-    "status": "closed"
+    "status": "closed",
+    "locationMode": "remote",
+    "locationLabel": "Remote"
   },
   {
     "name": "LFX Mentorship (Linux Foundation)",
@@ -39,7 +41,9 @@
       "paid",
       "mentorship"
     ],
-    "status": "open"
+    "status": "open",
+    "locationMode": "unknown",
+    "locationLabel": "Unspecified"
   },
   {
     "name": "Outreachy",
@@ -60,7 +64,9 @@
       "paid",
       "mentorship"
     ],
-    "status": "coming-soon"
+    "status": "coming-soon",
+    "locationMode": "remote",
+    "locationLabel": "Remote"
   },
   {
     "name": "GirlScript Summer of Code (GSSoC)",
@@ -80,7 +86,9 @@
       "beginner-friendly",
       "mentorship"
     ],
-    "status": "closed"
+    "status": "closed",
+    "locationMode": "unknown",
+    "locationLabel": "Unspecified"
   },
   {
     "name": "MLH Fellowship",
@@ -98,7 +106,10 @@
       "open-source-programs"
     ],
     "status": "open",
-    "source": "github-Deepanshu-OSPrograms"
+    "source": "github-Deepanshu-OSPrograms",
+    "locationMode": "remote",
+    "locationLabel": "Remote",
+    "location": "Online Remote"
   },
   {
     "name": "LFX Mentorship",
@@ -116,7 +127,10 @@
       "open-source-programs"
     ],
     "status": "open",
-    "source": "github-Deepanshu-OSPrograms"
+    "source": "github-Deepanshu-OSPrograms",
+    "locationMode": "remote",
+    "locationLabel": "Remote",
+    "location": "Online Remote"
   },
   {
     "name": "Summer of Bitcoin",
@@ -134,7 +148,10 @@
       "open-source-programs"
     ],
     "status": "open",
-    "source": "github-Deepanshu-OSPrograms"
+    "source": "github-Deepanshu-OSPrograms",
+    "locationMode": "remote",
+    "locationLabel": "Remote",
+    "location": "Online Remote"
   },
   {
     "name": "Hyperledger Mentorship Program",
@@ -152,7 +169,10 @@
       "open-source-programs"
     ],
     "status": "open",
-    "source": "github-Deepanshu-OSPrograms"
+    "source": "github-Deepanshu-OSPrograms",
+    "locationMode": "remote",
+    "locationLabel": "Remote",
+    "location": "Online Remote"
   },
   {
     "name": "Open Mainframe Project Mentorship Program",
@@ -170,7 +190,10 @@
       "open-source-programs"
     ],
     "status": "open",
-    "source": "github-Deepanshu-OSPrograms"
+    "source": "github-Deepanshu-OSPrograms",
+    "locationMode": "remote",
+    "locationLabel": "Remote",
+    "location": "Online Remote"
   },
   {
     "name": "OSS World Challenge",
@@ -188,7 +211,10 @@
       "open-source-programs"
     ],
     "status": "open",
-    "source": "github-Deepanshu-OSPrograms"
+    "source": "github-Deepanshu-OSPrograms",
+    "locationMode": "remote",
+    "locationLabel": "Remote",
+    "location": "Online Remote"
   },
   {
     "name": "Igalia Coding Experience Program",
@@ -206,7 +232,10 @@
       "open-source-programs"
     ],
     "status": "open",
-    "source": "github-Deepanshu-OSPrograms"
+    "source": "github-Deepanshu-OSPrograms",
+    "locationMode": "remote",
+    "locationLabel": "Remote",
+    "location": "Online Remote"
   },
   {
     "name": "Hacktoberfest",
@@ -224,7 +253,10 @@
       "open-source-programs"
     ],
     "status": "open",
-    "source": "github-Deepanshu-OSPrograms"
+    "source": "github-Deepanshu-OSPrograms",
+    "locationMode": "remote",
+    "locationLabel": "Remote",
+    "location": "Online Remote"
   },
   {
     "name": "Apertre 2.0",
@@ -242,7 +274,10 @@
       "open-source-programs"
     ],
     "status": "closed",
-    "source": "github-Deepanshu-OSPrograms"
+    "source": "github-Deepanshu-OSPrograms",
+    "locationMode": "remote",
+    "locationLabel": "Remote",
+    "location": "Online Remote"
   },
   {
     "name": "24 Pull Requests",
@@ -260,7 +295,10 @@
       "open-source-programs"
     ],
     "status": "open",
-    "source": "github-Deepanshu-OSPrograms"
+    "source": "github-Deepanshu-OSPrograms",
+    "locationMode": "remote",
+    "locationLabel": "Remote",
+    "location": "Online Remote"
   },
   {
     "name": "Advent of Code",
@@ -278,7 +316,10 @@
       "open-source-programs"
     ],
     "status": "open",
-    "source": "github-Deepanshu-OSPrograms"
+    "source": "github-Deepanshu-OSPrograms",
+    "locationMode": "remote",
+    "locationLabel": "Remote",
+    "location": "Online Remote"
   },
   {
     "name": "CodeForces",
@@ -296,7 +337,10 @@
       "open-source-programs"
     ],
     "status": "open",
-    "source": "github-Deepanshu-OSPrograms"
+    "source": "github-Deepanshu-OSPrograms",
+    "locationMode": "remote",
+    "locationLabel": "Remote",
+    "location": "Online Remote"
   },
   {
     "name": "Facebook Hacker Cup",
@@ -314,7 +358,10 @@
       "open-source-programs"
     ],
     "status": "open",
-    "source": "github-Deepanshu-OSPrograms"
+    "source": "github-Deepanshu-OSPrograms",
+    "locationMode": "remote",
+    "locationLabel": "Remote",
+    "location": "Online Remote"
   },
   {
     "name": "ACM ICPC",
@@ -332,7 +379,10 @@
       "open-source-programs"
     ],
     "status": "open",
-    "source": "github-Deepanshu-OSPrograms"
+    "source": "github-Deepanshu-OSPrograms",
+    "locationMode": "remote",
+    "locationLabel": "Remote",
+    "location": "Online Remote"
   },
   {
     "name": "FOSSEE Summer Fellowship",
@@ -350,7 +400,10 @@
       "open-source-programs"
     ],
     "status": "open",
-    "source": "github-Deepanshu-OSPrograms"
+    "source": "github-Deepanshu-OSPrograms",
+    "locationMode": "remote",
+    "locationLabel": "Remote",
+    "location": "Online Remote"
   },
   {
     "name": "JGEC Winter of Code",
@@ -368,7 +421,10 @@
       "open-source-programs"
     ],
     "status": "open",
-    "source": "github-Deepanshu-OSPrograms"
+    "source": "github-Deepanshu-OSPrograms",
+    "locationMode": "remote",
+    "locationLabel": "Remote",
+    "location": "Online Remote"
   },
   {
     "name": "NJACK Winter of Code",
@@ -386,7 +442,10 @@
       "open-source-programs"
     ],
     "status": "open",
-    "source": "github-Deepanshu-OSPrograms"
+    "source": "github-Deepanshu-OSPrograms",
+    "locationMode": "remote",
+    "locationLabel": "Remote",
+    "location": "Online Remote"
   },
   {
     "name": "Kharagpur Winter of Code",
@@ -404,7 +463,10 @@
       "open-source-programs"
     ],
     "status": "open",
-    "source": "github-Deepanshu-OSPrograms"
+    "source": "github-Deepanshu-OSPrograms",
+    "locationMode": "remote",
+    "locationLabel": "Remote",
+    "location": "Online Remote"
   },
   {
     "name": "DevScript Winter of Code",
@@ -422,7 +484,10 @@
       "open-source-programs"
     ],
     "status": "open",
-    "source": "github-Deepanshu-OSPrograms"
+    "source": "github-Deepanshu-OSPrograms",
+    "locationMode": "remote",
+    "locationLabel": "Remote",
+    "location": "Online Remote"
   },
   {
     "name": "Delta Winter of Code",
@@ -440,7 +505,10 @@
       "open-source-programs"
     ],
     "status": "open",
-    "source": "github-Deepanshu-OSPrograms"
+    "source": "github-Deepanshu-OSPrograms",
+    "locationMode": "remote",
+    "locationLabel": "Remote",
+    "location": "Online Remote"
   },
   {
     "name": "IIIT-Kalyani Winter of Code",
@@ -458,7 +526,10 @@
       "open-source-programs"
     ],
     "status": "open",
-    "source": "github-Deepanshu-OSPrograms"
+    "source": "github-Deepanshu-OSPrograms",
+    "locationMode": "remote",
+    "locationLabel": "Remote",
+    "location": "Online Remote"
   },
   {
     "name": "SIH (Smart India Hackathon)",
@@ -476,7 +547,10 @@
       "open-source-programs"
     ],
     "status": "open",
-    "source": "github-Deepanshu-OSPrograms"
+    "source": "github-Deepanshu-OSPrograms",
+    "locationMode": "remote",
+    "locationLabel": "Remote",
+    "location": "Online Remote"
   },
   {
     "name": "MIT Battle of Codes",
@@ -494,7 +568,10 @@
       "open-source-programs"
     ],
     "status": "open",
-    "source": "github-Deepanshu-OSPrograms"
+    "source": "github-Deepanshu-OSPrograms",
+    "locationMode": "remote",
+    "locationLabel": "Remote",
+    "location": "Online Remote"
   },
   {
     "name": "IIT Bombay Summer Internship",
@@ -512,7 +589,10 @@
       "open-source-programs"
     ],
     "status": "open",
-    "source": "github-Deepanshu-OSPrograms"
+    "source": "github-Deepanshu-OSPrograms",
+    "locationMode": "remote",
+    "locationLabel": "Remote",
+    "location": "Online Remote"
   },
   {
     "name": "FOSS Overflow, IIT Bhilai",
@@ -530,7 +610,10 @@
       "open-source-programs"
     ],
     "status": "open",
-    "source": "github-Deepanshu-OSPrograms"
+    "source": "github-Deepanshu-OSPrograms",
+    "locationMode": "remote",
+    "locationLabel": "Remote",
+    "location": "Online Remote"
   },
   {
     "name": "Microsoft Reinforcement Learning Open Source Fest",
@@ -548,7 +631,10 @@
       "open-source-programs"
     ],
     "status": "open",
-    "source": "github-Deepanshu-OSPrograms"
+    "source": "github-Deepanshu-OSPrograms",
+    "locationMode": "remote",
+    "locationLabel": "Remote",
+    "location": "Online Remote"
   },
   {
     "name": "Free Software Foundation Internship",
@@ -566,7 +652,10 @@
       "open-source-programs"
     ],
     "status": "open",
-    "source": "github-Deepanshu-OSPrograms"
+    "source": "github-Deepanshu-OSPrograms",
+    "locationMode": "remote",
+    "locationLabel": "Remote",
+    "location": "Online Remote"
   },
   {
     "name": "Python Software Foundation Fellowship Program",
@@ -584,7 +673,10 @@
       "open-source-programs"
     ],
     "status": "open",
-    "source": "github-Deepanshu-OSPrograms"
+    "source": "github-Deepanshu-OSPrograms",
+    "locationMode": "remote",
+    "locationLabel": "Remote",
+    "location": "Online Remote"
   },
   {
     "name": "The Processing Foundation Fellowships",
@@ -602,7 +694,10 @@
       "open-source-programs"
     ],
     "status": "open",
-    "source": "github-Deepanshu-OSPrograms"
+    "source": "github-Deepanshu-OSPrograms",
+    "locationMode": "remote",
+    "locationLabel": "Remote",
+    "location": "Online Remote"
   },
   {
     "name": "30 Days Coding",
@@ -620,7 +715,10 @@
       "open-source-programs"
     ],
     "status": "open",
-    "source": "github-Deepanshu-OSPrograms"
+    "source": "github-Deepanshu-OSPrograms",
+    "locationMode": "remote",
+    "locationLabel": "Remote",
+    "location": "Online"
   },
   {
     "name": "Lambda School",
@@ -638,7 +736,10 @@
       "open-source-programs"
     ],
     "status": "open",
-    "source": "github-Deepanshu-OSPrograms"
+    "source": "github-Deepanshu-OSPrograms",
+    "locationMode": "remote",
+    "locationLabel": "Remote",
+    "location": "Online"
   },
   {
     "name": "Hack Reactor",
@@ -656,7 +757,10 @@
       "open-source-programs"
     ],
     "status": "open",
-    "source": "github-Deepanshu-OSPrograms"
+    "source": "github-Deepanshu-OSPrograms",
+    "locationMode": "onsite",
+    "locationLabel": "In-person",
+    "location": "Online In-person"
   },
   {
     "name": "App Academy",
@@ -674,7 +778,10 @@
       "open-source-programs"
     ],
     "status": "open",
-    "source": "github-Deepanshu-OSPrograms"
+    "source": "github-Deepanshu-OSPrograms",
+    "locationMode": "onsite",
+    "locationLabel": "In-person",
+    "location": "Online In-person"
   },
   {
     "name": "Flatiron School",
@@ -692,7 +799,10 @@
       "open-source-programs"
     ],
     "status": "open",
-    "source": "github-Deepanshu-OSPrograms"
+    "source": "github-Deepanshu-OSPrograms",
+    "locationMode": "onsite",
+    "locationLabel": "In-person",
+    "location": "Online In-person"
   },
   {
     "name": "General Assembly",
@@ -710,7 +820,10 @@
       "open-source-programs"
     ],
     "status": "open",
-    "source": "github-Deepanshu-OSPrograms"
+    "source": "github-Deepanshu-OSPrograms",
+    "locationMode": "onsite",
+    "locationLabel": "In-person",
+    "location": "Online In-person"
   },
   {
     "name": "Codecademy Pro Intensive",
@@ -728,7 +841,10 @@
       "open-source-programs"
     ],
     "status": "open",
-    "source": "github-Deepanshu-OSPrograms"
+    "source": "github-Deepanshu-OSPrograms",
+    "locationMode": "remote",
+    "locationLabel": "Remote",
+    "location": "Online"
   },
   {
     "name": "Springboard",
@@ -746,7 +862,10 @@
       "open-source-programs"
     ],
     "status": "open",
-    "source": "github-Deepanshu-OSPrograms"
+    "source": "github-Deepanshu-OSPrograms",
+    "locationMode": "remote",
+    "locationLabel": "Remote",
+    "location": "Online"
   },
   {
     "name": "Fullstack Academy",
@@ -764,7 +883,10 @@
       "open-source-programs"
     ],
     "status": "open",
-    "source": "github-Deepanshu-OSPrograms"
+    "source": "github-Deepanshu-OSPrograms",
+    "locationMode": "onsite",
+    "locationLabel": "In-person",
+    "location": "Online In-person"
   },
   {
     "name": "Thinkful",
@@ -782,7 +904,10 @@
       "open-source-programs"
     ],
     "status": "open",
-    "source": "github-Deepanshu-OSPrograms"
+    "source": "github-Deepanshu-OSPrograms",
+    "locationMode": "remote",
+    "locationLabel": "Remote",
+    "location": "Online"
   },
   {
     "name": "Codeworks",
@@ -800,7 +925,10 @@
       "open-source-programs"
     ],
     "status": "open",
-    "source": "github-Deepanshu-OSPrograms"
+    "source": "github-Deepanshu-OSPrograms",
+    "locationMode": "onsite",
+    "locationLabel": "In-person",
+    "location": "Online In-person"
   },
   {
     "name": "Masteringbackend",
@@ -818,7 +946,10 @@
       "open-source-programs"
     ],
     "status": "open",
-    "source": "github-Deepanshu-OSPrograms"
+    "source": "github-Deepanshu-OSPrograms",
+    "locationMode": "onsite",
+    "locationLabel": "In-person",
+    "location": "Online In-person"
   },
   {
     "name": "Linux Kernel Mentorship Program",
@@ -836,7 +967,10 @@
       "open-source-programs"
     ],
     "status": "closed",
-    "source": "github-Ayush-EveryOSS"
+    "source": "github-Ayush-EveryOSS",
+    "locationMode": "remote",
+    "locationLabel": "Remote",
+    "location": "Online Remote"
   },
   {
     "name": "LFX Mentorship Program",
@@ -854,7 +988,10 @@
       "open-source-programs"
     ],
     "status": "closed",
-    "source": "github-Ayush-EveryOSS"
+    "source": "github-Ayush-EveryOSS",
+    "locationMode": "remote",
+    "locationLabel": "Remote",
+    "location": "Online Remote"
   },
   {
     "name": "Google Summer of Documentation-(Docs)",
@@ -872,7 +1009,10 @@
       "open-source-programs"
     ],
     "status": "open",
-    "source": "github-Ayush-EveryOSS"
+    "source": "github-Ayush-EveryOSS",
+    "locationMode": "remote",
+    "locationLabel": "Remote",
+    "location": "Online Remote"
   },
   {
     "name": "DataONE Summer Internship Programme",
@@ -890,7 +1030,10 @@
       "open-source-programs"
     ],
     "status": "closed",
-    "source": "github-Ayush-EveryOSS"
+    "source": "github-Ayush-EveryOSS",
+    "locationMode": "remote",
+    "locationLabel": "Remote",
+    "location": "Online Remote"
   },
   {
     "name": "Reinforcement Learning Open Source Fest",
@@ -908,7 +1051,10 @@
       "open-source-programs"
     ],
     "status": "open",
-    "source": "github-Ayush-EveryOSS"
+    "source": "github-Ayush-EveryOSS",
+    "locationMode": "remote",
+    "locationLabel": "Remote",
+    "location": "Online Remote"
   },
   {
     "name": "Google Summer of Earth Engine-(SoEE)",
@@ -926,7 +1072,10 @@
       "open-source-programs"
     ],
     "status": "closed",
-    "source": "github-Ayush-EveryOSS"
+    "source": "github-Ayush-EveryOSS",
+    "locationMode": "remote",
+    "locationLabel": "Remote",
+    "location": "Online Remote"
   },
   {
     "name": "RAILS GIRLS SUMMER OF CODE-(RGSOC)",
@@ -944,7 +1093,10 @@
       "open-source-programs"
     ],
     "status": "open",
-    "source": "github-Ayush-EveryOSS"
+    "source": "github-Ayush-EveryOSS",
+    "locationMode": "remote",
+    "locationLabel": "Remote",
+    "location": "Online Remote"
   },
   {
     "name": "TOR Summer of Privacy",
@@ -962,7 +1114,10 @@
       "open-source-programs"
     ],
     "status": "closed",
-    "source": "github-Ayush-EveryOSS"
+    "source": "github-Ayush-EveryOSS",
+    "locationMode": "remote",
+    "locationLabel": "Remote",
+    "location": "Online Remote"
   },
   {
     "name": "X org Foundation-(EVOC)",
@@ -980,7 +1135,10 @@
       "open-source-programs"
     ],
     "status": "closed",
-    "source": "github-Ayush-EveryOSS"
+    "source": "github-Ayush-EveryOSS",
+    "locationMode": "remote",
+    "locationLabel": "Remote",
+    "location": "Online Remote"
   },
   {
     "name": "(LFN)-Linux Foundation Mentorship Program",
@@ -998,7 +1156,10 @@
       "open-source-programs"
     ],
     "status": "open",
-    "source": "github-Ayush-EveryOSS"
+    "source": "github-Ayush-EveryOSS",
+    "locationMode": "remote",
+    "locationLabel": "Remote",
+    "location": "Online Remote"
   },
   {
     "name": "ERPNext Summer of Code",
@@ -1016,7 +1177,10 @@
       "open-source-programs"
     ],
     "status": "open",
-    "source": "github-Ayush-EveryOSS"
+    "source": "github-Ayush-EveryOSS",
+    "locationMode": "remote",
+    "locationLabel": "Remote",
+    "location": "Online Remote"
   },
   {
     "name": "AI4Bharat Summer of Code",
@@ -1034,7 +1198,10 @@
       "open-source-programs"
     ],
     "status": "closed",
-    "source": "github-Ayush-EveryOSS"
+    "source": "github-Ayush-EveryOSS",
+    "locationMode": "remote",
+    "locationLabel": "Remote",
+    "location": "Online Remote"
   },
   {
     "name": "Cross Research Experience Program",
@@ -1052,7 +1219,10 @@
       "open-source-programs"
     ],
     "status": "closed",
-    "source": "github-Ayush-EveryOSS"
+    "source": "github-Ayush-EveryOSS",
+    "locationMode": "remote",
+    "locationLabel": "Remote",
+    "location": "Online Remote"
   },
   {
     "name": "Open Mainframe Project -Linux Foundation",
@@ -1070,7 +1240,10 @@
       "open-source-programs"
     ],
     "status": "closed",
-    "source": "github-Ayush-EveryOSS"
+    "source": "github-Ayush-EveryOSS",
+    "locationMode": "remote",
+    "locationLabel": "Remote",
+    "location": "Online Remote"
   },
   {
     "name": "Alibaba Summer of code",
@@ -1088,7 +1261,10 @@
       "open-source-programs"
     ],
     "status": "open",
-    "source": "github-Ayush-EveryOSS"
+    "source": "github-Ayush-EveryOSS",
+    "locationMode": "remote",
+    "locationLabel": "Remote",
+    "location": "Online Remote"
   },
   {
     "name": "Tencent Rhino-bird Open-source Training Program",
@@ -1106,7 +1282,10 @@
       "open-source-programs"
     ],
     "status": "closed",
-    "source": "github-Ayush-EveryOSS"
+    "source": "github-Ayush-EveryOSS",
+    "locationMode": "remote",
+    "locationLabel": "Remote",
+    "location": "Online Remote"
   },
   {
     "name": "Summer of Open Souce Promotion Plan",
@@ -1124,7 +1303,10 @@
       "open-source-programs"
     ],
     "status": "open",
-    "source": "github-Ayush-EveryOSS"
+    "source": "github-Ayush-EveryOSS",
+    "locationMode": "remote",
+    "locationLabel": "Remote",
+    "location": "Online Remote"
   },
   {
     "name": "LetsGrowMore's Summer Of Code",
@@ -1142,7 +1324,10 @@
       "open-source-programs"
     ],
     "status": "closed",
-    "source": "github-Ayush-EveryOSS"
+    "source": "github-Ayush-EveryOSS",
+    "locationMode": "remote",
+    "locationLabel": "Remote",
+    "location": "Online Remote"
   },
   {
     "name": "OSS Summer of Innovation",
@@ -1160,7 +1345,10 @@
       "open-source-programs"
     ],
     "status": "closed",
-    "source": "github-Ayush-EveryOSS"
+    "source": "github-Ayush-EveryOSS",
+    "locationMode": "remote",
+    "locationLabel": "Remote",
+    "location": "Online Remote"
   },
   {
     "name": "Hack Club SRM Summer of Code (HCSSoC)",
@@ -1178,7 +1366,10 @@
       "open-source-programs"
     ],
     "status": "closed",
-    "source": "github-Ayush-EveryOSS"
+    "source": "github-Ayush-EveryOSS",
+    "locationMode": "remote",
+    "locationLabel": "Remote",
+    "location": "Online Remote"
   },
   {
     "name": "Bountiful Open Source Summer-BOSS",
@@ -1196,7 +1387,10 @@
       "open-source-programs"
     ],
     "status": "open",
-    "source": "github-Ayush-EveryOSS"
+    "source": "github-Ayush-EveryOSS",
+    "locationMode": "remote",
+    "locationLabel": "Remote",
+    "location": "Online Remote"
   },
   {
     "name": "Open Summer of Code-(OSoC)",
@@ -1214,7 +1408,10 @@
       "open-source-programs"
     ],
     "status": "closed",
-    "source": "github-Ayush-EveryOSS"
+    "source": "github-Ayush-EveryOSS",
+    "locationMode": "remote",
+    "locationLabel": "Remote",
+    "location": "Online Remote"
   },
   {
     "name": "ACM MM Open Source Software Competition",
@@ -1232,7 +1429,10 @@
       "open-source-programs"
     ],
     "status": "closed",
-    "source": "github-Ayush-EveryOSS"
+    "source": "github-Ayush-EveryOSS",
+    "locationMode": "remote",
+    "locationLabel": "Remote",
+    "location": "Online Remote"
   },
   {
     "name": "PClub Summer Of Code",
@@ -1250,7 +1450,10 @@
       "open-source-programs"
     ],
     "status": "closed",
-    "source": "github-Ayush-EveryOSS"
+    "source": "github-Ayush-EveryOSS",
+    "locationMode": "remote",
+    "locationLabel": "Remote",
+    "location": "Online Remote"
   },
   {
     "name": "Script Fellowship Program",
@@ -1268,7 +1471,10 @@
       "open-source-programs"
     ],
     "status": "open",
-    "source": "github-Ayush-EveryOSS"
+    "source": "github-Ayush-EveryOSS",
+    "locationMode": "remote",
+    "locationLabel": "Remote",
+    "location": "Online Remote"
   },
   {
     "name": "Witnet Summer of Code Program-(WSoC)",
@@ -1286,7 +1492,10 @@
       "open-source-programs"
     ],
     "status": "closed",
-    "source": "github-Ayush-EveryOSS"
+    "source": "github-Ayush-EveryOSS",
+    "locationMode": "remote",
+    "locationLabel": "Remote",
+    "location": "Online Remote"
   },
   {
     "name": "Mozilla Winter of Security",
@@ -1304,7 +1513,10 @@
       "open-source-programs"
     ],
     "status": "open",
-    "source": "github-Ayush-EveryOSS"
+    "source": "github-Ayush-EveryOSS",
+    "locationMode": "remote",
+    "locationLabel": "Remote",
+    "location": "Online Remote"
   },
   {
     "name": "Girlscript winter of code (docs)",
@@ -1322,7 +1534,10 @@
       "open-source-programs"
     ],
     "status": "open",
-    "source": "github-Ayush-EveryOSS"
+    "source": "github-Ayush-EveryOSS",
+    "locationMode": "remote",
+    "locationLabel": "Remote",
+    "location": "Online Remote"
   },
   {
     "name": "GNOME Internship Program",
@@ -1340,7 +1555,10 @@
       "open-source-programs"
     ],
     "status": "closed",
-    "source": "github-Ayush-EveryOSS"
+    "source": "github-Ayush-EveryOSS",
+    "locationMode": "remote",
+    "locationLabel": "Remote",
+    "location": "Online Remote"
   },
   {
     "name": "Script Winter of code-(SWoC)",
@@ -1358,7 +1576,10 @@
       "open-source-programs"
     ],
     "status": "closed",
-    "source": "github-Ayush-EveryOSS"
+    "source": "github-Ayush-EveryOSS",
+    "locationMode": "remote",
+    "locationLabel": "Remote",
+    "location": "Online Remote"
   },
   {
     "name": "Semester Long Projects (SLoP by DA-IICT)",
@@ -1376,7 +1597,10 @@
       "open-source-programs"
     ],
     "status": "open",
-    "source": "github-Ayush-EveryOSS"
+    "source": "github-Ayush-EveryOSS",
+    "locationMode": "remote",
+    "locationLabel": "Remote",
+    "location": "Online Remote"
   },
   {
     "name": "GitHub Externship",
@@ -1394,7 +1618,10 @@
       "open-source-programs"
     ],
     "status": "closed",
-    "source": "github-Ayush-EveryOSS"
+    "source": "github-Ayush-EveryOSS",
+    "locationMode": "remote",
+    "locationLabel": "Remote",
+    "location": "Online Remote"
   },
   {
     "name": "Foss Asia Codeheat",
@@ -1412,7 +1639,10 @@
       "open-source-programs"
     ],
     "status": "closed",
-    "source": "github-Ayush-EveryOSS"
+    "source": "github-Ayush-EveryOSS",
+    "locationMode": "remote",
+    "locationLabel": "Remote",
+    "location": "Online Remote"
   },
   {
     "name": "Winter of code by NSEC",
@@ -1430,7 +1660,10 @@
       "open-source-programs"
     ],
     "status": "closed",
-    "source": "github-Ayush-EveryOSS"
+    "source": "github-Ayush-EveryOSS",
+    "locationMode": "remote",
+    "locationLabel": "Remote",
+    "location": "Online Remote"
   },
   {
     "name": "Season of KDE",
@@ -1448,7 +1681,10 @@
       "open-source-programs"
     ],
     "status": "closed",
-    "source": "github-Ayush-EveryOSS"
+    "source": "github-Ayush-EveryOSS",
+    "locationMode": "remote",
+    "locationLabel": "Remote",
+    "location": "Online Remote"
   },
   {
     "name": "Redox Summer of code",
@@ -1466,7 +1702,10 @@
       "open-source-programs"
     ],
     "status": "open",
-    "source": "github-Ayush-EveryOSS"
+    "source": "github-Ayush-EveryOSS",
+    "locationMode": "remote",
+    "locationLabel": "Remote",
+    "location": "Online Remote"
   },
   {
     "name": "Julia Season of Contribution-(JSOC)",
@@ -1484,7 +1723,10 @@
       "open-source-programs"
     ],
     "status": "open",
-    "source": "github-Ayush-EveryOSS"
+    "source": "github-Ayush-EveryOSS",
+    "locationMode": "remote",
+    "locationLabel": "Remote",
+    "location": "Online Remote"
   },
   {
     "name": "Foss Asia Intership Program",
@@ -1502,7 +1744,10 @@
       "open-source-programs"
     ],
     "status": "open",
-    "source": "github-Ayush-EveryOSS"
+    "source": "github-Ayush-EveryOSS",
+    "locationMode": "remote",
+    "locationLabel": "Remote",
+    "location": "Online Remote"
   },
   {
     "name": "John Hunter Matplotlib Summer Fellowship",
@@ -1520,7 +1765,10 @@
       "open-source-programs"
     ],
     "status": "open",
-    "source": "github-Ayush-EveryOSS"
+    "source": "github-Ayush-EveryOSS",
+    "locationMode": "remote",
+    "locationLabel": "Remote",
+    "location": "Online Remote"
   },
   {
     "name": "Radare Summer of Code",
@@ -1538,7 +1786,10 @@
       "open-source-programs"
     ],
     "status": "open",
-    "source": "github-Ayush-EveryOSS"
+    "source": "github-Ayush-EveryOSS",
+    "locationMode": "remote",
+    "locationLabel": "Remote",
+    "location": "Online Remote"
   },
   {
     "name": "Summer of Haskell",
@@ -1556,7 +1807,10 @@
       "open-source-programs"
     ],
     "status": "open",
-    "source": "github-Ayush-EveryOSS"
+    "source": "github-Ayush-EveryOSS",
+    "locationMode": "remote",
+    "locationLabel": "Remote",
+    "location": "Online Remote"
   },
   {
     "name": "RARE Technologies Student Incubator Programme",
@@ -1574,7 +1828,10 @@
       "open-source-programs"
     ],
     "status": "open",
-    "source": "github-Ayush-EveryOSS"
+    "source": "github-Ayush-EveryOSS",
+    "locationMode": "remote",
+    "locationLabel": "Remote",
+    "location": "Online Remote"
   },
   {
     "name": "Vectorised IO",
@@ -1592,7 +1849,10 @@
       "open-source-programs"
     ],
     "status": "open",
-    "source": "github-Ayush-EveryOSS"
+    "source": "github-Ayush-EveryOSS",
+    "locationMode": "remote",
+    "locationLabel": "Remote",
+    "location": "Online Remote"
   },
   {
     "name": "Snowplow",
@@ -1610,7 +1870,10 @@
       "open-source-programs"
     ],
     "status": "open",
-    "source": "github-Ayush-EveryOSS"
+    "source": "github-Ayush-EveryOSS",
+    "locationMode": "remote",
+    "locationLabel": "Remote",
+    "location": "Online Remote"
   },
   {
     "name": "RubyMe Mentorship Program",
@@ -1628,7 +1891,10 @@
       "open-source-programs"
     ],
     "status": "open",
-    "source": "github-Ayush-EveryOSS"
+    "source": "github-Ayush-EveryOSS",
+    "locationMode": "remote",
+    "locationLabel": "Remote",
+    "location": "Online Remote"
   },
   {
     "name": "Kubernetes Shadows Program",
@@ -1646,7 +1912,10 @@
       "open-source-programs"
     ],
     "status": "open",
-    "source": "github-Ayush-EveryOSS"
+    "source": "github-Ayush-EveryOSS",
+    "locationMode": "remote",
+    "locationLabel": "Remote",
+    "location": "Online Remote"
   },
   {
     "name": "Millennium Fellowship",
@@ -1664,7 +1933,10 @@
       "open-source-programs"
     ],
     "status": "open",
-    "source": "github-Ayush-EveryOSS"
+    "source": "github-Ayush-EveryOSS",
+    "locationMode": "remote",
+    "locationLabel": "Remote",
+    "location": "Online Remote"
   },
   {
     "name": "Microsoft Learn Student Ambassador Program",
@@ -1682,7 +1954,10 @@
       "open-source-programs"
     ],
     "status": "open",
-    "source": "github-Ayush-EveryOSS"
+    "source": "github-Ayush-EveryOSS",
+    "locationMode": "remote",
+    "locationLabel": "Remote",
+    "location": "Online Remote"
   },
   {
     "name": "OpenCode IIITA",
@@ -1700,7 +1975,10 @@
       "open-source-programs"
     ],
     "status": "open",
-    "source": "github-Ayush-EveryOSS"
+    "source": "github-Ayush-EveryOSS",
+    "locationMode": "remote",
+    "locationLabel": "Remote",
+    "location": "Online Remote"
   },
   {
     "name": "Tweag I/O Summer Internship",
@@ -1718,7 +1996,10 @@
       "open-source-programs"
     ],
     "status": "open",
-    "source": "github-Ayush-EveryOSS"
+    "source": "github-Ayush-EveryOSS",
+    "locationMode": "remote",
+    "locationLabel": "Remote",
+    "location": "Online Remote"
   },
   {
     "name": "Segment Open Fellowship",
@@ -1736,7 +2017,10 @@
       "open-source-programs"
     ],
     "status": "open",
-    "source": "github-Ayush-EveryOSS"
+    "source": "github-Ayush-EveryOSS",
+    "locationMode": "remote",
+    "locationLabel": "Remote",
+    "location": "Online Remote"
   },
   {
     "name": "Sanscript Autumn of Open Source",
@@ -1754,7 +2038,10 @@
       "open-source-programs"
     ],
     "status": "open",
-    "source": "github-Ayush-EveryOSS"
+    "source": "github-Ayush-EveryOSS",
+    "locationMode": "remote",
+    "locationLabel": "Remote",
+    "location": "Online Remote"
   },
   {
     "name": "Quantopian Open",
@@ -1772,7 +2059,10 @@
       "open-source-programs"
     ],
     "status": "open",
-    "source": "github-Ayush-EveryOSS"
+    "source": "github-Ayush-EveryOSS",
+    "locationMode": "remote",
+    "locationLabel": "Remote",
+    "location": "Online Remote"
   },
   {
     "name": "OWASP SOC",
@@ -1790,7 +2080,10 @@
       "open-source-programs"
     ],
     "status": "open",
-    "source": "github-Ayush-EveryOSS"
+    "source": "github-Ayush-EveryOSS",
+    "locationMode": "remote",
+    "locationLabel": "Remote",
+    "location": "Online Remote"
   },
   {
     "name": "MDG Winter of Code",
@@ -1808,7 +2101,10 @@
       "open-source-programs"
     ],
     "status": "open",
-    "source": "github-Ayush-EveryOSS"
+    "source": "github-Ayush-EveryOSS",
+    "locationMode": "remote",
+    "locationLabel": "Remote",
+    "location": "Online Remote"
   },
   {
     "name": "ICFOSS Fellowship Programme",
@@ -1826,7 +2122,10 @@
       "open-source-programs"
     ],
     "status": "open",
-    "source": "github-Ayush-EveryOSS"
+    "source": "github-Ayush-EveryOSS",
+    "locationMode": "remote",
+    "locationLabel": "Remote",
+    "location": "Online Remote"
   },
   {
     "name": "Halite AI Bot Challenge",
@@ -1844,7 +2143,10 @@
       "open-source-programs"
     ],
     "status": "open",
-    "source": "github-Ayush-EveryOSS"
+    "source": "github-Ayush-EveryOSS",
+    "locationMode": "remote",
+    "locationLabel": "Remote",
+    "location": "Online Remote"
   },
   {
     "name": "HackinCodes Contributor Hack",
@@ -1862,7 +2164,10 @@
       "open-source-programs"
     ],
     "status": "open",
-    "source": "github-Ayush-EveryOSS"
+    "source": "github-Ayush-EveryOSS",
+    "locationMode": "remote",
+    "locationLabel": "Remote",
+    "location": "Online Remote"
   },
   {
     "name": "Data Driven Competition",
@@ -1880,7 +2185,10 @@
       "open-source-programs"
     ],
     "status": "open",
-    "source": "github-Ayush-EveryOSS"
+    "source": "github-Ayush-EveryOSS",
+    "locationMode": "remote",
+    "locationLabel": "Remote",
+    "location": "Online Remote"
   },
   {
     "name": "(DAWOC)-DA-IICT Winter of Code",
@@ -1898,7 +2206,10 @@
       "open-source-programs"
     ],
     "status": "open",
-    "source": "github-Ayush-EveryOSS"
+    "source": "github-Ayush-EveryOSS",
+    "locationMode": "remote",
+    "locationLabel": "Remote",
+    "location": "Online Remote"
   },
   {
     "name": "Cats winter of code",
@@ -1916,7 +2227,10 @@
       "open-source-programs"
     ],
     "status": "open",
-    "source": "github-Ayush-EveryOSS"
+    "source": "github-Ayush-EveryOSS",
+    "locationMode": "remote",
+    "locationLabel": "Remote",
+    "location": "Online Remote"
   },
   {
     "name": "Educational Externship Track",
@@ -1934,7 +2248,10 @@
       "open-source-programs"
     ],
     "status": "open",
-    "source": "github-Ayush-EveryOSS"
+    "source": "github-Ayush-EveryOSS",
+    "locationMode": "remote",
+    "locationLabel": "Remote",
+    "location": "Online Remote"
   },
   {
     "name": "Apertre-A 15-day-long Open Source Event by Resourcio Community & GDSC AOT",
@@ -1952,7 +2269,10 @@
       "open-source-programs"
     ],
     "status": "closed",
-    "source": "github-Ayush-EveryOSS"
+    "source": "github-Ayush-EveryOSS",
+    "locationMode": "remote",
+    "locationLabel": "Remote",
+    "location": "Online Remote"
   },
   {
     "name": "Cross Winter of code",
@@ -1970,7 +2290,10 @@
       "open-source-programs"
     ],
     "status": "closed",
-    "source": "github-Ayush-EveryOSS"
+    "source": "github-Ayush-EveryOSS",
+    "locationMode": "remote",
+    "locationLabel": "Remote",
+    "location": "Online Remote"
   },
   {
     "name": "GitHub Accelerator",
@@ -1988,7 +2311,10 @@
       "student"
     ],
     "status": "open",
-    "source": "github-OpenSauced-OSS"
+    "source": "github-OpenSauced-OSS",
+    "locationMode": "unknown",
+    "locationLabel": "Unspecified",
+    "location": "Check listing"
   },
   {
     "name": "Community Contributor Group",
@@ -2006,7 +2332,10 @@
       "student"
     ],
     "status": "open",
-    "source": "github-OpenSauced-OSS"
+    "source": "github-OpenSauced-OSS",
+    "locationMode": "unknown",
+    "locationLabel": "Unspecified",
+    "location": "Check listing"
   },
   {
     "name": "Eddiehub",
@@ -2024,7 +2353,10 @@
       "student"
     ],
     "status": "open",
-    "source": "github-OpenSauced-OSS"
+    "source": "github-OpenSauced-OSS",
+    "locationMode": "unknown",
+    "locationLabel": "Unspecified",
+    "location": "Check listing"
   },
   {
     "name": "Mozilla Builders Incubator",
@@ -2042,7 +2374,10 @@
       "student"
     ],
     "status": "open",
-    "source": "github-OpenSauced-OSS"
+    "source": "github-OpenSauced-OSS",
+    "locationMode": "unknown",
+    "locationLabel": "Unspecified",
+    "location": "Check listing"
   },
   {
     "name": "Primary NYC Founders Fellowship: Open Source",
@@ -2060,7 +2395,10 @@
       "student"
     ],
     "status": "open",
-    "source": "github-OpenSauced-OSS"
+    "source": "github-OpenSauced-OSS",
+    "locationMode": "unknown",
+    "locationLabel": "Unspecified",
+    "location": "Check listing"
   },
   {
     "name": "Hyperlegder Mentorship Program",
@@ -2078,7 +2416,10 @@
       "student"
     ],
     "status": "open",
-    "source": "github-OpenSauced-OSS"
+    "source": "github-OpenSauced-OSS",
+    "locationMode": "unknown",
+    "locationLabel": "Unspecified",
+    "location": "Check listing"
   },
   {
     "name": "Octernships",
@@ -2096,7 +2437,10 @@
       "student"
     ],
     "status": "open",
-    "source": "github-OpenSauced-OSS"
+    "source": "github-OpenSauced-OSS",
+    "locationMode": "unknown",
+    "locationLabel": "Unspecified",
+    "location": "Check listing"
   },
   {
     "name": "Rare Technologies Incubator",
@@ -2114,6 +2458,9 @@
       "student"
     ],
     "status": "open",
-    "source": "github-OpenSauced-OSS"
+    "source": "github-OpenSauced-OSS",
+    "locationMode": "unknown",
+    "locationLabel": "Unspecified",
+    "location": "Check listing"
   }
 ]

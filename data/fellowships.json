@@ -18,7 +18,9 @@
       "paid",
       "remote"
     ],
-    "status": "open"
+    "status": "open",
+    "locationMode": "unknown",
+    "locationLabel": "Unspecified"
   },
   {
     "name": "GitHub Externship (India)",
@@ -39,7 +41,9 @@
       "paid",
       "mentorship"
     ],
-    "status": "coming-soon"
+    "status": "coming-soon",
+    "locationMode": "unknown",
+    "locationLabel": "Unspecified"
   },
   {
     "name": "FOSSEE Summer Fellowship (IIT Bombay)",
@@ -60,7 +64,9 @@
       "iit",
       "education"
     ],
-    "status": "closed"
+    "status": "closed",
+    "locationMode": "unknown",
+    "locationLabel": "Unspecified"
   },
   {
     "name": "University Innovation Fellowship - Stanford University",
@@ -78,7 +84,10 @@
       "student"
     ],
     "status": "open",
-    "source": "github-dipakkr-fellowships"
+    "source": "github-dipakkr-fellowships",
+    "locationMode": "unknown",
+    "locationLabel": "Unspecified",
+    "location": "Check listing"
   },
   {
     "name": "Teach for India Fellowship",
@@ -96,7 +105,10 @@
       "student"
     ],
     "status": "open",
-    "source": "github-dipakkr-fellowships"
+    "source": "github-dipakkr-fellowships",
+    "locationMode": "unknown",
+    "locationLabel": "Unspecified",
+    "location": "Check listing"
   },
   {
     "name": "Young India Fellowship",
@@ -114,7 +126,10 @@
       "student"
     ],
     "status": "open",
-    "source": "github-dipakkr-fellowships"
+    "source": "github-dipakkr-fellowships",
+    "locationMode": "unknown",
+    "locationLabel": "Unspecified",
+    "location": "Check listing"
   },
   {
     "name": "Urban Leaders Fellowship",
@@ -132,7 +147,10 @@
       "student"
     ],
     "status": "open",
-    "source": "github-dipakkr-fellowships"
+    "source": "github-dipakkr-fellowships",
+    "locationMode": "unknown",
+    "locationLabel": "Unspecified",
+    "location": "Check listing"
   },
   {
     "name": "Legislative Assistants to Members of Parliament (LAMP) Fellowship",
@@ -150,6 +168,9 @@
       "student"
     ],
     "status": "open",
-    "source": "github-dipakkr-fellowships"
+    "source": "github-dipakkr-fellowships",
+    "locationMode": "unknown",
+    "locationLabel": "Unspecified",
+    "location": "Check listing"
   }
 ]

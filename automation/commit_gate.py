@@ -75,7 +75,7 @@ EXPECTED_LINK_FIELDS = ("applicationLink", "url", "website", "link")
 # Internal bookkeeping that must never be published.
 FORBIDDEN_KEYS = (
     "_adjudication", "_verification_score", "_verification_warnings",
-    "_rejection_reasons", "_quarantine",
+    "_rejection_reasons", "_quarantine", "_location_reject", "_research",
 )
 
 

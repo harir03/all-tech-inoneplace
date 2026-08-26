@@ -37,6 +37,8 @@ from .config import (
     COMMIT_GATE_ENABLED, FAIL_RUN_ON_GATE_BLOCK,
     REACH_ENABLED, REACH_USE_JINA, JINA_API_KEY,
     REACH_MAX_READS, REACH_TIME_BUDGET, REACH_EVIDENCE_FALLBACK,
+    LOCATION_FILTER_ENABLED, LOCATION_HOME_COUNTRY, LOCATION_POLICY,
+    LOCATION_FILTERED_CATEGORIES,
 )
 from .utils import load_json, save_json, merge_opportunities, update_expired_statuses
 from .scrapers.registry import get_all_scrapers
@@ -49,6 +51,7 @@ from .evidence import EvidenceCollector
 from .ledger import VerificationLedger, QuarantineQueue, strip_internal
 from .commit_gate import CommitGate, format_gate_report
 from .reach import ReachClient
+from . import location as geo
 
 # Configure logging
 logging.basicConfig(
@@ -175,6 +178,52 @@ def build_verification_stack(all_candidates_by_category, existing_by_category):
     return adjudicator, ledger, quarantine, reach
 
 
+def apply_location_policy(category, candidates, verify_report):
+    """
+    Annotate candidates with structured location fields, then drop the ones that
+    require physical presence outside the home country.
+
+    Runs BEFORE Layer 1 and Layer 2 on purpose. Geographic rejection is decided
+    from text we already have, so doing it first avoids spending network budget
+    verifying a New York role we were always going to discard.
+    """
+    if not candidates:
+        return candidates
+    if not LOCATION_FILTER_ENABLED or category not in LOCATION_FILTERED_CATEGORIES:
+        # Still annotate, so the website can filter even where we do not.
+        for item in candidates:
+            geo.annotate(item)
+        return candidates
+
+    kept, dropped = [], []
+    modes = {}
+    for item in candidates:
+        info = geo.annotate(item)
+        modes[info.mode] = modes.get(info.mode, 0) + 1
+        keep, reason = geo.should_include(info, LOCATION_POLICY, LOCATION_HOME_COUNTRY)
+        if keep:
+            kept.append(item)
+        else:
+            item["_location_reject"] = reason
+            dropped.append(item)
+
+    if dropped:
+        verify_report["location_dropped"] = verify_report.get("location_dropped", 0) + len(dropped)
+        by_country = {}
+        for item in dropped:
+            c = item.get("country") or "?"
+            by_country[c] = by_country.get(c, 0) + 1
+        logger.info(
+            "  [%s] Location filter: kept %d, dropped %d outside %s %s",
+            category, len(kept), len(dropped), LOCATION_HOME_COUNTRY,
+            dict(sorted(by_country.items(), key=lambda kv: -kv[1])[:6]),
+        )
+    verify_report.setdefault("location_modes", {})
+    for k, v in modes.items():
+        verify_report["location_modes"][k] = verify_report["location_modes"].get(k, 0) + v
+    return kept
+
+
 def update_data_files(scraped, social):
     """
     Merge scraped and social data into the JSON files.
@@ -233,7 +282,10 @@ def update_data_files(scraped, social):
         # ── Step A: cheap deduplication ────────────────────────────────────
         _, candidates = merge_opportunities(existing, new_items)
 
-        # ── Step B: drop items already permanently disproven ───────────────
+        # ── Step B: geographic policy (before any network work) ────────────
+        candidates = apply_location_policy(category, candidates, verify_report)
+
+        # ── Step C: drop items already permanently disproven ───────────────
         if ledger and SUPPRESS_RETIRED and candidates:
             before_n = len(candidates)
             candidates = [c for c in candidates if not ledger.is_retired(c)]
@@ -252,12 +304,12 @@ def update_data_files(scraped, social):
             )
             continue
 
-        # ── Step C: Layer 1 — plausibility ─────────────────────────────────
+        # ── Step D: Layer 1 — plausibility ─────────────────────────────────
         l1_gate = VerificationGate(existing_items=existing_snapshot)
         l1_pass, l1_rejected = l1_gate.verify_batch(candidates)
         verify_report["l1_rejected"] += len(l1_rejected)
 
-        # ── Step D: Layer 2 — evidence-based adjudication ──────────────────
+        # ── Step E: Layer 2 — evidence-based adjudication ──────────────────
         if adjudicator:
             accepted, quarantined, l2_rejected = adjudicator.adjudicate_batch(l1_pass)
         else:
@@ -275,13 +327,13 @@ def update_data_files(scraped, social):
                 len(l2_rejected), len(quarantined), len(candidates),
             )
 
-        # ── Step E: record decisions and manage the retry queue ────────────
+        # ── Step F: record decisions and manage the retry queue ────────────
         _record_outcomes(
             category, ledger, quarantine, accepted, quarantined,
             l1_rejected, l2_rejected, verify_report,
         )
 
-        # ── Step F: assemble the proposed file ─────────────────────────────
+        # ── Step G: assemble the proposed file ─────────────────────────────
         # Rebuilt from the snapshot rather than reusing the mutated merge output,
         # so rejected and quarantined items can never leak in via name collisions.
         final = existing_snapshot + [strip_internal(i) for i in accepted]
@@ -522,6 +574,8 @@ def generate_run_report(scraper_report, social_count, summary, total_time, verif
     lines.extend([
         "",
         "🛡️  VERIFICATION STACK:",
+        f"  Location filter          dropped {verify_report.get('location_dropped', 0)} "
+        f"outside {LOCATION_HOME_COUNTRY}  modes={verify_report.get('location_modes', {})}",
         f"  Layer 1 (plausibility)   rejected {verify_report.get('l1_rejected', 0)}",
         f"  Layer 2 (evidence)       accepted {verify_report.get('l2_accepted', 0)}  "
         f"quarantined {verify_report.get('l2_quarantined', 0)}  "

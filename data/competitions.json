@@ -17,7 +17,10 @@
       "team",
       "prestigious"
     ],
-    "status": "closed"
+    "status": "closed",
+    "locationMode": "onsite",
+    "locationLabel": "In-person",
+    "location": "Onsite (Regionals) + Onsite (World Finals)"
   },
   {
     "name": "Google Code Jam / Coding Competitions",
@@ -37,7 +40,10 @@
       "global",
       "algorithms"
     ],
-    "status": "open"
+    "status": "open",
+    "locationMode": "remote",
+    "locationLabel": "Remote",
+    "location": "Online"
   },
   {
     "name": "Unstop Competitions",
@@ -58,7 +64,10 @@
       "case-study",
       "quizzes"
     ],
-    "status": "open"
+    "status": "open",
+    "locationMode": "remote",
+    "locationLabel": "Remote",
+    "location": "Online Offline"
   },
   {
     "name": "Codeforces Competitive Programming Rounds",
@@ -78,7 +87,10 @@
       "weekly",
       "algorithms"
     ],
-    "status": "open"
+    "status": "open",
+    "locationMode": "remote",
+    "locationLabel": "Remote",
+    "location": "Online"
   },
   {
     "name": "Accenture Innovation Challenge",
@@ -96,7 +108,10 @@
       "coding-challenge"
     ],
     "status": "closed",
-    "source": "github-dipakkr-competitions"
+    "source": "github-dipakkr-competitions",
+    "locationMode": "onsite",
+    "locationLabel": "In-person",
+    "location": "Online & Onsite"
   },
   {
     "name": "Codeforces Round (Div. 2)",
@@ -116,7 +131,10 @@
       "contest"
     ],
     "status": "open",
-    "source": "codeforces-api"
+    "source": "codeforces-api",
+    "locationMode": "remote",
+    "locationLabel": "Remote",
+    "location": "Online"
   },
   {
     "name": "Biweekly Contest 190",
@@ -136,7 +154,10 @@
       "contest"
     ],
     "status": "open",
-    "source": "leetcode-api"
+    "source": "leetcode-api",
+    "locationMode": "remote",
+    "locationLabel": "Remote",
+    "location": "Online"
   },
   {
     "name": "Weekly Contest 517",
@@ -156,7 +177,10 @@
       "contest"
     ],
     "status": "open",
-    "source": "leetcode-api"
+    "source": "leetcode-api",
+    "locationMode": "remote",
+    "locationLabel": "Remote",
+    "location": "Online"
   },
   {
     "name": "Codeforces Round (Div. 3)",
@@ -176,6 +200,9 @@
       "contest"
     ],
     "status": "open",
-    "source": "codeforces-api"
+    "source": "codeforces-api",
+    "locationMode": "remote",
+    "locationLabel": "Remote",
+    "location": "Online"
   }
 ]

@@ -17,7 +17,10 @@
       "all-branches",
       "national"
     ],
-    "status": "closed"
+    "status": "closed",
+    "locationMode": "hybrid",
+    "locationLabel": "Hybrid",
+    "location": "Hybrid (Online Prelims + Onsite Grand Finale)"
   },
   {
     "name": "HackWithInfy 2026",
@@ -37,7 +40,10 @@
       "ppo",
       "engineering"
     ],
-    "status": "closed"
+    "status": "closed",
+    "locationMode": "onsite",
+    "locationLabel": "In-person",
+    "location": "Online (Rounds 1-2) + Onsite (Grand Finale)"
   },
   {
     "name": "MLH Global Hack Week",
@@ -57,7 +63,10 @@
       "online",
       "community"
     ],
-    "status": "open"
+    "status": "open",
+    "locationMode": "remote",
+    "locationLabel": "Remote",
+    "location": "Online"
   },
   {
     "name": "Devfolio Hackathons",
@@ -77,7 +86,10 @@
       "india",
       "community"
     ],
-    "status": "open"
+    "status": "open",
+    "locationMode": "hybrid",
+    "locationLabel": "Hybrid",
+    "location": "Online Offline Hybrid"
   },
   {
     "name": "Call for Code Global Challenge",
@@ -95,7 +107,10 @@
       "global"
     ],
     "status": "closed",
-    "source": "github-dipakkr-hackathons"
+    "source": "github-dipakkr-hackathons",
+    "locationMode": "remote",
+    "locationLabel": "Remote",
+    "location": "Online Global"
   },
   {
     "name": "Hacktoberfest",
@@ -113,7 +128,10 @@
       "global"
     ],
     "status": "closed",
-    "source": "github-dipakkr-hackathons"
+    "source": "github-dipakkr-hackathons",
+    "locationMode": "remote",
+    "locationLabel": "Remote",
+    "location": "Online"
   },
   {
     "name": "Major League Hacking Events",
@@ -131,7 +149,11 @@
       "global"
     ],
     "status": "open",
-    "source": "github-dipakkr-hackathons"
+    "source": "github-dipakkr-hackathons",
+    "locationMode": "onsite",
+    "locationLabel": "In-person · US",
+    "location": "USA Canada Mexico",
+    "country": "US"
   },
   {
     "name": "GitLab Virtual Hackathon",
@@ -149,7 +171,10 @@
       "global"
     ],
     "status": "closed",
-    "source": "github-dipakkr-hackathons"
+    "source": "github-dipakkr-hackathons",
+    "locationMode": "remote",
+    "locationLabel": "Remote",
+    "location": "Online"
   },
   {
     "name": "OpenHackathons (NVIDIA)",
@@ -167,7 +192,10 @@
       "global"
     ],
     "status": "closed",
-    "source": "github-dipakkr-hackathons"
+    "source": "github-dipakkr-hackathons",
+    "locationMode": "remote",
+    "locationLabel": "Remote",
+    "location": "Online"
   },
   {
     "name": "Digital Jam Hackathon",
@@ -185,7 +213,10 @@
       "global"
     ],
     "status": "closed",
-    "source": "github-dipakkr-hackathons"
+    "source": "github-dipakkr-hackathons",
+    "locationMode": "remote",
+    "locationLabel": "Remote",
+    "location": "Online"
   },
   {
     "name": "DeveloperWeek Hackathon",
@@ -203,7 +234,11 @@
       "global"
     ],
     "status": "closed",
-    "source": "github-dipakkr-hackathons"
+    "source": "github-dipakkr-hackathons",
+    "locationMode": "remote_geo",
+    "locationLabel": "Remote · US",
+    "location": "Santa Clara, CA + Online",
+    "country": "US"
   },
   {
     "name": "MIT Reality Hack",
@@ -221,7 +256,11 @@
       "global"
     ],
     "status": "closed",
-    "source": "github-dipakkr-hackathons"
+    "source": "github-dipakkr-hackathons",
+    "locationMode": "onsite",
+    "locationLabel": "In-person · US",
+    "location": "Boston, MA",
+    "country": "US"
   },
   {
     "name": "nwHacks 2025",
@@ -239,7 +278,11 @@
       "global"
     ],
     "status": "closed",
-    "source": "github-dipakkr-hackathons"
+    "source": "github-dipakkr-hackathons",
+    "locationMode": "onsite",
+    "locationLabel": "In-person · CA",
+    "location": "Vancouver, Canada",
+    "country": "CA"
   },
   {
     "name": "Hoya Hacks 2025",
@@ -257,7 +300,11 @@
       "global"
     ],
     "status": "closed",
-    "source": "github-dipakkr-hackathons"
+    "source": "github-dipakkr-hackathons",
+    "locationMode": "onsite",
+    "locationLabel": "In-person · US",
+    "location": "Washington, D.C.",
+    "country": "US"
   },
   {
     "name": "QHacks 2025",
@@ -275,7 +322,11 @@
       "global"
     ],
     "status": "closed",
-    "source": "github-dipakkr-hackathons"
+    "source": "github-dipakkr-hackathons",
+    "locationMode": "onsite",
+    "locationLabel": "In-person · CA",
+    "location": "Kingston, Canada",
+    "country": "CA"
   },
   {
     "name": "nf-core Hackathon",
@@ -293,7 +344,10 @@
       "global"
     ],
     "status": "closed",
-    "source": "github-dipakkr-hackathons"
+    "source": "github-dipakkr-hackathons",
+    "locationMode": "remote",
+    "locationLabel": "Remote",
+    "location": "Global (Online + Local)"
   },
   {
     "name": "WCRP KM-scale Hackathon",
@@ -311,7 +365,10 @@
       "global"
     ],
     "status": "closed",
-    "source": "github-dipakkr-hackathons"
+    "source": "github-dipakkr-hackathons",
+    "locationMode": "unknown",
+    "locationLabel": "Unspecified",
+    "location": "Global"
   },
   {
     "name": "Global AI Hackathon",
@@ -329,7 +386,10 @@
       "global"
     ],
     "status": "closed",
-    "source": "github-dipakkr-hackathons"
+    "source": "github-dipakkr-hackathons",
+    "locationMode": "remote",
+    "locationLabel": "Remote",
+    "location": "Online"
   },
   {
     "name": "NASA Space Apps Challenge",
@@ -347,7 +407,10 @@
       "global"
     ],
     "status": "closed",
-    "source": "github-dipakkr-hackathons"
+    "source": "github-dipakkr-hackathons",
+    "locationMode": "unknown",
+    "locationLabel": "Unspecified",
+    "location": "Global"
   },
   {
     "name": "Midnight Virtual Hackathon [August]",
@@ -368,7 +431,10 @@
       "global"
     ],
     "status": "open",
-    "source": "mlh-live-events"
+    "source": "mlh-live-events",
+    "locationMode": "remote",
+    "locationLabel": "Remote",
+    "location": "Online"
   },
   {
     "name": "PEC HACKS 4.0",
@@ -389,7 +455,10 @@
       "global"
     ],
     "status": "open",
-    "source": "mlh-live-events"
+    "source": "mlh-live-events",
+    "locationMode": "onsite",
+    "locationLabel": "In-person",
+    "location": "In-Person"
   },
   {
     "name": "Global Hack Week: Data",
@@ -410,7 +479,10 @@
       "global"
     ],
     "status": "closed",
-    "source": "mlh-live-events"
+    "source": "mlh-live-events",
+    "locationMode": "remote",
+    "locationLabel": "Remote",
+    "location": "Online"
   },
   {
     "name": "HackRice",
@@ -431,7 +503,10 @@
       "global"
     ],
     "status": "closed",
-    "source": "mlh-live-events"
+    "source": "mlh-live-events",
+    "locationMode": "onsite",
+    "locationLabel": "In-person",
+    "location": "In-Person"
   },
   {
     "name": "HackMTY 2026",
@@ -452,7 +527,10 @@
       "global"
     ],
     "status": "closed",
-    "source": "mlh-live-events"
+    "source": "mlh-live-events",
+    "locationMode": "onsite",
+    "locationLabel": "In-person",
+    "location": "In-Person"
   },
   {
     "name": "HackWesTX 26",
@@ -473,7 +551,10 @@
       "global"
     ],
     "status": "closed",
-    "source": "mlh-live-events"
+    "source": "mlh-live-events",
+    "locationMode": "onsite",
+    "locationLabel": "In-person",
+    "location": "In-Person"
   },
   {
     "name": "HackHers @GSU",
@@ -494,7 +575,10 @@
       "global"
     ],
     "status": "closed",
-    "source": "mlh-live-events"
+    "source": "mlh-live-events",
+    "locationMode": "onsite",
+    "locationLabel": "In-person",
+    "location": "In-Person"
   },
   {
     "name": "Hack the North",
@@ -515,7 +599,10 @@
       "global"
     ],
     "status": "closed",
-    "source": "mlh-live-events"
+    "source": "mlh-live-events",
+    "locationMode": "onsite",
+    "locationLabel": "In-person",
+    "location": "In-Person"
   },
   {
     "name": "VTHacks 14",
@@ -536,7 +623,10 @@
       "global"
     ],
     "status": "closed",
-    "source": "mlh-live-events"
+    "source": "mlh-live-events",
+    "locationMode": "onsite",
+    "locationLabel": "In-person",
+    "location": "In-Person"
   },
   {
     "name": "HopHacks",
@@ -557,7 +647,10 @@
       "global"
     ],
     "status": "closed",
-    "source": "mlh-live-events"
+    "source": "mlh-live-events",
+    "locationMode": "onsite",
+    "locationLabel": "In-person",
+    "location": "In-Person"
   },
   {
     "name": "SteelHacks XIII",
@@ -578,7 +671,10 @@
       "global"
     ],
     "status": "closed",
-    "source": "mlh-live-events"
+    "source": "mlh-live-events",
+    "locationMode": "onsite",
+    "locationLabel": "In-person",
+    "location": "In-Person"
   },
   {
     "name": "HackNex Season 2",
@@ -599,7 +695,10 @@
       "global"
     ],
     "status": "open",
-    "source": "mlh-live-events"
+    "source": "mlh-live-events",
+    "locationMode": "onsite",
+    "locationLabel": "In-person",
+    "location": "In-Person"
   },
   {
     "name": "HackGT 13",
@@ -620,7 +719,10 @@
       "global"
     ],
     "status": "open",
-    "source": "mlh-live-events"
+    "source": "mlh-live-events",
+    "locationMode": "onsite",
+    "locationLabel": "In-person",
+    "location": "In-Person"
   },
   {
     "name": "ShellHacks",
@@ -641,7 +743,10 @@
       "global"
     ],
     "status": "open",
-    "source": "mlh-live-events"
+    "source": "mlh-live-events",
+    "locationMode": "onsite",
+    "locationLabel": "In-person",
+    "location": "In-Person"
   },
   {
     "name": "DivHacks",
@@ -662,7 +767,10 @@
       "global"
     ],
     "status": "open",
-    "source": "mlh-live-events"
+    "source": "mlh-live-events",
+    "locationMode": "onsite",
+    "locationLabel": "In-person",
+    "location": "In-Person"
   },
   {
     "name": "hackUMBC",
@@ -683,7 +791,10 @@
       "global"
     ],
     "status": "open",
-    "source": "mlh-live-events"
+    "source": "mlh-live-events",
+    "locationMode": "onsite",
+    "locationLabel": "In-person",
+    "location": "In-Person"
   },
   {
     "name": "OwlHacks",
@@ -704,7 +815,10 @@
       "global"
     ],
     "status": "open",
-    "source": "mlh-live-events"
+    "source": "mlh-live-events",
+    "locationMode": "onsite",
+    "locationLabel": "In-person",
+    "location": "In-Person"
   },
   {
     "name": "BigRed//Hacks 2026",
@@ -725,7 +839,10 @@
       "global"
     ],
     "status": "closed",
-    "source": "mlh-live-events"
+    "source": "mlh-live-events",
+    "locationMode": "onsite",
+    "locationLabel": "In-person",
+    "location": "In-Person"
   },
   {
     "name": "Hack Dearborn 5: Conjure Reality",
@@ -746,7 +863,10 @@
       "global"
     ],
     "status": "closed",
-    "source": "mlh-live-events"
+    "source": "mlh-live-events",
+    "locationMode": "onsite",
+    "locationLabel": "In-person",
+    "location": "In-Person"
   },
   {
     "name": "Rowdy Hacks",
@@ -767,7 +887,10 @@
       "global"
     ],
     "status": "closed",
-    "source": "mlh-live-events"
+    "source": "mlh-live-events",
+    "locationMode": "onsite",
+    "locationLabel": "In-person",
+    "location": "In-Person"
   },
   {
     "name": "MHacks",
@@ -788,7 +911,10 @@
       "global"
     ],
     "status": "closed",
-    "source": "mlh-live-events"
+    "source": "mlh-live-events",
+    "locationMode": "onsite",
+    "locationLabel": "In-person",
+    "location": "In-Person"
   },
   {
     "name": "GirlHacks",
@@ -809,7 +935,10 @@
       "global"
     ],
     "status": "closed",
-    "source": "mlh-live-events"
+    "source": "mlh-live-events",
+    "locationMode": "onsite",
+    "locationLabel": "In-person",
+    "location": "In-Person"
   },
   {
     "name": "Innohacks 4.0",
@@ -830,7 +959,10 @@
       "global"
     ],
     "status": "closed",
-    "source": "mlh-live-events"
+    "source": "mlh-live-events",
+    "locationMode": "onsite",
+    "locationLabel": "In-person",
+    "location": "In-Person"
   },
   {
     "name": "SBUHacks",
@@ -851,7 +983,10 @@
       "global"
     ],
     "status": "closed",
-    "source": "mlh-live-events"
+    "source": "mlh-live-events",
+    "locationMode": "onsite",
+    "locationLabel": "In-person",
+    "location": "In-Person"
   },
   {
     "name": "HackNC",
@@ -872,7 +1007,10 @@
       "global"
     ],
     "status": "closed",
-    "source": "mlh-live-events"
+    "source": "mlh-live-events",
+    "locationMode": "onsite",
+    "locationLabel": "In-person",
+    "location": "In-Person"
   },
   {
     "name": "Hack Knight",
@@ -893,7 +1031,10 @@
       "global"
     ],
     "status": "closed",
-    "source": "mlh-live-events"
+    "source": "mlh-live-events",
+    "locationMode": "onsite",
+    "locationLabel": "In-person",
+    "location": "In-Person"
   },
   {
     "name": "Knight Hacks IX",
@@ -914,7 +1055,10 @@
       "global"
     ],
     "status": "closed",
-    "source": "mlh-live-events"
+    "source": "mlh-live-events",
+    "locationMode": "onsite",
+    "locationLabel": "In-person",
+    "location": "In-Person"
   },
   {
     "name": "CodeRED Orion",
@@ -935,7 +1079,10 @@
       "global"
     ],
     "status": "closed",
-    "source": "mlh-live-events"
+    "source": "mlh-live-events",
+    "locationMode": "onsite",
+    "locationLabel": "In-person",
+    "location": "In-Person"
   },
   {
     "name": "SwampHacks XII",
@@ -956,7 +1103,10 @@
       "global"
     ],
     "status": "closed",
-    "source": "mlh-live-events"
+    "source": "mlh-live-events",
+    "locationMode": "onsite",
+    "locationLabel": "In-person",
+    "location": "In-Person"
   },
   {
     "name": "Hack the Valley",
@@ -977,7 +1127,10 @@
       "global"
     ],
     "status": "closed",
-    "source": "mlh-live-events"
+    "source": "mlh-live-events",
+    "locationMode": "onsite",
+    "locationLabel": "In-person",
+    "location": "In-Person"
   },
   {
     "name": "HackTX 26",
@@ -998,7 +1151,10 @@
       "global"
     ],
     "status": "closed",
-    "source": "mlh-live-events"
+    "source": "mlh-live-events",
+    "locationMode": "onsite",
+    "locationLabel": "In-person",
+    "location": "In-Person"
   },
   {
     "name": "LA Hacks AI Hackathon 2026",
@@ -1019,7 +1175,10 @@
       "global"
     ],
     "status": "closed",
-    "source": "mlh-live-events"
+    "source": "mlh-live-events",
+    "locationMode": "onsite",
+    "locationLabel": "In-person",
+    "location": "In-Person"
   },
   {
     "name": "hackCBS 9.O",
@@ -1040,7 +1199,10 @@
       "global"
     ],
     "status": "open",
-    "source": "mlh-live-events"
+    "source": "mlh-live-events",
+    "locationMode": "onsite",
+    "locationLabel": "In-person",
+    "location": "In-Person"
   },
   {
     "name": "HackUTD",
@@ -1061,7 +1223,10 @@
       "global"
     ],
     "status": "closed",
-    "source": "mlh-live-events"
+    "source": "mlh-live-events",
+    "locationMode": "onsite",
+    "locationLabel": "In-person",
+    "location": "In-Person"
   },
   {
     "name": "MakeCU",
@@ -1082,7 +1247,10 @@
       "global"
     ],
     "status": "closed",
-    "source": "mlh-live-events"
+    "source": "mlh-live-events",
+    "locationMode": "onsite",
+    "locationLabel": "In-person",
+    "location": "In-Person"
   },
   {
     "name": "HackRPI 2026",
@@ -1103,7 +1271,10 @@
       "global"
     ],
     "status": "closed",
-    "source": "mlh-live-events"
+    "source": "mlh-live-events",
+    "locationMode": "onsite",
+    "locationLabel": "In-person",
+    "location": "In-Person"
   },
   {
     "name": "HackUMass",
@@ -1124,7 +1295,10 @@
       "global"
     ],
     "status": "closed",
-    "source": "mlh-live-events"
+    "source": "mlh-live-events",
+    "locationMode": "onsite",
+    "locationLabel": "In-person",
+    "location": "In-Person"
   },
   {
     "name": "DurHack",
@@ -1145,7 +1319,10 @@
       "global"
     ],
     "status": "closed",
-    "source": "mlh-live-events"
+    "source": "mlh-live-events",
+    "locationMode": "onsite",
+    "locationLabel": "In-person",
+    "location": "In-Person"
   },
   {
     "name": "DeltaHacks",
@@ -1166,7 +1343,10 @@
       "global"
     ],
     "status": "closed",
-    "source": "mlh-live-events"
+    "source": "mlh-live-events",
+    "locationMode": "onsite",
+    "locationLabel": "In-person",
+    "location": "In-Person"
   },
   {
     "name": "uOttaHack 9",
@@ -1187,7 +1367,10 @@
       "global"
     ],
     "status": "closed",
-    "source": "mlh-live-events"
+    "source": "mlh-live-events",
+    "locationMode": "onsite",
+    "locationLabel": "In-person",
+    "location": "In-Person"
   },
   {
     "name": "UofTHacks",
@@ -1208,7 +1391,10 @@
       "global"
     ],
     "status": "closed",
-    "source": "mlh-live-events"
+    "source": "mlh-live-events",
+    "locationMode": "onsite",
+    "locationLabel": "In-person",
+    "location": "In-Person"
   },
   {
     "name": "nwHacks",
@@ -1229,7 +1415,10 @@
       "global"
     ],
     "status": "closed",
-    "source": "mlh-live-events"
+    "source": "mlh-live-events",
+    "locationMode": "onsite",
+    "locationLabel": "In-person",
+    "location": "In-Person"
   },
   {
     "name": "Hackville 2027",
@@ -1250,7 +1439,10 @@
       "global"
     ],
     "status": "closed",
-    "source": "mlh-live-events"
+    "source": "mlh-live-events",
+    "locationMode": "onsite",
+    "locationLabel": "In-person",
+    "location": "In-Person"
   },
   {
     "name": "Hoya Hacks",
@@ -1271,7 +1463,10 @@
       "global"
     ],
     "status": "closed",
-    "source": "mlh-live-events"
+    "source": "mlh-live-events",
+    "locationMode": "onsite",
+    "locationLabel": "In-person",
+    "location": "In-Person"
   },
   {
     "name": "ElleHacks",
@@ -1292,7 +1487,10 @@
       "global"
     ],
     "status": "open",
-    "source": "mlh-live-events"
+    "source": "mlh-live-events",
+    "locationMode": "onsite",
+    "locationLabel": "In-person",
+    "location": "In-Person"
   },
   {
     "name": "UGAHacks",
@@ -1313,7 +1511,10 @@
       "global"
     ],
     "status": "closed",
-    "source": "mlh-live-events"
+    "source": "mlh-live-events",
+    "locationMode": "onsite",
+    "locationLabel": "In-person",
+    "location": "In-Person"
   },
   {
     "name": "Hack@Brown 2027",
@@ -1334,7 +1535,10 @@
       "global"
     ],
     "status": "closed",
-    "source": "mlh-live-events"
+    "source": "mlh-live-events",
+    "locationMode": "onsite",
+    "locationLabel": "In-person",
+    "location": "In-Person"
   },
   {
     "name": "Hack_NCState",
@@ -1355,7 +1559,10 @@
       "global"
     ],
     "status": "closed",
-    "source": "mlh-live-events"
+    "source": "mlh-live-events",
+    "locationMode": "onsite",
+    "locationLabel": "In-person",
+    "location": "In-Person"
   },
   {
     "name": "InnovateHer",
@@ -1376,7 +1583,10 @@
       "global"
     ],
     "status": "closed",
-    "source": "mlh-live-events"
+    "source": "mlh-live-events",
+    "locationMode": "onsite",
+    "locationLabel": "In-person",
+    "location": "In-Person"
   },
   {
     "name": "SpartaHack",
@@ -1397,7 +1607,10 @@
       "global"
     ],
     "status": "closed",
-    "source": "mlh-live-events"
+    "source": "mlh-live-events",
+    "locationMode": "onsite",
+    "locationLabel": "In-person",
+    "location": "In-Person"
   },
   {
     "name": "MakeUofT",
@@ -1418,7 +1631,10 @@
       "global"
     ],
     "status": "closed",
-    "source": "mlh-live-events"
+    "source": "mlh-live-events",
+    "locationMode": "onsite",
+    "locationLabel": "In-person",
+    "location": "In-Person"
   },
   {
     "name": "SF Hacks",
@@ -1439,7 +1655,10 @@
       "global"
     ],
     "status": "closed",
-    "source": "mlh-live-events"
+    "source": "mlh-live-events",
+    "locationMode": "onsite",
+    "locationLabel": "In-person",
+    "location": "In-Person"
   },
   {
     "name": "CUhackit",
@@ -1460,7 +1679,10 @@
       "global"
     ],
     "status": "closed",
-    "source": "mlh-live-events"
+    "source": "mlh-live-events",
+    "locationMode": "onsite",
+    "locationLabel": "In-person",
+    "location": "In-Person"
   },
   {
     "name": "Hacklytics 2027",
@@ -1481,7 +1703,10 @@
       "global"
     ],
     "status": "open",
-    "source": "mlh-live-events"
+    "source": "mlh-live-events",
+    "locationMode": "onsite",
+    "locationLabel": "In-person",
+    "location": "In-Person"
   },
   {
     "name": "HackIllinois",
@@ -1502,7 +1727,10 @@
       "global"
     ],
     "status": "open",
-    "source": "mlh-live-events"
+    "source": "mlh-live-events",
+    "locationMode": "onsite",
+    "locationLabel": "In-person",
+    "location": "In-Person"
   },
   {
     "name": "RevolutionUC",
@@ -1523,7 +1751,10 @@
       "global"
     ],
     "status": "open",
-    "source": "mlh-live-events"
+    "source": "mlh-live-events",
+    "locationMode": "onsite",
+    "locationLabel": "In-person",
+    "location": "In-Person"
   },
   {
     "name": "HackHERS",
@@ -1544,7 +1775,10 @@
       "global"
     ],
     "status": "open",
-    "source": "mlh-live-events"
+    "source": "mlh-live-events",
+    "locationMode": "onsite",
+    "locationLabel": "In-person",
+    "location": "In-Person"
   },
   {
     "name": "WiCHacks",
@@ -1565,7 +1799,10 @@
       "global"
     ],
     "status": "open",
-    "source": "mlh-live-events"
+    "source": "mlh-live-events",
+    "locationMode": "onsite",
+    "locationLabel": "In-person",
+    "location": "In-Person"
   },
   {
     "name": "HenHacks",
@@ -1586,7 +1823,10 @@
       "global"
     ],
     "status": "closed",
-    "source": "mlh-live-events"
+    "source": "mlh-live-events",
+    "locationMode": "onsite",
+    "locationLabel": "In-person",
+    "location": "In-Person"
   },
   {
     "name": "Kent Hack Enough",
@@ -1607,7 +1847,10 @@
       "global"
     ],
     "status": "closed",
-    "source": "mlh-live-events"
+    "source": "mlh-live-events",
+    "locationMode": "onsite",
+    "locationLabel": "In-person",
+    "location": "In-Person"
   },
   {
     "name": "Diamondhacks",
@@ -1628,7 +1871,10 @@
       "global"
     ],
     "status": "closed",
-    "source": "mlh-live-events"
+    "source": "mlh-live-events",
+    "locationMode": "onsite",
+    "locationLabel": "In-person",
+    "location": "In-Person"
   },
   {
     "name": "HackKU27",
@@ -1649,7 +1895,10 @@
       "global"
     ],
     "status": "closed",
-    "source": "mlh-live-events"
+    "source": "mlh-live-events",
+    "locationMode": "onsite",
+    "locationLabel": "In-person",
+    "location": "In-Person"
   },
   {
     "name": "MariHacks",
@@ -1670,7 +1919,10 @@
       "global"
     ],
     "status": "closed",
-    "source": "mlh-live-events"
+    "source": "mlh-live-events",
+    "locationMode": "onsite",
+    "locationLabel": "In-person",
+    "location": "In-Person"
   },
   {
     "name": "WEHack",
@@ -1691,7 +1943,10 @@
       "global"
     ],
     "status": "closed",
-    "source": "mlh-live-events"
+    "source": "mlh-live-events",
+    "locationMode": "onsite",
+    "locationLabel": "In-person",
+    "location": "In-Person"
   },
   {
     "name": "LA Hacks 27",
@@ -1712,7 +1967,10 @@
       "global"
     ],
     "status": "closed",
-    "source": "mlh-live-events"
+    "source": "mlh-live-events",
+    "locationMode": "onsite",
+    "locationLabel": "In-person",
+    "location": "In-Person"
   },
   {
     "name": "Built for NYC: AI Hackathon at NYPL",
@@ -1733,7 +1991,10 @@
       "global"
     ],
     "status": "closed",
-    "source": "mlh-live-events"
+    "source": "mlh-live-events",
+    "locationMode": "onsite",
+    "locationLabel": "In-person",
+    "location": "In-Person"
   },
   {
     "name": "Global Hack Week: Agents",
@@ -1754,7 +2015,10 @@
       "global"
     ],
     "status": "closed",
-    "source": "mlh-live-events"
+    "source": "mlh-live-events",
+    "locationMode": "remote",
+    "locationLabel": "Remote",
+    "location": "Online"
   },
   {
     "name": "Hexafalls 2",
@@ -1775,7 +2039,10 @@
       "global"
     ],
     "status": "closed",
-    "source": "mlh-live-events"
+    "source": "mlh-live-events",
+    "locationMode": "onsite",
+    "locationLabel": "In-person",
+    "location": "In-Person"
   },
   {
     "name": "Hack the 6ix",
@@ -1796,7 +2063,10 @@
       "global"
     ],
     "status": "closed",
-    "source": "mlh-live-events"
+    "source": "mlh-live-events",
+    "locationMode": "onsite",
+    "locationLabel": "In-person",
+    "location": "In-Person"
   },
   {
     "name": "Midnight Virtual Hackathon [July]",
@@ -1817,7 +2087,10 @@
       "global"
     ],
     "status": "closed",
-    "source": "mlh-live-events"
+    "source": "mlh-live-events",
+    "locationMode": "remote",
+    "locationLabel": "Remote",
+    "location": "Online"
   },
   {
     "name": "cuHacking",
@@ -1838,7 +2111,10 @@
       "global"
     ],
     "status": "closed",
-    "source": "mlh-live-events"
+    "source": "mlh-live-events",
+    "locationMode": "onsite",
+    "locationLabel": "In-person",
+    "location": "In-Person"
   },
   {
     "name": "Global Hack Week: Season Launch",
@@ -1859,7 +2135,10 @@
       "global"
     ],
     "status": "closed",
-    "source": "mlh-live-events"
+    "source": "mlh-live-events",
+    "locationMode": "remote",
+    "locationLabel": "Remote",
+    "location": "Online"
   },
   {
     "name": "AI for Social Good: Hack with MLH & DigitalOcean",
@@ -1880,7 +2159,10 @@
       "global"
     ],
     "status": "closed",
-    "source": "mlh-live-events"
+    "source": "mlh-live-events",
+    "locationMode": "onsite",
+    "locationLabel": "In-person",
+    "location": "In-Person"
   },
   {
     "name": "RevenueCat Shipaton 2026",
@@ -1902,7 +2184,10 @@
       "mobile"
     ],
     "status": "open",
-    "source": "devpost-live-api"
+    "source": "devpost-live-api",
+    "locationMode": "remote",
+    "locationLabel": "Remote",
+    "location": "Online"
   },
   {
     "name": "Agentic Cinema: The Blockbuster Hackathon",
@@ -1924,7 +2209,10 @@
       "open ended"
     ],
     "status": "open",
-    "source": "devpost-live-api"
+    "source": "devpost-live-api",
+    "locationMode": "remote",
+    "locationLabel": "Remote",
+    "location": "Online"
   },
   {
     "name": "All Things Agentic Hackathon",
@@ -1946,7 +2234,10 @@
       "productivity"
     ],
     "status": "open",
-    "source": "devpost-live-api"
+    "source": "devpost-live-api",
+    "locationMode": "remote",
+    "locationLabel": "Remote",
+    "location": "Online"
   },
   {
     "name": "Agents for Humans Hackathon",
@@ -1968,7 +2259,10 @@
       "open ended"
     ],
     "status": "open",
-    "source": "devpost-live-api"
+    "source": "devpost-live-api",
+    "locationMode": "remote",
+    "locationLabel": "Remote",
+    "location": "Online"
   },
   {
     "name": "CALL-E: Your Code Is Calling",
@@ -1990,7 +2284,10 @@
       "machine learning/ai"
     ],
     "status": "open",
-    "source": "devpost-live-api"
+    "source": "devpost-live-api",
+    "locationMode": "remote",
+    "locationLabel": "Remote",
+    "location": "Online"
   },
   {
     "name": "AI Builders Hackathon",
@@ -2012,7 +2309,10 @@
       "beginner friendly"
     ],
     "status": "open",
-    "source": "devpost-live-api"
+    "source": "devpost-live-api",
+    "locationMode": "remote",
+    "locationLabel": "Remote",
+    "location": "Online"
   },
   {
     "name": "VoltHacks",
@@ -2034,7 +2334,10 @@
       "beginner friendly"
     ],
     "status": "open",
-    "source": "devpost-live-api"
+    "source": "devpost-live-api",
+    "locationMode": "remote",
+    "locationLabel": "Remote",
+    "location": "Online"
   },
   {
     "name": "3D Websites Hackathon",
@@ -2056,7 +2359,10 @@
       "beginner friendly"
     ],
     "status": "open",
-    "source": "devpost-live-api"
+    "source": "devpost-live-api",
+    "locationMode": "remote",
+    "locationLabel": "Remote",
+    "location": "Online"
   },
   {
     "name": "Hack for Humanity | Summer 2026 (+13 non-cash prizes)",
@@ -2078,7 +2384,10 @@
       "machine learning/ai"
     ],
     "status": "open",
-    "source": "devpost-live-api"
+    "source": "devpost-live-api",
+    "locationMode": "remote",
+    "locationLabel": "Remote",
+    "location": "Online"
   },
   {
     "id": "reddit-hackathons-freebootcamphac",
@@ -2099,7 +2408,10 @@
       "hackathons"
     ],
     "prize": "$5k",
-    "teamSize": "1-4"
+    "teamSize": "1-4",
+    "locationMode": "hybrid",
+    "locationLabel": "Hybrid",
+    "location": "Online Hybrid"
   },
   {
     "id": "reddit-hackathons-web3andblockchain",
@@ -2120,7 +2432,10 @@
       "hackathons"
     ],
     "prize": "₹80,000",
-    "teamSize": "1-4"
+    "teamSize": "1-4",
+    "locationMode": "hybrid",
+    "locationLabel": "Hybrid",
+    "location": "Online Hybrid"
   },
   {
     "id": "reddit-hackathons-nationalhackathona",
@@ -2141,7 +2456,10 @@
       "hackathons"
     ],
     "prize": "Community Hackathon",
-    "teamSize": "1-4"
+    "teamSize": "1-4",
+    "locationMode": "hybrid",
+    "locationLabel": "Hybrid",
+    "location": "Online Hybrid"
   },
   {
     "id": "reddit-hackathons-buildinthenuverse",
@@ -2162,7 +2480,10 @@
       "hackathons"
     ],
     "prize": "Community Hackathon",
-    "teamSize": "1-4"
+    "teamSize": "1-4",
+    "locationMode": "hybrid",
+    "locationLabel": "Hybrid",
+    "location": "Online Hybrid"
   },
   {
     "id": "reddit-hackathons-exploreagenticaiw",
@@ -2183,7 +2504,10 @@
       "hackathons"
     ],
     "prize": "$14,000",
-    "teamSize": "1-4"
+    "teamSize": "1-4",
+    "locationMode": "hybrid",
+    "locationLabel": "Hybrid",
+    "location": "Online Hybrid"
   },
   {
     "id": "reddit-hackathons-lookingforweb30",
@@ -2204,7 +2528,10 @@
       "hackathons"
     ],
     "prize": "Community Hackathon",
-    "teamSize": "1-4"
+    "teamSize": "1-4",
+    "locationMode": "hybrid",
+    "locationLabel": "Hybrid",
+    "location": "Online Hybrid"
   },
   {
     "id": "reddit-hackathons-ycombinatorbacked",
@@ -2225,7 +2552,10 @@
       "hackathons"
     ],
     "prize": "$1,500",
-    "teamSize": "1-4"
+    "teamSize": "1-4",
+    "locationMode": "hybrid",
+    "locationLabel": "Hybrid",
+    "location": "Online Hybrid"
   },
   {
     "id": "reddit-hackathons-virtualhackathon",
@@ -2246,7 +2576,10 @@
       "hackathons"
     ],
     "prize": "for the winning team",
-    "teamSize": "1-4"
+    "teamSize": "1-4",
+    "locationMode": "hybrid",
+    "locationLabel": "Hybrid",
+    "location": "Online Hybrid"
   },
   {
     "id": "razorpay-ai-buildathon-2026",
@@ -2273,7 +2606,11 @@
       "high-stipend"
     ],
     "status": "open",
-    "source": "company:razorpay"
+    "source": "company:razorpay",
+    "locationMode": "onsite",
+    "locationLabel": "In-person · IN",
+    "location": "Online (Prelims) + Bangalore (Onsite Showcase)",
+    "country": "IN"
   },
   {
     "id": "flipkart-grid-software-challenge",
@@ -2298,7 +2635,11 @@
       "top-tier"
     ],
     "status": "open",
-    "source": "company:flipkart"
+    "source": "company:flipkart",
+    "locationMode": "remote",
+    "locationLabel": "Remote · IN",
+    "location": "Online (Rounds 1-2) + Bangalore (Grand Finale)",
+    "country": "IN"
   },
   {
     "id": "amazon-wow-india",
@@ -2323,7 +2664,10 @@
       "faang"
     ],
     "status": "open",
-    "source": "company:amazon"
+    "source": "company:amazon",
+    "locationMode": "remote",
+    "locationLabel": "Remote",
+    "location": "Online"
   },
   {
     "id": "google-solution-challenge-2026",
@@ -2348,7 +2692,10 @@
       "faang"
     ],
     "status": "closed",
-    "source": "company:google"
+    "source": "company:google",
+    "locationMode": "remote",
+    "locationLabel": "Remote",
+    "location": "Online (Global)"
   },
   {
     "id": "microsoft-imagine-cup-2026",
@@ -2373,6 +2720,9 @@
       "faang"
     ],
     "status": "closed",
-    "source": "company:microsoft"
+    "source": "company:microsoft",
+    "locationMode": "onsite",
+    "locationLabel": "In-person",
+    "location": "Online (Regional) + Onsite (World Championship at Microsoft Build)"
   }
 ]

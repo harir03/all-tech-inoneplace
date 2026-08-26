@@ -214,6 +214,79 @@
     }
 
     // ===== Filtering & Sorting Engine =====
+
+// Countries treated as Europe/UK for the location dropdown.
+const EUROPE_COUNTRIES = new Set([
+    'GB', 'DE', 'FR', 'NL', 'IE', 'CH', 'SE', 'PL', 'ES', 'IT', 'PT', 'AT',
+    'BE', 'DK', 'NO', 'FI', 'CZ', 'RO', 'HU', 'GR', 'EU'
+]);
+
+// Fallback keyword sets, used only for records that predate structured tagging.
+const LEGACY_LOCATION_HINTS = {
+    remote: ['remote', 'online', 'virtual', 'work from home', 'wfh', 'anywhere'],
+    india: ['india', 'bengaluru', 'bangalore', 'delhi', 'ncr', 'noida', 'gurgaon',
+            'gurugram', 'hyderabad', 'pune', 'chennai', 'mumbai', 'kolkata',
+            'ahmedabad', 'kochi', 'coimbatore', 'jaipur', 'indore'],
+    usa: ['united states', 'usa', 'new york', 'san francisco', 'seattle',
+          'austin', 'boston', 'chicago', 'los angeles'],
+    canada: ['canada', 'canadian', 'toronto', 'vancouver', 'montreal', 'waterloo'],
+    europe: ['europe', 'united kingdom', 'england', 'london', 'germany', 'berlin',
+             'munich', 'france', 'paris', 'amsterdam', 'netherlands', 'dublin', 'ireland']
+};
+
+function legacyLocationText(item) {
+    return `${item.location || ''} ${item.mode || ''} ${item.locationLabel || ''}`.toLowerCase();
+}
+
+function matchesLocation(item, target) {
+    const mode = item.locationMode || '';
+    const country = (item.country || '').toUpperCase();
+
+    // Structured path — available on every record tagged by the pipeline.
+    if (mode || country) {
+        switch (target) {
+            case 'remote':
+                // Only truly location-independent work. "Remote (US)" is
+                // remote_geo and is deliberately excluded here, because it still
+                // requires US work authorization.
+                return mode === 'remote';
+            case 'india':
+                return country === 'IN';
+            case 'usa':
+                return country === 'US';
+            case 'canada':
+                return country === 'CA';
+            case 'europe':
+                return EUROPE_COUNTRIES.has(country);
+            case 'international':
+                return Boolean(country) && country !== 'IN';
+            default:
+                return true;
+        }
+    }
+
+    // Legacy fallback.
+    const text = legacyLocationText(item);
+    const hints = LEGACY_LOCATION_HINTS[target];
+    if (!hints) return true;
+    return hints.some(h => text.includes(h));
+}
+
+function matchesWorkMode(item, target) {
+    const mode = item.locationMode || '';
+    if (mode) {
+        if (target === 'online') return mode === 'remote' || mode === 'remote_geo';
+        if (target === 'in-person') return mode === 'onsite';
+        if (target === 'hybrid') return mode === 'hybrid';
+        return true;
+    }
+    const text = legacyLocationText(item);
+    if (target === 'online') return ['online', 'virtual', 'remote'].some(k => text.includes(k));
+    if (target === 'in-person') return ['in-person', 'onsite', 'offline', 'in person'].some(k => text.includes(k));
+    if (target === 'hybrid') return text.includes('hybrid');
+    return true;
+}
+
     function getFilteredData() {
         const rawItems = allData[activeCategory] || [];
         const query = searchInput ? searchInput.value.toLowerCase().trim() : '';
@@ -255,13 +328,17 @@
             }
 
             // Location Filter
+            //
+            // Records are tagged by automation/location.py with `locationMode`
+            // ("remote" | "remote_geo" | "hybrid" | "onsite" | "unknown") and an
+            // ISO `country`. Prefer those structured fields.
+            //
+            // The previous implementation matched raw substrings, which was
+            // quietly wrong: `locStr.includes('ca')` matched "Canada",
+            // "Chicago" and even the word "location", so the USA filter
+            // returned Canadian and unrelated rows.
             if (locationVal !== 'all') {
-                const locStr = `${item.location || ''} ${item.mode || ''}`.toLowerCase();
-                if (locationVal === 'remote' && !(locStr.includes('remote') || locStr.includes('online') || locStr.includes('virtual'))) return false;
-                if (locationVal === 'india' && !(locStr.includes('india') || locStr.includes('bangalore') || locStr.includes('delhi') || locStr.includes('hyderabad') || locStr.includes('pune') || locStr.includes('chennai') || locStr.includes('mumbai'))) return false;
-                if (locationVal === 'usa' && !(locStr.includes('united states') || locStr.includes('usa') || locStr.includes(', us') || locStr.includes('ca') || locStr.includes('ny') || locStr.includes('tx') || locStr.includes('wa'))) return false;
-                if (locationVal === 'canada' && !(locStr.includes('canada') || locStr.includes('toronto') || locStr.includes('vancouver') || locStr.includes('montreal') || locStr.includes('waterloo'))) return false;
-                if (locationVal === 'europe' && !(locStr.includes('europe') || locStr.includes('uk') || locStr.includes('germany') || locStr.includes('london') || locStr.includes('paris') || locStr.includes('amsterdam'))) return false;
+                if (!matchesLocation(item, locationVal)) return false;
             }
 
             // Level / Type Filter
@@ -280,12 +357,9 @@
                 if (stipendVal === 'free' && compStr.includes('fee') && !compStr.includes('free')) return false;
             }
 
-            // Work Mode Filter
+            // Work Mode Filter — remote / hybrid / in-person
             if (modeVal !== 'all') {
-                const mStr = `${item.mode || ''} ${item.location || ''}`.toLowerCase();
-                if (modeVal === 'online' && !(mStr.includes('online') || mStr.includes('virtual') || mStr.includes('remote'))) return false;
-                if (modeVal === 'in-person' && !(mStr.includes('in-person') || mStr.includes('onsite') || mStr.includes('offline'))) return false;
-                if (modeVal === 'hybrid' && !mStr.includes('hybrid')) return false;
+                if (!matchesWorkMode(item, modeVal)) return false;
             }
 
             // Quick Chips
